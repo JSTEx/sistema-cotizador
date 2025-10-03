@@ -6,6 +6,7 @@
     <title>Cotizador</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2300b86b'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-size='38' font-family='Montserrat,Arial,sans-serif' fill='white'%3E%24%3C/text%3E%3C/svg%3E">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
         body {
             font-family: 'Montserrat', Arial, sans-serif;
@@ -107,8 +108,10 @@
             box-shadow: 0 8px 32px rgba(60, 72, 120, 0.13);
             border: 1px solid #e5e7eb;
             padding: 28px 24px;
-            min-width: 320px;
-            max-width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            max-width: 100vw;
         }
         .formulas-container h3 {
             color: #4f46e5;
@@ -118,13 +121,30 @@
             font-weight: 700;
             font-size: 1.25em;
         }
+        .formulas-blocks-row {
+            display: flex;
+            flex-direction: row;
+            gap: 18px;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+            width: 100%;
+        }
         .formula-block {
             background: linear-gradient(90deg, #eef2ff 0%, #e0e7ff 100%);
             border-radius: 10px;
             padding: 16px 14px;
-            margin-bottom: 18px;
+            margin-bottom: 0;
             box-shadow: 0 2px 8px rgba(99,102,241,0.07);
             border: 1px solid #a5b4fc;
+            width: 220px;
+            min-width: 220px;
+            max-width: 220px;
+            flex: 1 1 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            align-items: stretch;
         }
         .formula-title {
             color: #6366f1;
@@ -150,8 +170,11 @@
         }
         .cotizaciones-list {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             gap: 32px;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
         }
         .remove-cotizacion-btn {
             position: absolute;
@@ -202,13 +225,180 @@
             border: 2px solid #34d399;
             font-weight: bold;
         }
+        .hamburger-menu {
+            position: fixed;
+            top: 24px;
+            left: 24px;
+            z-index: 1001;
+            width: 38px;
+            height: 38px;
+            background: #4f46e5;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(99,102,241,0.13);
+        }
+        .hamburger-icon {
+            width: 24px;
+            height: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+        }
+        .hamburger-icon span {
+            display: block;
+            height: 3px;
+            width: 100%;
+            background: #fff;
+            border-radius: 2px;
+        }
+        .menu-popup {
+            position: fixed;
+            top: 70px;
+            left: 24px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(60, 72, 120, 0.18);
+            border: 1px solid #e5e7eb;
+            padding: 18px 24px;
+            z-index: 1002;
+            min-width: 160px;
+            display: none;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .menu-popup button {
+            background: #4f46e5;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 18px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .menu-popup button:hover {
+            background: #3730a3;
+        }
+        .historial-sidebar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 340px;
+            height: 100vh;
+            background: #fff;
+            box-shadow: -2px 0 16px rgba(60,72,120,0.13);
+            border-left: 1px solid #e5e7eb;
+            z-index: 1003;
+            padding: 32px 24px 24px 24px;
+            display: none;
+            flex-direction: column;
+            gap: 18px;
+            overflow-y: auto;
+        }
+        .historial-title {
+            font-size: 1.18em;
+            font-weight: 700;
+            color: #4f46e5;
+            margin-bottom: 18px;
+            text-align: left;
+        }
+        .historial-cotizacion {
+            background: #f3f4f6;
+            border-radius: 10px;
+            padding: 14px 12px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 4px rgba(99,102,241,0.07);
+            border: 1px solid #e5e7eb;
+            font-size: 0.98em;
+            color: #374151;
+        }
+        .close-historial-btn {
+            position: absolute;
+            top: 18px;
+            right: 18px;
+            background: #f87171;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            font-size: 1.1em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+        .close-historial-btn:hover {
+            background: #dc2626;
+        }
+        .guardar-cotizacion-btn {
+            margin-top: 8px;
+            background: #10b981;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 18px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            box-shadow: 0 2px 8px rgba(16,185,129,0.08);
+            display: none;
+            /* centrado horizontal */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .guardar-cotizacion-btn.visible {
+            display: block;
+        }
+        @media (max-width: 1400px) {
+            .formula-block {
+                width: 180px;
+                min-width: 180px;
+                max-width: 180px;
+            }
+        }
         @media (max-width: 900px) {
             .main-flex { flex-direction: column; align-items: stretch; }
             .cotizador-container, .formulas-container { margin: 0 auto; }
+            .formulas-blocks-row { flex-direction: column; gap: 10px; }
+            .cotizaciones-list { flex-direction: column; gap: 32px; }
+            .formula-block {
+                width: 100%;
+                min-width: 0;
+                max-width: 100%;
+            }
+            .historial-sidebar {
+                width: 100vw;
+                padding: 24px 12px 12px 12px;
+            }
         }
     </style>
 </head>
 <body>
+<div class="hamburger-menu" onclick="toggleMenu()">
+    <div class="hamburger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<div id="menu-popup" class="menu-popup">
+    <button onclick="abrirHistorial()">Historial</button>
+    <button onclick="toggleFormulasDesdeMenu()" style="background:#10b981;">Ver/Ocultar fórmulas</button>
+</div>
+<div id="historial-sidebar" class="historial-sidebar">
+    <button class="close-historial-btn" onclick="cerrarHistorial()">×</button>
+    <div class="historial-title">Cotizaciones guardadas</div>
+    <div id="historial-list"></div>
+</div>
 <div class="main-flex">
 
     <div>
@@ -218,66 +408,68 @@
         <button class="add-cotizacion-btn" onclick="agregarCotizacion()">+ Agregar Cotización</button>
     </div>
 
-    <div class="formulas-container">
+    <div id="formulas-container" class="formulas-container" style="display:none;">
         <h3>Fórmulas Utilizadas</h3>
-        <div class="formula-block">
-            <div class="formula-title">Precio de Venta Unitario (sin IVA)</div>
-            <div class="formula-math">
-                PVU = <span style="color:#4f46e5;">Costo</span> / (1 - <span style="color:#f59e42;">Margen</span>)
+        <div class="formulas-blocks-row">
+            <div class="formula-block">
+                <div class="formula-title">Precio de Venta Unitario (sin IVA)</div>
+                <div class="formula-math">
+                    PVU = <span style="color:#4f46e5;">Costo</span> / (1 - <span style="color:#f59e42;">Margen</span>)
+                </div>
+                <div class="formula-desc">
+                    <b>Ejemplo:</b> Si el costo es $100 y el margen deseado es 25%:<br>
+                    PVU = 100 / (1 - 0.25) = 133.33
+                </div>
             </div>
-            <div class="formula-desc">
-                <b>Ejemplo:</b> Si el costo es $100 y el margen deseado es 25%:<br>
-                PVU = 100 / (1 - 0.25) = 133.33
+            <div class="formula-block">
+                <div class="formula-title">Total de Venta (con IVA)</div>
+                <div class="formula-math">
+                    Total = PVU × <span style="color:#6366f1;">Cantidad</span> × 1.13
+                </div>
+                <div class="formula-desc">
+                    <b>Ejemplo:</b> Si PVU = 133.33, cantidad = 2:<br>
+                    Total = 133.33 × 2 × 1.13 = 301.33
+                </div>
             </div>
-        </div>
-        <div class="formula-block">
-            <div class="formula-title">Total de Venta (con IVA)</div>
-            <div class="formula-math">
-                Total = PVU × <span style="color:#6366f1;">Cantidad</span> × 1.13
+            <div class="formula-block">
+                <div class="formula-title">Margen a partir del Total</div>
+                <div class="formula-math">
+                    Margen = 1 - (<span style="color:#4f46e5;">Costo</span> / (Total / 1.13 / <span style="color:#6366f1;">Cantidad</span>))
+                </div>
+                <div class="formula-desc">
+                    <b>Ejemplo:</b> Si Total = 301.33, costo = 100, cantidad = 2:<br>
+                    Margen = 1 - (100 / (301.33 / 1.13 / 2)) = 0.25 (25%)
+                </div>
             </div>
-            <div class="formula-desc">
-                <b>Ejemplo:</b> Si PVU = 133.33, cantidad = 2:<br>
-                Total = 133.33 × 2 × 1.13 = 301.33
+            <div class="formula-block">
+                <div class="formula-title">Costo Unitario sin IVA (dividido 1.13)</div>
+                <div class="formula-math">
+                    Costo sin IVA = <span style="color:#4f46e5;">Costo</span> / 1.13
+                </div>
+                <div class="formula-desc">
+                    <b>Ejemplo:</b> Si el costo es $45:<br>
+                    Costo sin IVA = 45 / 1.13 = 39.82
+                </div>
             </div>
-        </div>
-        <div class="formula-block">
-            <div class="formula-title">Margen a partir del Total</div>
-            <div class="formula-math">
-                Margen = 1 - (<span style="color:#4f46e5;">Costo</span> / (Total / 1.13 / <span style="color:#6366f1;">Cantidad</span>))
+            <div class="formula-block">
+                <div class="formula-title">IVA aplicado</div>
+                <div class="formula-math">
+                    IVA = Total sin IVA × 0.13
+                </div>
+                <div class="formula-desc">
+                    <b>Ejemplo:</b> Si Total sin IVA = 200:<br>
+                    IVA = 200 × 0.13 = 26.00
+                </div>
             </div>
-            <div class="formula-desc">
-                <b>Ejemplo:</b> Si Total = 301.33, costo = 100, cantidad = 2:<br>
-                Margen = 1 - (100 / (301.33 / 1.13 / 2)) = 0.25 (25%)
-            </div>
-        </div>
-        <div class="formula-block">
-            <div class="formula-title">Costo Unitario sin IVA (dividido 1.13)</div>
-            <div class="formula-math">
-                Costo sin IVA = <span style="color:#4f46e5;">Costo</span> / 1.13
-            </div>
-            <div class="formula-desc">
-                <b>Ejemplo:</b> Si el costo es $45:<br>
-                Costo sin IVA = 45 / 1.13 = 39.82
-            </div>
-        </div>
-        <div class="formula-block">
-            <div class="formula-title">IVA aplicado</div>
-            <div class="formula-math">
-                IVA = Total sin IVA × 0.13
-            </div>
-            <div class="formula-desc">
-                <b>Ejemplo:</b> Si Total sin IVA = 200:<br>
-                IVA = 200 × 0.13 = 26.00
-            </div>
-        </div>
-        <div class="formula-block">
-            <div class="formula-title">IVA restado</div>
-            <div class="formula-math">
-                IVA restado = Total de Venta (Con IVA) - Total sin IVA
-            </div>
-            <div class="formula-desc">
-                <b>Ejemplo:</b> Si Total de Venta (Con IVA) = 226 y Total sin IVA = 200:<br>
-                IVA restado = 226 - 200 = 26.00
+            <div class="formula-block">
+                <div class="formula-title">IVA restado</div>
+                <div class="formula-math">
+                    IVA restado = Total de Venta (Con IVA) - Total sin IVA
+                </div>
+                <div class="formula-desc">
+                    <b>Ejemplo:</b> Si Total de Venta (Con IVA) = 226 y Total sin IVA = 200:<br>
+                    IVA restado = 226 - 200 = 26.00
+                </div>
             </div>
         </div>
     </div>
@@ -296,18 +488,18 @@
 
             <div class="input-group">
                 <label for="cantidad_${id}">Cantidad:</label>
-                <input type="number" id="cantidad_${id}" value="1" min="1" step="1" onchange="calcularTotalDesdeCosto(${id})" placeholder="Ingrese la cantidad">
+                <input type="number" id="cantidad_${id}" value="1" min="1" step="1" onchange="calcularTotalDesdeCosto(${id});actualizarBotonGuardar(${id})" oninput="actualizarBotonGuardar(${id})" placeholder="Ingrese la cantidad">
             </div>
 
             <div class="input-group">
                 <label for="costo_${id}">Costo Unitario (Sin IVA):</label>
                 <input type="number" id="costo_${id}" value="" min="0.01" step="0.01" 
-                    oninput="calcularTotalDesdeCosto(${id})" onchange="calcularTotalDesdeCosto(${id})" placeholder="Ingrese el costo unitario">
+                    oninput="calcularTotalDesdeCosto(${id});actualizarBotonGuardar(${id})" onchange="calcularTotalDesdeCosto(${id});actualizarBotonGuardar(${id})" placeholder="Ingrese el costo unitario">
             </div>
             
             <div class="input-group">
                 <label for="margen_${id}">Margen Deseado (%):</label>
-                <input type="number" id="margen_${id}" value="" min="1" max="99" step="0.01" onchange="calcularTotalDesdeCosto(${id})" placeholder="Ingrese el margen deseado">
+                <input type="number" id="margen_${id}" value="" min="1" max="99" step="0.01" onchange="calcularTotalDesdeCosto(${id});actualizarBotonGuardar(${id})" oninput="actualizarBotonGuardar(${id})" placeholder="Ingrese el margen deseado">
             </div>
 
             <hr>
@@ -324,9 +516,9 @@
 
             <div class="input-group total-field">
                 <label for="total_${id}">Total de Venta (Con IVA):</label>
-                <input type="number" id="total_${id}" value="" min="0.01" step="0.01" onchange="calcularMargenDesdeTotal(${id})" placeholder="Total calculado">
+                <input type="number" id="total_${id}" value="" min="0.01" step="0.01" onchange="calcularMargenDesdeTotal(${id});actualizarBotonGuardar(${id})" oninput="actualizarBotonGuardar(${id})" placeholder="Total calculado">
             </div>
-            
+            <button id="guardar_cotizacion_btn_${id}" class="guardar-cotizacion-btn visible" onclick="guardarCotizacion(${id})">Guardar cotización</button>
         </div>
         `;
     }
@@ -430,11 +622,183 @@
         margenInput.value = margenPorcentaje.toFixed(2);
     }
 
-    // Inicializar la primera cotización al cargar la página
+    function toggleFormulas() {
+        const container = document.getElementById('formulas-container');
+        const btn = document.getElementById('toggle-formulas-btn');
+        if (container.style.display === 'none') {
+            container.style.display = 'flex';
+            btn.textContent = 'Ocultar fórmulas';
+        } else {
+            container.style.display = 'none';
+            btn.textContent = 'Ver fórmulas';
+        }
+    }
+
+    function toggleFormulasDesdeMenu() {
+        toggleFormulas();
+        document.getElementById('menu-popup').style.display = 'none';
+    }
+
+    // Menú hamburguesa
+    function toggleMenu() {
+        const menu = document.getElementById('menu-popup');
+        menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+    }
+    document.addEventListener('click', function(e) {
+        const menu = document.getElementById('menu-popup');
+        const burger = document.querySelector('.hamburger-menu');
+        if (!menu.contains(e.target) && !burger.contains(e.target)) {
+            menu.style.display = 'none';
+        }
+    });
+
+    // Historial
+    function abrirHistorial() {
+        document.getElementById('historial-sidebar').style.display = 'flex';
+        document.getElementById('menu-popup').style.display = 'none';
+        renderHistorial();
+    }
+    function cerrarHistorial() {
+        document.getElementById('historial-sidebar').style.display = 'none';
+    }
+
+    // Historial con persistencia local
+    let historialCotizaciones = [];
+
+    function cargarHistorialLocal() {
+        const data = localStorage.getItem('historialCotizaciones');
+        if (data) {
+            try {
+                historialCotizaciones = JSON.parse(data);
+            } catch (e) {
+                historialCotizaciones = [];
+            }
+        }
+    }
+
+    function guardarHistorialLocal() {
+        localStorage.setItem('historialCotizaciones', JSON.stringify(historialCotizaciones));
+    }
+
+    function guardarCotizacion(id) {
+        const costo = parseFloat(document.getElementById(`costo_${id}`).value) || 0;
+        const cantidad = parseInt(document.getElementById(`cantidad_${id}`).value) || 0;
+        const margen = parseFloat(document.getElementById(`margen_${id}`).value) || 0;
+        const total = parseFloat(document.getElementById(`total_${id}`).value) || 0;
+        const iva = parseFloat(document.getElementById(`iva_${id}`).value) || 0;
+        const costoSinIVA = parseFloat(document.getElementById(`costo_sin_iva_${id}`).value) || 0;
+
+        // Solo guardar si el costo unitario es > 0.001
+        if (costo > 0.001) {
+            historialCotizaciones.push({
+                costo, cantidad, margen, total, iva, costoSinIVA, fecha: new Date().toLocaleString()
+            });
+            guardarHistorialLocal();
+            renderHistorial();
+            Swal.fire({
+                icon: 'success',
+                title: 'Cotización guardada',
+                text: 'La cotización se ha guardado correctamente.',
+                confirmButtonText: 'Aceptar'
+            });
+        } else {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Dato requerido',
+                text: 'Debes ingresar un valor mayor a 0.001 en "Costo Unitario (Sin IVA)" para guardar la cotización.',
+                confirmButtonText: 'Aceptar'
+            });
+        }
+    }
+
+    function borrarCotizacion(idx) {
+        historialCotizaciones.splice(idx, 1);
+        guardarHistorialLocal();
+        renderHistorial();
+    }
+
+    function renderHistorial() {
+        const list = document.getElementById('historial-list');
+        list.innerHTML = '';
+        if (historialCotizaciones.length === 0) {
+            list.innerHTML = '<div style="color:#6b7280;">No hay cotizaciones guardadas.</div>';
+            return;
+        }
+        historialCotizaciones.forEach((c, idx) => {
+            list.innerHTML += `
+                <div class="historial-cotizacion">
+                    <button style="float:right;background:#f87171;color:#fff;border:none;border-radius:50%;width:24px;height:24px;cursor:pointer;font-size:1em;" title="Eliminar" onclick="borrarCotizacion(${idx})">×</button>
+                    <b>Fecha:</b> ${c.fecha}<br>
+                    <b>Cantidad:</b> ${c.cantidad}<br>
+                    <b>Costo Unitario:</b> $${c.costo}<br>
+                    <b>Margen:</b> ${c.margen}%<br>
+                    <b>Total:</b> $${c.total}<br>
+                    <b>IVA:</b> $${c.iva}<br>
+                    <b>Costo sin IVA:</b> $${c.costoSinIVA}
+                </div>
+            `;
+        });
+    }
+
+    // Mostrar botón guardar solo si hay datos válidos
+    function actualizarBotonGuardar(id) {
+        // El botón siempre está visible
+        const btn = document.getElementById(`guardar_cotizacion_btn_${id}`);
+        btn.classList.add('visible');
+    }
+
+    // Modifica crearCotizadorHTML para agregar el botón guardar
+    function crearCotizadorHTML(id) {
+        return `
+        <div class="cotizador-container" data-id="${id}">
+            <button class="remove-cotizacion-btn" onclick="eliminarCotizacion(${id})" title="Eliminar cotización" style="display:${id === 0 ? 'none' : 'flex'};">×</button>
+            <h2>Cotizador de Producto</h2>
+            <p>IVA aplicado: <b>13%</b></p>
+
+            <div class="input-group">
+                <label for="cantidad_${id}">Cantidad:</label>
+                <input type="number" id="cantidad_${id}" value="1" min="1" step="1" onchange="calcularTotalDesdeCosto(${id});actualizarBotonGuardar(${id})" oninput="actualizarBotonGuardar(${id})" placeholder="Ingrese la cantidad">
+            </div>
+
+            <div class="input-group">
+                <label for="costo_${id}">Costo Unitario (Sin IVA):</label>
+                <input type="number" id="costo_${id}" value="" min="0.01" step="0.01" 
+                    oninput="calcularTotalDesdeCosto(${id});actualizarBotonGuardar(${id})" onchange="calcularTotalDesdeCosto(${id});actualizarBotonGuardar(${id})" placeholder="Ingrese el costo unitario">
+            </div>
+            
+            <div class="input-group">
+                <label for="margen_${id}">Margen Deseado (%):</label>
+                <input type="number" id="margen_${id}" value="" min="1" max="99" step="0.01" onchange="calcularTotalDesdeCosto(${id});actualizarBotonGuardar(${id})" oninput="actualizarBotonGuardar(${id})" placeholder="Ingrese el margen deseado">
+            </div>
+
+            <hr>
+
+            <div class="input-group iva-field">
+                <label for="iva_${id}">IVA aplicado y restado:</label>
+                <input type="number" id="iva_${id}" value="" readonly tabindex="-1" placeholder="IVA calculado">
+            </div>
+
+            <div class="input-group costo-sin-iva-field">
+                <label for="costo_sin_iva_${id}">Costo Unitario sin IVA (dividido 1.13):</label>
+                <input type="number" id="costo_sin_iva_${id}" value="0.00" readonly tabindex="-1" placeholder="0.00">
+            </div>
+
+            <div class="input-group total-field">
+                <label for="total_${id}">Total de Venta (Con IVA):</label>
+                <input type="number" id="total_${id}" value="" min="0.01" step="0.01" onchange="calcularMargenDesdeTotal(${id});actualizarBotonGuardar(${id})" oninput="actualizarBotonGuardar(${id})" placeholder="Total calculado">
+            </div>
+            <button id="guardar_cotizacion_btn_${id}" class="guardar-cotizacion-btn visible" onclick="guardarCotizacion(${id})">Guardar cotización</button>
+        </div>
+        `;
+    }
+
+    // Inicializar la primera cotización al cargar la página y cargar historial local
     document.addEventListener('DOMContentLoaded', () => {
+        cargarHistorialLocal();
         const list = document.getElementById('cotizaciones-list');
         list.innerHTML = crearCotizadorHTML(0);
         inicializarCotizador(0);
+        actualizarBotonGuardar(0);
     });
 </script>
 </body>
