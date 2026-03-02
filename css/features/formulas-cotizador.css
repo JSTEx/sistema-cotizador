@@ -1,0 +1,153 @@
+/* Formulas */
+        .formulas-container {
+            background: var(--bg-primary);
+            border-radius: 18px;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-color);
+            padding: 28px 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            max-width: 100vw;
+            transition:
+                background-color 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+        }
+
+        .formulas-container h3 {
+            color: #4f46e5;
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: 18px;
+            font-weight: 700;
+            font-size: 1.25em;
+        }
+
+        .formulas-blocks-row {
+            display: flex;
+            flex-direction: row;
+            gap: 18px;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .formula-block {
+            background: linear-gradient(90deg, #eef2ff 0%, #e0e7ff 100%);
+            border-radius: 10px;
+            padding: 16px 14px;
+            margin-bottom: 0;
+            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.07);
+            border: 1px solid #a5b4fc;
+            width: 220px;
+            min-width: 220px;
+            max-width: 220px;
+            flex: 1 1 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            align-items: stretch;
+        }
+
+        .formula-title {
+            color: #6366f1;
+            font-weight: 600;
+            margin-bottom: 7px;
+            font-size: 1.08em;
+        }
+
+        .formula-math {
+            font-family: "JetBrains Mono", "Fira Mono", "Consolas", monospace;
+            font-size: 1.13em;
+            color: #2d3a5a;
+            background: #fff;
+            border-radius: 6px;
+            padding: 7px 10px;
+            display: inline-block;
+            margin-bottom: 4px;
+            box-shadow: 0 1px 2px rgba(99, 102, 241, 0.04);
+        }
+
+        .formula-desc {
+            color: #6b7280;
+            font-size: 0.98em;
+            margin-top: 3px;
+        }
+
+        .cotizaciones-list {
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .remove-cotizacion-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #f87171;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            font-size: 1.1em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+
+        .remove-cotizacion-btn:hover {
+            background: #dc2626;
+        }
+
+        .add-cotizacion-btn {
+            margin: 18px auto 0 auto;
+            display: block;
+            background: #4f46e5;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 28px;
+            font-size: 1.08em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
+        }
+
+        .add-cotizacion-btn:hover {
+            background: #3730a3;
+        }
+
+        .iva-field input {
+            background: #f3f4f6;
+            color: #f59e42;
+            border: 2px solid #fbbf24;
+            font-weight: bold;
+        }
+
+        html.dark-mode .iva-field input {
+            background: #2a2f40;
+            color: #fbbf24;
+            border: 2px solid #f59e42;
+        }
+
+        .costo-sin-iva-field input {
+            background: #f3f4f6;
+            color: #10b981;
+            border: 2px solid #34d399;
+            font-weight: bold;
+        }
+
+        html.dark-mode .costo-sin-iva-field input {
+            background: #2a2f40;
+            color: #34d399;
+            border: 2px solid #10b981;
+        }
