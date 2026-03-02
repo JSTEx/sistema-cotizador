@@ -1,0 +1,239 @@
+/* Modal de Edición */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: var(--bg-primary);
+            border-radius: 18px;
+            padding: 28px 24px;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-color);
+            max-width: 500px;
+            width: 90%;
+            max-height: 85vh;
+            overflow-y: auto;
+            transition:
+                background-color 0.3s ease,
+                border-color 0.3s ease;
+            position: relative;
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: #f87171;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            font-size: 1.2em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+
+        .modal-close-btn:hover {
+            background: #dc2626;
+        }
+
+        .modal-content h2 {
+            margin-top: 0;
+            margin-bottom: 25px;
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            background: linear-gradient(90deg,
+                    #ff0000,
+                    #ff7f00,
+                    #ffff00,
+                    #00ff00,
+                    #0000ff,
+                    #4b0082,
+                    #9400d3,
+                    #ff0000);
+            background-size: 300% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: rainbow 3s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% {
+                background-position: 0% center;
+            }
+
+            100% {
+                background-position: 200% center;
+            }
+        }
+
+        .modal-content .input-group {
+            position: relative;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0;
+        }
+
+        .modal-content .input-group label {
+            width: 170px;
+            min-width: 170px;
+            max-width: 170px;
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 1em;
+            letter-spacing: 0.2px;
+            text-align: left;
+            padding-right: 5px;
+        }
+
+        .modal-content .input-group input {
+            width: 200px;
+            min-width: 0;
+            padding: 11px 14px;
+            border: 2.5px solid var(--input-border);
+            border-radius: 25px;
+            font-size: 1.05em;
+            background: var(--input-bg);
+            color: var(--text-primary);
+            transition:
+                border 0.2s,
+                box-shadow 0.2s,
+                background-color 0.3s ease,
+                color 0.3s ease;
+            box-shadow: var(--shadow-sm);
+            text-align: left;
+        }
+
+        .modal-content .input-group textarea {
+            width: 200px;
+            min-width: 0;
+            padding: 11px 14px;
+            border: 2.5px solid var(--input-border);
+            border-radius: 12px;
+            font-size: 1.05em;
+            background: var(--input-bg);
+            color: var(--text-primary);
+            transition:
+                border 0.2s,
+                box-shadow 0.2s,
+                background-color 0.3s ease,
+                color 0.3s ease;
+            box-shadow: var(--shadow-sm);
+            text-align: left;
+            font-family: "Montserrat", Arial, sans-serif;
+            min-height: 40px;
+            max-height: 120px;
+            resize: vertical;
+            overflow-y: auto;
+        }
+
+        .modal-content .input-group input:focus {
+            border-color: #6366f1;
+            outline: none;
+            background: #eef2ff;
+            box-shadow: 0 0 0 2px #a5b4fc55;
+        }
+
+        .modal-content .input-group textarea:focus {
+            border-color: #6366f1;
+            outline: none;
+            background: #eef2ff;
+            box-shadow: 0 0 0 2px #a5b4fc55;
+        }
+
+        html.dark-mode .modal-content .input-group input:focus {
+            background: #2a2f4a;
+        }
+
+        html.dark-mode .modal-content .input-group textarea:focus {
+            background: #2a2f4a;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 28px;
+        }
+
+        .modal-buttons button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .modal-btn-guardar {
+            background: #10b981;
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
+        }
+
+        .modal-btn-guardar:hover {
+            background: #059669;
+        }
+
+        .modal-btn-cancelar {
+            background: #f87171;
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(248, 113, 113, 0.08);
+        }
+
+        .modal-btn-cancelar:hover {
+            background: #dc2626;
+        }
+
+        .edit-btn-historial {
+            background: #4f46e5;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 6px 12px;
+            font-size: 0.9em;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-right: 8px;
+        }
+
+        .edit-btn-historial:hover {
+            background: #3730a3;
+        }
+
+        .modal-content .iva-field input,
+        .modal-content .costo-sin-iva-field input {
+            background: #f3f4f6;
+            font-weight: bold;
+            border: 2px solid #a5b4fc;
+            color: #4f46e5;
+        }
+
+        html.dark-mode .modal-content .iva-field input,
+        html.dark-mode .modal-content .costo-sin-iva-field input {
+            background: #2a2f40;
+            color: #a5b4fc;
+            border: 2px solid #6366f1;
+        }
