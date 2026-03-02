@@ -1,11 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cotizador</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2300b86b'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-size='38' font-family='Montserrat,Arial,sans-serif' fill='white'%3E%24%3C/text%3E%3C/svg%3E">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2300b86b'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-size='38' font-family='Montserrat,Arial,sans-serif' fill='white'%3E%24%3C/text%3E%3C/svg%3E" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
         :root {
@@ -35,7 +37,7 @@
         }
 
         body {
-            font-family: 'Montserrat', Arial, sans-serif;
+            font-family: "Montserrat", Arial, sans-serif;
             background: var(--gradient-bg);
             color: var(--text-primary);
             display: flex;
@@ -44,8 +46,11 @@
             min-height: 97.5vh;
             padding: 0;
             margin: 10px;
-            transition: background-color 0.3s ease, color 0.3s ease;
+            transition:
+                background-color 0.3s ease,
+                color 0.3s ease;
         }
+
         .main-flex {
             display: flex;
             gap: 32px;
@@ -55,6 +60,7 @@
             width: 100%;
             max-width: 100vw;
         }
+
         .cotizador-container {
             background: var(--bg-primary);
             padding: 28px 24px;
@@ -64,8 +70,12 @@
             min-width: 320px;
             max-width: 450px;
             position: relative;
-            transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            transition:
+                background-color 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
         }
+
         h2 {
             text-align: center;
             color: var(--text-primary);
@@ -74,31 +84,38 @@
             letter-spacing: 0.5px;
             margin-top: auto;
         }
+
         p {
             text-align: center;
             font-size: 0.98em;
             color: var(--text-secondary);
             margin-bottom: 24px;
         }
+
         .input-group {
             position: relative;
             margin-bottom: 18px;
             display: flex;
             align-items: center;
-            justify-content: space-between; /* Añadido para separar label e input */
+            justify-content: space-between;
+            /* Añadido para separar label e input */
             gap: 0;
         }
+
         .input-group label {
-            width: 170px; /* Más ancho para textos largos */
+            width: 170px;
+            /* Más ancho para textos largos */
             min-width: 170px;
             max-width: 170px;
             font-weight: 600;
             color: var(--text-primary);
             font-size: 1em;
             letter-spacing: 0.2px;
-            text-align: left; /* Asegura alineación izquierda */
+            text-align: left;
+            /* Asegura alineación izquierda */
             padding-right: 5px;
         }
+
         .input-group input {
             width: 200px;
             min-width: 0;
@@ -108,10 +125,15 @@
             font-size: 1.05em;
             background: var(--input-bg);
             color: var(--text-primary);
-            transition: border 0.2s, box-shadow 0.2s, background-color 0.3s ease, color 0.3s ease;
+            transition:
+                border 0.2s,
+                box-shadow 0.2s,
+                background-color 0.3s ease,
+                color 0.3s ease;
             box-shadow: var(--shadow-sm);
             text-align: left;
         }
+
         .input-group textarea {
             width: 200px;
             min-width: 0;
@@ -121,33 +143,42 @@
             font-size: 1.05em;
             background: var(--input-bg);
             color: var(--text-primary);
-            transition: border 0.2s, box-shadow 0.2s, background-color 0.3s ease, color 0.3s ease;
+            transition:
+                border 0.2s,
+                box-shadow 0.2s,
+                background-color 0.3s ease,
+                color 0.3s ease;
             box-shadow: var(--shadow-sm);
             text-align: left;
-            font-family: 'Montserrat', Arial, sans-serif;
+            font-family: "Montserrat", Arial, sans-serif;
             min-height: 40px;
             max-height: 120px;
             resize: vertical;
             overflow-y: auto;
         }
+
         .input-group input:focus {
             border-color: #6366f1;
             outline: none;
             background: #eef2ff;
             box-shadow: 0 0 0 2px #a5b4fc55;
         }
+
         .input-group textarea:focus {
             border-color: #6366f1;
             outline: none;
             background: #eef2ff;
             box-shadow: 0 0 0 2px #a5b4fc55;
         }
+
         html.dark-mode .input-group input:focus {
             background: #2a2f4a;
         }
+
         html.dark-mode .input-group textarea:focus {
             background: #2a2f4a;
         }
+
         .total-field input {
             background: linear-gradient(90deg, #eef2ff 0%, #e0e7ff 100%);
             font-weight: bold;
@@ -167,6 +198,7 @@
             border-top: 1.5px solid var(--border-color);
             margin: 22px 0 18px 0;
         }
+
         /* Formulas */
         .formulas-container {
             background: var(--bg-primary);
@@ -178,8 +210,12 @@
             flex-direction: column;
             align-items: stretch;
             max-width: 100vw;
-            transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            transition:
+                background-color 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
         }
+
         .formulas-container h3 {
             color: #4f46e5;
             text-align: center;
@@ -188,6 +224,7 @@
             font-weight: 700;
             font-size: 1.25em;
         }
+
         .formulas-blocks-row {
             display: flex;
             flex-direction: row;
@@ -197,12 +234,13 @@
             flex-wrap: wrap;
             width: 100%;
         }
+
         .formula-block {
             background: linear-gradient(90deg, #eef2ff 0%, #e0e7ff 100%);
             border-radius: 10px;
             padding: 16px 14px;
             margin-bottom: 0;
-            box-shadow: 0 2px 8px rgba(99,102,241,0.07);
+            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.07);
             border: 1px solid #a5b4fc;
             width: 220px;
             min-width: 220px;
@@ -213,14 +251,16 @@
             justify-content: stretch;
             align-items: stretch;
         }
+
         .formula-title {
             color: #6366f1;
             font-weight: 600;
             margin-bottom: 7px;
             font-size: 1.08em;
         }
+
         .formula-math {
-            font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace;
+            font-family: "JetBrains Mono", "Fira Mono", "Consolas", monospace;
             font-size: 1.13em;
             color: #2d3a5a;
             background: #fff;
@@ -228,13 +268,15 @@
             padding: 7px 10px;
             display: inline-block;
             margin-bottom: 4px;
-            box-shadow: 0 1px 2px rgba(99,102,241,0.04);
+            box-shadow: 0 1px 2px rgba(99, 102, 241, 0.04);
         }
+
         .formula-desc {
             color: #6b7280;
             font-size: 0.98em;
             margin-top: 3px;
         }
+
         .cotizaciones-list {
             display: flex;
             flex-direction: row;
@@ -243,6 +285,7 @@
             align-items: flex-start;
             flex-wrap: wrap;
         }
+
         .remove-cotizacion-btn {
             position: absolute;
             top: 10px;
@@ -260,9 +303,11 @@
             justify-content: center;
             transition: background 0.2s;
         }
+
         .remove-cotizacion-btn:hover {
             background: #dc2626;
         }
+
         .add-cotizacion-btn {
             margin: 18px auto 0 auto;
             display: block;
@@ -275,11 +320,13 @@
             font-weight: 600;
             cursor: pointer;
             transition: background 0.2s;
-            box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
         }
+
         .add-cotizacion-btn:hover {
             background: #3730a3;
         }
+
         .iva-field input {
             background: #f3f4f6;
             color: #f59e42;
@@ -305,6 +352,7 @@
             color: #34d399;
             border: 2px solid #10b981;
         }
+
         .hamburger-menu {
             position: fixed;
             top: 24px;
@@ -318,14 +366,16 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            box-shadow: 0 2px 8px rgba(99,102,241,0.13);
+            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.13);
             border: none;
             transition: all 0.3s ease;
         }
+
         .hamburger-menu:hover {
             background: #3730a3;
             transform: scale(1.05);
         }
+
         .hamburger-icon {
             width: 24px;
             height: 24px;
@@ -334,6 +384,7 @@
             justify-content: center;
             gap: 5px;
         }
+
         .hamburger-icon span {
             display: block;
             height: 3px;
@@ -343,16 +394,20 @@
             transition: all 0.3s ease;
             transform-origin: center;
         }
+
         .hamburger-menu.active .hamburger-icon span:nth-child(1) {
             transform: none;
         }
+
         .hamburger-menu.active .hamburger-icon span:nth-child(2) {
             opacity: 1;
             transform: none;
         }
+
         .hamburger-menu.active .hamburger-icon span:nth-child(3) {
             transform: none;
         }
+
         .menu-popup {
             position: fixed;
             top: 70px;
@@ -367,8 +422,12 @@
             display: none;
             flex-direction: column;
             gap: 12px;
-            transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            transition:
+                background-color 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
         }
+
         .menu-popup button {
             background: #4f46e5;
             color: #fff;
@@ -380,9 +439,11 @@
             cursor: pointer;
             transition: background 0.2s;
         }
+
         .menu-popup button:hover {
             background: #3730a3;
         }
+
         .historial-sidebar {
             position: fixed;
             top: 0;
@@ -398,11 +459,16 @@
             flex-direction: column;
             gap: 18px;
             overflow-y: auto;
-            transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            transition:
+                background-color 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
         }
+
         html.dark-mode .historial-sidebar {
             box-shadow: -2px 0 16px rgba(0, 0, 0, 0.3);
         }
+
         .historial-cotizacion {
             background: var(--bg-secondary);
             border-radius: 10px;
@@ -412,8 +478,12 @@
             border: 1px solid var(--border-color);
             font-size: 0.98em;
             color: var(--text-primary);
-            transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+            transition:
+                background-color 0.3s ease,
+                border-color 0.3s ease,
+                color 0.3s ease;
         }
+
         /* Dark Mode Toggle Button */
         .dark-mode-toggle {
             position: fixed;
@@ -523,9 +593,11 @@
             justify-content: center;
             transition: background 0.2s;
         }
+
         .close-historial-btn:hover {
             background: #dc2626;
         }
+
         .guardar-cotizacion-btn {
             margin-top: 8px;
             background: #10b981;
@@ -537,17 +609,20 @@
             font-weight: 600;
             cursor: pointer;
             transition: background 0.2s;
-            box-shadow: 0 2px 8px rgba(16,185,129,0.08);
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
             display: block;
             margin-left: auto;
             margin-right: auto;
         }
+
         .guardar-cotizacion-btn:hover {
             background: #059669;
         }
+
         .guardar-cotizacion-btn.visible {
             display: block;
         }
+
         /* Modal de Edición */
         .modal-overlay {
             position: fixed;
@@ -561,9 +636,11 @@
             align-items: center;
             z-index: 2000;
         }
+
         .modal-overlay.active {
             display: flex;
         }
+
         .modal-content {
             background: var(--bg-primary);
             border-radius: 18px;
@@ -574,9 +651,12 @@
             width: 90%;
             max-height: 85vh;
             overflow-y: auto;
-            transition: background-color 0.3s ease, border-color 0.3s ease;
+            transition:
+                background-color 0.3s ease,
+                border-color 0.3s ease;
             position: relative;
         }
+
         .modal-close-btn {
             position: absolute;
             top: 12px;
@@ -594,30 +674,43 @@
             justify-content: center;
             transition: background 0.2s;
         }
+
         .modal-close-btn:hover {
             background: #dc2626;
         }
+
         .modal-content h2 {
             margin-top: 0;
             margin-bottom: 25px;
             text-align: center;
             font-weight: 700;
             letter-spacing: 0.5px;
-            background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3, #ff0000);
+            background: linear-gradient(90deg,
+                    #ff0000,
+                    #ff7f00,
+                    #ffff00,
+                    #00ff00,
+                    #0000ff,
+                    #4b0082,
+                    #9400d3,
+                    #ff0000);
             background-size: 300% auto;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             animation: rainbow 3s linear infinite;
         }
+
         @keyframes rainbow {
             0% {
                 background-position: 0% center;
             }
+
             100% {
                 background-position: 200% center;
             }
         }
+
         .modal-content .input-group {
             position: relative;
             margin-bottom: 18px;
@@ -626,6 +719,7 @@
             justify-content: space-between;
             gap: 0;
         }
+
         .modal-content .input-group label {
             width: 170px;
             min-width: 170px;
@@ -637,6 +731,7 @@
             text-align: left;
             padding-right: 5px;
         }
+
         .modal-content .input-group input {
             width: 200px;
             min-width: 0;
@@ -646,10 +741,15 @@
             font-size: 1.05em;
             background: var(--input-bg);
             color: var(--text-primary);
-            transition: border 0.2s, box-shadow 0.2s, background-color 0.3s ease, color 0.3s ease;
+            transition:
+                border 0.2s,
+                box-shadow 0.2s,
+                background-color 0.3s ease,
+                color 0.3s ease;
             box-shadow: var(--shadow-sm);
             text-align: left;
         }
+
         .modal-content .input-group textarea {
             width: 200px;
             min-width: 0;
@@ -659,39 +759,49 @@
             font-size: 1.05em;
             background: var(--input-bg);
             color: var(--text-primary);
-            transition: border 0.2s, box-shadow 0.2s, background-color 0.3s ease, color 0.3s ease;
+            transition:
+                border 0.2s,
+                box-shadow 0.2s,
+                background-color 0.3s ease,
+                color 0.3s ease;
             box-shadow: var(--shadow-sm);
             text-align: left;
-            font-family: 'Montserrat', Arial, sans-serif;
+            font-family: "Montserrat", Arial, sans-serif;
             min-height: 40px;
             max-height: 120px;
             resize: vertical;
             overflow-y: auto;
         }
+
         .modal-content .input-group input:focus {
             border-color: #6366f1;
             outline: none;
             background: #eef2ff;
             box-shadow: 0 0 0 2px #a5b4fc55;
         }
+
         .modal-content .input-group textarea:focus {
             border-color: #6366f1;
             outline: none;
             background: #eef2ff;
             box-shadow: 0 0 0 2px #a5b4fc55;
         }
+
         html.dark-mode .modal-content .input-group input:focus {
             background: #2a2f4a;
         }
+
         html.dark-mode .modal-content .input-group textarea:focus {
             background: #2a2f4a;
         }
+
         .modal-buttons {
             display: flex;
             gap: 12px;
             justify-content: center;
             margin-top: 28px;
         }
+
         .modal-buttons button {
             padding: 12px 24px;
             border: none;
@@ -701,22 +811,27 @@
             cursor: pointer;
             transition: background 0.2s;
         }
+
         .modal-btn-guardar {
             background: #10b981;
             color: #fff;
-            box-shadow: 0 2px 8px rgba(16,185,129,0.08);
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
         }
+
         .modal-btn-guardar:hover {
             background: #059669;
         }
+
         .modal-btn-cancelar {
             background: #f87171;
             color: #fff;
-            box-shadow: 0 2px 8px rgba(248,113,113,0.08);
+            box-shadow: 0 2px 8px rgba(248, 113, 113, 0.08);
         }
+
         .modal-btn-cancelar:hover {
             background: #dc2626;
         }
+
         .edit-btn-historial {
             background: #4f46e5;
             color: #fff;
@@ -728,9 +843,11 @@
             transition: background 0.2s;
             margin-right: 8px;
         }
+
         .edit-btn-historial:hover {
             background: #3730a3;
         }
+
         .modal-content .iva-field input,
         .modal-content .costo-sin-iva-field input {
             background: #f3f4f6;
@@ -738,178 +855,196 @@
             border: 2px solid #a5b4fc;
             color: #4f46e5;
         }
+
         html.dark-mode .modal-content .iva-field input,
         html.dark-mode .modal-content .costo-sin-iva-field input {
             background: #2a2f40;
             color: #a5b4fc;
             border: 2px solid #6366f1;
         }
+
         /* ...existing code... */
     </style>
 </head>
+
 <body>
-<button class="dark-mode-toggle" onclick="toggleDarkMode()" title="Alternar modo oscuro">
-    <div class="toggle-icon">
-        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-        </svg>
-        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
-    </div>
-</button>
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()" title="Alternar modo oscuro">
+        <div class="toggle-icon">
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </div>
+    </button>
 
-<div class="hamburger-menu" onclick="toggleMenu()">
-    <div class="hamburger-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-</div>
-<div id="menu-popup" class="menu-popup">
-    <button onclick="abrirHistorial()">Historial</button>
-    <button onclick="toggleFormulasDesdeMenu()" style="background:#10b981;">Ver/Ocultar fórmulas</button>
-</div>
-<div id="historial-sidebar" class="historial-sidebar">
-    <button class="close-historial-btn" onclick="cerrarHistorial()">×</button>
-    <div class="historial-title">Cotizaciones guardadas</div>
-    <div id="historial-list"></div>
-</div>
-<!-- Modal de Edición -->
-<div id="modal-editar" class="modal-overlay">
-    <div class="modal-content">
-        <button class="modal-close-btn" onclick="cerrarModal()" title="Cerrar">×</button>
-        <h2>Editar Cotización</h2>
-        <div class="input-group">
-            <label for="modal-nombre">Nombre del Cliente/Producto:</label>
-            <textarea id="modal-nombre" placeholder="Nombre del producto" 
-                   oninput="recalcularModalEdicion(); autoAjustarAltura(this)"
-                   rows="1"></textarea>
-        </div>
-        <div class="input-group">
-            <label for="modal-cantidad">Cantidad:</label>
-            <input type="number" id="modal-cantidad" min="1" step="1" oninput="recalcularModalEdicion()">
-        </div>
-        <div class="input-group">
-            <label for="modal-costo">Costo o precio Base:</label>
-            <input type="number" id="modal-costo" min="0.01" step="0.01" oninput="recalcularModalEdicion()">
-        </div>
-        <div class="input-group">
-            <label for="modal-margen">Margen Deseado (%):</label>
-            <input type="number" id="modal-margen" min="1" max="99" step="0.01" oninput="recalcularModalEdicion()">
-        </div>
-        <hr style="margin: 16px 0;">
-        <div class="input-group iva-field">
-            <label for="modal-iva">IVA aplicado y restado:</label>
-            <input type="number" id="modal-iva" readonly tabindex="-1" placeholder="IVA calculado">
-        </div>
-        <div class="input-group costo-sin-iva-field">
-            <label for="modal-costo-sin-iva">Costo Unitario sin IVA (dividido 1.13):</label>
-            <input type="number" id="modal-costo-sin-iva" readonly tabindex="-1" placeholder="0.00">
-        </div>
-        <div class="input-group">
-            <label for="modal-total">Total de Venta (Con IVA):</label>
-            <input type="number" id="modal-total" min="0.01" step="0.01" oninput="recalcularModalEdicion()">
-        </div>
-        <div class="modal-buttons">
-            <button class="modal-btn-guardar" onclick="guardarCambiosEdicion()">Guardar cambios</button>
-            <button class="modal-btn-cancelar" onclick="cerrarModal()">Cancelar</button>
+    <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </div>
-</div>
-<div class="main-flex">
-
-    <div>
-        <div id="cotizaciones-list" class="cotizaciones-list">
-            <!-- Cotizaciones se insertan aquí dinámicamente -->
-        </div>
-        <button class="add-cotizacion-btn" onclick="agregarCotizacion()">+ Agregar Cotización</button>
+    <div id="menu-popup" class="menu-popup">
+        <button onclick="abrirHistorial()">Historial</button>
+        <button onclick="toggleFormulasDesdeMenu()" style="background: #10b981">
+            Ver/Ocultar fórmulas
+        </button>
     </div>
-
-    <div id="formulas-container" class="formulas-container" style="display:none;">
-        <h3>Fórmulas Utilizadas</h3>
-        <div class="formulas-blocks-row">
-            <div class="formula-block">
-                <div class="formula-title">Precio de Venta Unitario (sin IVA)</div>
-                <div class="formula-math">
-                    PVU = <span style="color:#4f46e5;">Costo</span> / (1 - <span style="color:#f59e42;">Margen</span>)
-                </div>
-                <div class="formula-desc">
-                    <b>Ejemplo:</b> Si el costo es $100 y el margen deseado es 25%:<br>
-                    PVU = 100 / (1 - 0.25) = 133.33
-                </div>
+    <div id="historial-sidebar" class="historial-sidebar">
+        <button class="close-historial-btn" onclick="cerrarHistorial()">×</button>
+        <div class="historial-title">Cotizaciones guardadas</div>
+        <div id="historial-list"></div>
+    </div>
+    <!-- Modal de Edición -->
+    <div id="modal-editar" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn" onclick="cerrarModal()" title="Cerrar">
+                ×
+            </button>
+            <h2>Editar Cotización</h2>
+            <div class="input-group">
+                <label for="modal-nombre">Nombre del Cliente/Producto:</label>
+                <textarea id="modal-nombre" placeholder="Nombre del producto" oninput="
+              recalcularModalEdicion();
+              autoAjustarAltura(this);
+            " rows="1"></textarea>
             </div>
-            <div class="formula-block">
-                <div class="formula-title">Total de Venta (con IVA)</div>
-                <div class="formula-math">
-                    Total = PVU × <span style="color:#6366f1;">Cantidad</span> × 1.13
-                </div>
-                <div class="formula-desc">
-                    <b>Ejemplo:</b> Si PVU = 133.33, cantidad = 2:<br>
-                    Total = 133.33 × 2 × 1.13 = 301.33
-                </div>
+            <div class="input-group">
+                <label for="modal-cantidad">Cantidad:</label>
+                <input type="number" id="modal-cantidad" min="1" step="1" oninput="recalcularModalEdicion()" />
             </div>
-            <div class="formula-block">
-                <div class="formula-title">Margen a partir del Total</div>
-                <div class="formula-math">
-                    Margen = 1 - (<span style="color:#4f46e5;">Costo</span> / (Total / 1.13 / <span style="color:#6366f1;">Cantidad</span>))
-                </div>
-                <div class="formula-desc">
-                    <b>Ejemplo:</b> Si Total = 301.33, costo = 100, cantidad = 2:<br>
-                    Margen = 1 - (100 / (301.33 / 1.13 / 2)) = 0.25 (25%)
-                </div>
+            <div class="input-group">
+                <label for="modal-costo">Costo o precio Base:</label>
+                <input type="number" id="modal-costo" min="0.01" step="0.01" oninput="recalcularModalEdicion()" />
             </div>
-            <div class="formula-block">
-                <div class="formula-title">Costo Unitario sin IVA (dividido 1.13)</div>
-                <div class="formula-math">
-                    Costo sin IVA = <span style="color:#4f46e5;">Costo</span> / 1.13
-                </div>
-                <div class="formula-desc">
-                    <b>Ejemplo:</b> Si el costo es $45:<br>
-                    Costo sin IVA = 45 / 1.13 = 39.82
-                </div>
+            <div class="input-group">
+                <label for="modal-margen">Margen Deseado (%):</label>
+                <input type="number" id="modal-margen" min="1" max="99" step="0.01"
+                    oninput="recalcularModalEdicion()" />
             </div>
-            <div class="formula-block">
-                <div class="formula-title">IVA aplicado</div>
-                <div class="formula-math">
-                    IVA = Total sin IVA × 0.13
-                </div>
-                <div class="formula-desc">
-                    <b>Ejemplo:</b> Si Total sin IVA = 200:<br>
-                    IVA = 200 × 0.13 = 26.00
-                </div>
+            <hr style="margin: 16px 0" />
+            <div class="input-group iva-field">
+                <label for="modal-iva">IVA aplicado y restado:</label>
+                <input type="number" id="modal-iva" readonly tabindex="-1" placeholder="IVA calculado" />
             </div>
-            <div class="formula-block">
-                <div class="formula-title">IVA restado</div>
-                <div class="formula-math">
-                    IVA restado = Total de Venta (Con IVA) - Total sin IVA
-                </div>
-                <div class="formula-desc">
-                    <b>Ejemplo:</b> Si Total de Venta (Con IVA) = 226 y Total sin IVA = 200:<br>
-                    IVA restado = 226 - 200 = 26.00
-                </div>
+            <div class="input-group costo-sin-iva-field">
+                <label for="modal-costo-sin-iva">Costo Unitario sin IVA (dividido 1.13):</label>
+                <input type="number" id="modal-costo-sin-iva" readonly tabindex="-1" placeholder="0.00" />
+            </div>
+            <div class="input-group">
+                <label for="modal-total">Total de Venta (Con IVA):</label>
+                <input type="number" id="modal-total" min="0.01" step="0.01" oninput="recalcularModalEdicion()" />
+            </div>
+            <div class="modal-buttons">
+                <button class="modal-btn-guardar" onclick="guardarCambiosEdicion()">
+                    Guardar cambios
+                </button>
+                <button class="modal-btn-cancelar" onclick="cerrarModal()">
+                    Cancelar
+                </button>
             </div>
         </div>
     </div>
+    <div class="main-flex">
+        <div>
+            <div id="cotizaciones-list" class="cotizaciones-list">
+                <!-- Cotizaciones se insertan aquí dinámicamente -->
+            </div>
+            <button class="add-cotizacion-btn" onclick="agregarCotizacion()">
+                + Agregar Cotización
+            </button>
+        </div>
 
-</div>
-<script>
-const IVA_FACTOR = 1.13;
-let cotizacionId = 0;
-let indiceEnEdicion = -1;
+        <div id="formulas-container" class="formulas-container" style="display: none">
+            <h3>Fórmulas Utilizadas</h3>
+            <div class="formulas-blocks-row">
+                <div class="formula-block">
+                    <div class="formula-title">Precio de Venta Unitario (sin IVA)</div>
+                    <div class="formula-math">
+                        PVU = <span style="color: #4f46e5">Costo</span> / (1 -
+                        <span style="color: #f59e42">Margen</span>)
+                    </div>
+                    <div class="formula-desc">
+                        <b>Ejemplo:</b> Si el costo es $100 y el margen deseado es 25%:<br />
+                        PVU = 100 / (1 - 0.25) = 133.33
+                    </div>
+                </div>
+                <div class="formula-block">
+                    <div class="formula-title">Total de Venta (con IVA)</div>
+                    <div class="formula-math">
+                        Total = PVU × <span style="color: #6366f1">Cantidad</span> × 1.13
+                    </div>
+                    <div class="formula-desc">
+                        <b>Ejemplo:</b> Si PVU = 133.33, cantidad = 2:<br />
+                        Total = 133.33 × 2 × 1.13 = 301.33
+                    </div>
+                </div>
+                <div class="formula-block">
+                    <div class="formula-title">Margen a partir del Total</div>
+                    <div class="formula-math">
+                        Margen = 1 - (<span style="color: #4f46e5">Costo</span> / (Total /
+                        1.13 / <span style="color: #6366f1">Cantidad</span>))
+                    </div>
+                    <div class="formula-desc">
+                        <b>Ejemplo:</b> Si Total = 301.33, costo = 100, cantidad = 2:<br />
+                        Margen = 1 - (100 / (301.33 / 1.13 / 2)) = 0.25 (25%)
+                    </div>
+                </div>
+                <div class="formula-block">
+                    <div class="formula-title">
+                        Costo Unitario sin IVA (dividido 1.13)
+                    </div>
+                    <div class="formula-math">
+                        Costo sin IVA = <span style="color: #4f46e5">Costo</span> / 1.13
+                    </div>
+                    <div class="formula-desc">
+                        <b>Ejemplo:</b> Si el costo es $45:<br />
+                        Costo sin IVA = 45 / 1.13 = 39.82
+                    </div>
+                </div>
+                <div class="formula-block">
+                    <div class="formula-title">IVA aplicado</div>
+                    <div class="formula-math">IVA = Total sin IVA × 0.13</div>
+                    <div class="formula-desc">
+                        <b>Ejemplo:</b> Si Total sin IVA = 200:<br />
+                        IVA = 200 × 0.13 = 26.00
+                    </div>
+                </div>
+                <div class="formula-block">
+                    <div class="formula-title">IVA restado</div>
+                    <div class="formula-math">
+                        IVA restado = Total de Venta (Con IVA) - Total sin IVA
+                    </div>
+                    <div class="formula-desc">
+                        <b>Ejemplo:</b> Si Total de Venta (Con IVA) = 226 y Total sin IVA
+                        = 200:<br />
+                        IVA restado = 226 - 200 = 26.00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const IVA_FACTOR = 1.13;
+        let cotizacionId = 0;
+        let indiceEnEdicion = -1;
 
-function crearCotizadorHTML(id) {
-    return `
+        function crearCotizadorHTML(id) {
+            return `
     <div class="cotizador-container" data-id="${id}">
-        <button class="remove-cotizacion-btn" onclick="eliminarCotizacion(${id})" title="Eliminar cotización" style="display:${id === 0 ? 'none' : 'flex'};">×</button>
+        <button class="remove-cotizacion-btn" onclick="eliminarCotizacion(${id})" title="Eliminar cotización" style="display:${id === 0 ? "none" : "flex"};">×</button>
         <h2>Cotizador de Producto</h2>
         <p>IVA aplicado: <b>13%</b></p>
 
@@ -966,377 +1101,409 @@ function crearCotizadorHTML(id) {
         <button id="guardar_cotizacion_btn_${id}" class="guardar-cotizacion-btn visible" onclick="guardarCotizacion(${id})">Guardar cotización</button>
     </div>
     `;
-}
+        }
 
-function agregarCotizacion() {
-    cotizacionId++;
-    const list = document.getElementById('cotizaciones-list');
-    const div = document.createElement('div');
-    div.innerHTML = crearCotizadorHTML(cotizacionId);
-    list.appendChild(div.firstElementChild);
-    inicializarCotizador(cotizacionId);
-}
+        function agregarCotizacion() {
+            cotizacionId++;
+            const list = document.getElementById("cotizaciones-list");
+            const div = document.createElement("div");
+            div.innerHTML = crearCotizadorHTML(cotizacionId);
+            list.appendChild(div.firstElementChild);
+            inicializarCotizador(cotizacionId);
+        }
 
-function eliminarCotizacion(id) {
-    Swal.fire({
-        icon: 'warning',
-        title: '¿Eliminar cotización?',
-        text: '¿Estás seguro de que deseas borrar esta cotización? Esta acción no se puede deshacer.',
-        showCancelButton: true,
-        confirmButtonColor: '#10b981',
-        cancelButtonColor: '#f87171',
-        confirmButtonText: 'Confirmar',
-        cancelButtonText: 'Cancelar'
-    }).then((result) => {
-        if (result.isConfirmed) {
-            const cotizador = document.querySelector(`.cotizador-container[data-id="${id}"]`);
-            if (cotizador) cotizador.remove();
+        function eliminarCotizacion(id) {
             Swal.fire({
-                icon: 'success',
-                title: 'Eliminada',
-                text: 'La cotización ha sido eliminada correctamente.',
-                confirmButtonText: 'Aceptar'
+                icon: "warning",
+                title: "¿Eliminar cotización?",
+                text: "¿Estás seguro de que deseas borrar esta cotización? Esta acción no se puede deshacer.",
+                showCancelButton: true,
+                confirmButtonColor: "#10b981",
+                cancelButtonColor: "#f87171",
+                confirmButtonText: "Confirmar",
+                cancelButtonText: "Cancelar",
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    const cotizador = document.querySelector(
+                        `.cotizador-container[data-id="${id}"]`,
+                    );
+                    if (cotizador) cotizador.remove();
+                    Swal.fire({
+                        icon: "success",
+                        title: "Eliminada",
+                        text: "La cotización ha sido eliminada correctamente.",
+                        confirmButtonText: "Aceptar",
+                    });
+                }
             });
         }
-    });
-}
 
-function inicializarCotizador(id) {
-    // Inicializa el cálculo con valores por defecto
-    calcularTotalDesdeCosto(id);
-}
-
-function calcularTotalDesdeCosto(id) {
-    const costoInput = document.getElementById(`costo_${id}`);
-    const cantidadInput = document.getElementById(`cantidad_${id}`);
-    const margenInput = document.getElementById(`margen_${id}`);
-    const totalInput = document.getElementById(`total_${id}`);
-    const ivaInput = document.getElementById(`iva_${id}`);
-    const costoSinIVAInput = document.getElementById(`costo_sin_iva_${id}`);
-
-    const costo = parseFloat(costoInput.value) || 0;
-    const cantidad = parseInt(cantidadInput.value) || 1;
-    const margenPorcentaje = parseFloat(margenInput.value) || 0;
-    const margenDecimal = margenPorcentaje / 100;
-
-    // Calcular y mostrar el costo sin IVA (dividido 1.13)
-    if (costo > 0) {
-        const costoSinIVA = costo / IVA_FACTOR;
-        costoSinIVAInput.value = costoSinIVA.toFixed(2);
-    } else {
-        costoSinIVAInput.value = "0.00";
-    }
-
-    if (margenDecimal >= 1 || margenDecimal < 0) {
-        totalInput.value = 'ERROR';
-        ivaInput.value = '';
-        return;
-    }
-
-    const pvUnitarioBase = costo / (1 - margenDecimal);
-    const pvTotalSinIVA = pvUnitarioBase * cantidad;
-    const iva = pvTotalSinIVA * 0.13;
-    const pvTotal = pvTotalSinIVA + iva;
-
-    ivaInput.value = iva.toFixed(2);
-    totalInput.value = pvTotal.toFixed(2);
-}
-
-function calcularMargenDesdeTotal(id) {
-    const costoInput = document.getElementById(`costo_${id}`);
-    const cantidadInput = document.getElementById(`cantidad_${id}`);
-    const totalInput = document.getElementById(`total_${id}`);
-    const margenInput = document.getElementById(`margen_${id}`);
-    const ivaInput = document.getElementById(`iva_${id}`);
-    const costoSinIVAInput = document.getElementById(`costo_sin_iva_${id}`);
-
-    const costo = parseFloat(costoInput.value) || 0;
-    const cantidad = parseInt(cantidadInput.value) || 1;
-    const totalDeseado = parseFloat(totalInput.value) || 0;
-
-    // Calcular y mostrar el costo sin IVA (dividido 1.13)
-    if (costo > 0) {
-        const costoSinIVA = costo / IVA_FACTOR;
-        costoSinIVAInput.value = costoSinIVA.toFixed(2);
-    } else {
-        costoSinIVAInput.value = "0.00";
-    }
-
-    if (cantidad <= 0 || costo <= 0) {
-        margenInput.value = 0;
-        ivaInput.value = '';
-        return;
-    }
-
-    const pvUnitarioBase = totalDeseado / IVA_FACTOR / cantidad;
-    if (pvUnitarioBase <= 0) {
-        margenInput.value = 'ERROR';
-        ivaInput.value = '';
-        return;
-    }
-
-    const margenDecimal = 1 - (costo / pvUnitarioBase);
-    const margenPorcentaje = margenDecimal * 100;
-
-    // Calcular IVA
-    const pvTotalSinIVA = pvUnitarioBase * cantidad;
-    const iva = pvTotalSinIVA * 0.13;
-    ivaInput.value = iva.toFixed(2);
-
-    margenInput.value = margenPorcentaje.toFixed(2);
-}
-
-function toggleFormulas() {
-    const container = document.getElementById('formulas-container');
-    const btn = document.getElementById('toggle-formulas-btn');
-    if (container.style.display === 'none') {
-        container.style.display = 'flex';
-        btn.textContent = 'Ocultar fórmulas';
-    } else {
-        container.style.display = 'none';
-        btn.textContent = 'Ver fórmulas';
-    }
-}
-
-function toggleFormulasDesdeMenu() {
-    toggleFormulas();
-    document.getElementById('menu-popup').style.display = 'none';
-}
-
-// Menú hamburguesa
-function toggleMenu() {
-    const menu = document.getElementById('menu-popup');
-    const burger = document.querySelector('.hamburger-menu');
-    burger.classList.toggle('active');
-    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
-}
-document.addEventListener('click', function(e) {
-    const menu = document.getElementById('menu-popup');
-    const burger = document.querySelector('.hamburger-menu');
-    if (!menu.contains(e.target) && !burger.contains(e.target)) {
-        menu.style.display = 'none';
-        burger.classList.remove('active');
-    }
-});
-
-// Historial
-function abrirHistorial() {
-    const sidebar = document.getElementById('historial-sidebar');
-    const toggleBtn = document.querySelector('.dark-mode-toggle');
-    if (sidebar.style.display === 'flex') {
-        sidebar.style.display = 'none';
-        toggleBtn.classList.remove('historial-open');
-    } else {
-        sidebar.style.display = 'flex';
-        toggleBtn.classList.add('historial-open');
-        renderHistorial();
-    }
-}
-function cerrarHistorial() {
-    const sidebar = document.getElementById('historial-sidebar');
-    const toggleBtn = document.querySelector('.dark-mode-toggle');
-    sidebar.style.display = 'none';
-    toggleBtn.classList.remove('historial-open');
-}
-
-// Historial con persistencia local
-let historialCotizaciones = [];
-
-function cargarHistorialLocal() {
-    const data = localStorage.getItem('historialCotizaciones');
-    if (data) {
-        try {
-            historialCotizaciones = JSON.parse(data);
-        } catch (e) {
-            historialCotizaciones = [];
+        function inicializarCotizador(id) {
+            // Inicializa el cálculo con valores por defecto
+            calcularTotalDesdeCosto(id);
         }
-    }
-}
 
-function guardarHistorialLocal() {
-    localStorage.setItem('historialCotizaciones', JSON.stringify(historialCotizaciones));
-}
+        function calcularTotalDesdeCosto(id) {
+            const costoInput = document.getElementById(`costo_${id}`);
+            const cantidadInput = document.getElementById(`cantidad_${id}`);
+            const margenInput = document.getElementById(`margen_${id}`);
+            const totalInput = document.getElementById(`total_${id}`);
+            const ivaInput = document.getElementById(`iva_${id}`);
+            const costoSinIVAInput = document.getElementById(`costo_sin_iva_${id}`);
 
-function guardarCotizacion(id) {
-    const nombre = document.getElementById(`nombre_${id}`).value || 'Sin nombre';
-    const costo = parseFloat(document.getElementById(`costo_${id}`).value) || 0;
-    const cantidad = parseInt(document.getElementById(`cantidad_${id}`).value) || 0;
-    const margen = parseFloat(document.getElementById(`margen_${id}`).value) || 0;
-    const total = parseFloat(document.getElementById(`total_${id}`).value) || 0;
-    const iva = parseFloat(document.getElementById(`iva_${id}`).value) || 0;
-    const costoSinIVA = parseFloat(document.getElementById(`costo_sin_iva_${id}`).value) || 0;
+            const costo = parseFloat(costoInput.value) || 0;
+            const cantidad = parseInt(cantidadInput.value) || 1;
+            const margenPorcentaje = parseFloat(margenInput.value) || 0;
+            const margenDecimal = margenPorcentaje / 100;
 
-    // Solo guardar si el costo unitario es > 0.001
-    if (costo > 0.001) {
-        historialCotizaciones.push({
-            nombre, costo, cantidad, margen, total, iva, costoSinIVA, fecha: new Date().toLocaleString()
-        });
-        guardarHistorialLocal();
-        renderHistorial();
-        Swal.fire({
-            icon: 'success',
-            title: 'Cotización guardada',
-            text: 'La cotización se ha guardado correctamente.',
-            confirmButtonText: 'Aceptar'
-        });
-    } else {
-        Swal.fire({
-            icon: 'warning',
-            title: 'Dato requerido',
-            text: 'Debes ingresar un valor mayor a 0.001 en "Costo Unitario (Sin IVA)" para guardar la cotización.',
-            confirmButtonText: 'Aceptar'
-        });
-    }
-}
+            // Calcular y mostrar el costo sin IVA (dividido 1.13)
+            if (costo > 0) {
+                const costoSinIVA = costo / IVA_FACTOR;
+                costoSinIVAInput.value = costoSinIVA.toFixed(2);
+            } else {
+                costoSinIVAInput.value = "0.00";
+            }
 
-function borrarCotizacion(idx) {
-    Swal.fire({
-        icon: 'warning',
-        title: '¿Eliminar cotización?',
-        text: '¿Estás seguro de que deseas borrar esta cotización? Esta acción no se puede deshacer.',
-        showCancelButton: true,
-        confirmButtonColor: '#10b981',
-        cancelButtonColor: '#f87171',
-        confirmButtonText: 'Confirmar',
-        cancelButtonText: 'Cancelar'
-    }).then((result) => {
-        if (result.isConfirmed) {
-            historialCotizaciones.splice(idx, 1);
-            guardarHistorialLocal();
-            renderHistorial();
-            Swal.fire({
-                icon: 'success',
-                title: 'Eliminada',
-                text: 'La cotización ha sido eliminada correctamente.',
-                confirmButtonText: 'Aceptar'
-            });
-        }
-    });
-}
+            if (margenDecimal >= 1 || margenDecimal < 0) {
+                totalInput.value = "ERROR";
+                ivaInput.value = "";
+                return;
+            }
 
-function abrirModalEditar(idx) {
-    indiceEnEdicion = idx;
-    const cotizacion = historialCotizaciones[idx];
-    
-    document.getElementById('modal-nombre').value = cotizacion.nombre;
-    document.getElementById('modal-cantidad').value = cotizacion.cantidad;
-    document.getElementById('modal-costo').value = cotizacion.costo;
-    document.getElementById('modal-margen').value = cotizacion.margen;
-    document.getElementById('modal-total').value = cotizacion.total;
-    document.getElementById('modal-iva').value = cotizacion.iva.toFixed(2);
-    document.getElementById('modal-costo-sin-iva').value = cotizacion.costoSinIVA.toFixed(2);
-    
-    document.getElementById('modal-editar').classList.add('active');
-}
-
-function cerrarModal() {
-    document.getElementById('modal-editar').classList.remove('active');
-    indiceEnEdicion = -1;
-}
-
-function recalcularModalEdicion() {
-    const costo = parseFloat(document.getElementById('modal-costo').value) || 0;
-    const cantidad = parseInt(document.getElementById('modal-cantidad').value) || 1;
-    const margen = parseFloat(document.getElementById('modal-margen').value) || 0;
-    const total = parseFloat(document.getElementById('modal-total').value) || 0;
-    
-    const margenDecimal = margen / 100;
-    
-    // Calcular costo sin IVA
-    if (costo > 0) {
-        const costoSinIVA = costo / IVA_FACTOR;
-        document.getElementById('modal-costo-sin-iva').value = costoSinIVA.toFixed(2);
-    } else {
-        document.getElementById('modal-costo-sin-iva').value = "0.00";
-    }
-
-    // Si se cambió margen, recalcular total
-    if (margen > 0 && margen < 100 && costo > 0 && cantidad > 0) {
-        const pvUnitarioBase = costo / (1 - margenDecimal);
-        const pvTotalSinIVA = pvUnitarioBase * cantidad;
-        const iva = pvTotalSinIVA * 0.13;
-        const pvTotal = pvTotalSinIVA + iva;
-        
-        document.getElementById('modal-total').value = pvTotal.toFixed(2);
-        document.getElementById('modal-iva').value = iva.toFixed(2);
-    } 
-    // Si se cambió total, recalcular margen
-    else if (total > 0 && costo > 0 && cantidad > 0) {
-        const pvUnitarioBase = total / IVA_FACTOR / cantidad;
-        const margenDecimal2 = 1 - (costo / pvUnitarioBase);
-        const margenPorcentaje = margenDecimal2 * 100;
-        
-        const pvTotalSinIVA = pvUnitarioBase * cantidad;
-        const iva = pvTotalSinIVA * 0.13;
-        
-        document.getElementById('modal-margen').value = margenPorcentaje.toFixed(2);
-        document.getElementById('modal-iva').value = iva.toFixed(2);
-    }
-    // Si solo cambió cantidad o costo
-    else if (costo > 0 && cantidad > 0) {
-        if (margen > 0 && margen < 100) {
             const pvUnitarioBase = costo / (1 - margenDecimal);
             const pvTotalSinIVA = pvUnitarioBase * cantidad;
             const iva = pvTotalSinIVA * 0.13;
             const pvTotal = pvTotalSinIVA + iva;
-            
-            document.getElementById('modal-total').value = pvTotal.toFixed(2);
-            document.getElementById('modal-iva').value = iva.toFixed(2);
+
+            ivaInput.value = iva.toFixed(2);
+            totalInput.value = pvTotal.toFixed(2);
         }
-    }
-}
 
-function guardarCambiosEdicion() {
-    if (indiceEnEdicion < 0) return;
+        function calcularMargenDesdeTotal(id) {
+            const costoInput = document.getElementById(`costo_${id}`);
+            const cantidadInput = document.getElementById(`cantidad_${id}`);
+            const totalInput = document.getElementById(`total_${id}`);
+            const margenInput = document.getElementById(`margen_${id}`);
+            const ivaInput = document.getElementById(`iva_${id}`);
+            const costoSinIVAInput = document.getElementById(`costo_sin_iva_${id}`);
 
-    const nombre = document.getElementById('modal-nombre').value || 'Sin nombre';
-    const cantidad = parseInt(document.getElementById('modal-cantidad').value) || 0;
-    const costo = parseFloat(document.getElementById('modal-costo').value) || 0;
-    const margen = parseFloat(document.getElementById('modal-margen').value) || 0;
-    const total = parseFloat(document.getElementById('modal-total').value) || 0;
-    const iva = parseFloat(document.getElementById('modal-iva').value) || 0;
-    const costoSinIVA = parseFloat(document.getElementById('modal-costo-sin-iva').value) || 0;
+            const costo = parseFloat(costoInput.value) || 0;
+            const cantidad = parseInt(cantidadInput.value) || 1;
+            const totalDeseado = parseFloat(totalInput.value) || 0;
 
-    if (costo > 0.001) {
-        historialCotizaciones[indiceEnEdicion] = {
-            nombre,
-            costo,
-            cantidad,
-            margen,
-            total,
-            iva,
-            costoSinIVA,
-            fecha: historialCotizaciones[indiceEnEdicion].fecha
-        };
+            // Calcular y mostrar el costo sin IVA (dividido 1.13)
+            if (costo > 0) {
+                const costoSinIVA = costo / IVA_FACTOR;
+                costoSinIVAInput.value = costoSinIVA.toFixed(2);
+            } else {
+                costoSinIVAInput.value = "0.00";
+            }
 
-        guardarHistorialLocal();
-        renderHistorial();
-        cerrarModal();
-        Swal.fire({
-            icon: 'success',
-            title: 'Cotización actualizada',
-            text: 'Los cambios se han guardado correctamente.',
-            confirmButtonText: 'Aceptar'
+            if (cantidad <= 0 || costo <= 0) {
+                margenInput.value = 0;
+                ivaInput.value = "";
+                return;
+            }
+
+            const pvUnitarioBase = totalDeseado / IVA_FACTOR / cantidad;
+            if (pvUnitarioBase <= 0) {
+                margenInput.value = "ERROR";
+                ivaInput.value = "";
+                return;
+            }
+
+            const margenDecimal = 1 - costo / pvUnitarioBase;
+            const margenPorcentaje = margenDecimal * 100;
+
+            // Calcular IVA
+            const pvTotalSinIVA = pvUnitarioBase * cantidad;
+            const iva = pvTotalSinIVA * 0.13;
+            ivaInput.value = iva.toFixed(2);
+
+            margenInput.value = margenPorcentaje.toFixed(2);
+        }
+
+        function toggleFormulas() {
+            const container = document.getElementById("formulas-container");
+            const btn = document.getElementById("toggle-formulas-btn");
+            if (container.style.display === "none") {
+                container.style.display = "flex";
+                btn.textContent = "Ocultar fórmulas";
+            } else {
+                container.style.display = "none";
+                btn.textContent = "Ver fórmulas";
+            }
+        }
+
+        function toggleFormulasDesdeMenu() {
+            toggleFormulas();
+            document.getElementById("menu-popup").style.display = "none";
+        }
+
+        // Menú hamburguesa
+        function toggleMenu() {
+            const menu = document.getElementById("menu-popup");
+            const burger = document.querySelector(".hamburger-menu");
+            burger.classList.toggle("active");
+            menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+        }
+        document.addEventListener("click", function (e) {
+            const menu = document.getElementById("menu-popup");
+            const burger = document.querySelector(".hamburger-menu");
+            if (!menu.contains(e.target) && !burger.contains(e.target)) {
+                menu.style.display = "none";
+                burger.classList.remove("active");
+            }
         });
-    } else {
-        Swal.fire({
-            icon: 'warning',
-            title: 'Dato requerido',
-            text: 'El costo debe ser mayor a 0.001',
-            confirmButtonText: 'Aceptar'
-        });
-    }
-}
 
-function renderHistorial() {
-    const list = document.getElementById('historial-list');
-    list.innerHTML = '';
-    if (historialCotizaciones.length === 0) {
-        list.innerHTML = '<div style="color:#6b7280;">No hay cotizaciones guardadas.</div>';
-        return;
-    }
-    historialCotizaciones.forEach((c, idx) => {
-        list.innerHTML += `
+        // Historial
+        function abrirHistorial() {
+            const sidebar = document.getElementById("historial-sidebar");
+            const toggleBtn = document.querySelector(".dark-mode-toggle");
+            if (sidebar.style.display === "flex") {
+                sidebar.style.display = "none";
+                toggleBtn.classList.remove("historial-open");
+            } else {
+                sidebar.style.display = "flex";
+                toggleBtn.classList.add("historial-open");
+                renderHistorial();
+            }
+        }
+        function cerrarHistorial() {
+            const sidebar = document.getElementById("historial-sidebar");
+            const toggleBtn = document.querySelector(".dark-mode-toggle");
+            sidebar.style.display = "none";
+            toggleBtn.classList.remove("historial-open");
+        }
+
+        // Historial con persistencia local
+        let historialCotizaciones = [];
+
+        function cargarHistorialLocal() {
+            const data = localStorage.getItem("historialCotizaciones");
+            if (data) {
+                try {
+                    historialCotizaciones = JSON.parse(data);
+                } catch (e) {
+                    historialCotizaciones = [];
+                }
+            }
+        }
+
+        function guardarHistorialLocal() {
+            localStorage.setItem(
+                "historialCotizaciones",
+                JSON.stringify(historialCotizaciones),
+            );
+        }
+
+        function guardarCotizacion(id) {
+            const nombre =
+                document.getElementById(`nombre_${id}`).value || "Sin nombre";
+            const costo =
+                parseFloat(document.getElementById(`costo_${id}`).value) || 0;
+            const cantidad =
+                parseInt(document.getElementById(`cantidad_${id}`).value) || 0;
+            const margen =
+                parseFloat(document.getElementById(`margen_${id}`).value) || 0;
+            const total =
+                parseFloat(document.getElementById(`total_${id}`).value) || 0;
+            const iva = parseFloat(document.getElementById(`iva_${id}`).value) || 0;
+            const costoSinIVA =
+                parseFloat(document.getElementById(`costo_sin_iva_${id}`).value) || 0;
+
+            // Solo guardar si el costo unitario es > 0.001
+            if (costo > 0.001) {
+                historialCotizaciones.push({
+                    nombre,
+                    costo,
+                    cantidad,
+                    margen,
+                    total,
+                    iva,
+                    costoSinIVA,
+                    fecha: new Date().toLocaleString(),
+                });
+                guardarHistorialLocal();
+                renderHistorial();
+                Swal.fire({
+                    icon: "success",
+                    title: "Cotización guardada",
+                    text: "La cotización se ha guardado correctamente.",
+                    confirmButtonText: "Aceptar",
+                });
+            } else {
+                Swal.fire({
+                    icon: "warning",
+                    title: "Dato requerido",
+                    text: 'Debes ingresar un valor mayor a 0.001 en "Costo Unitario (Sin IVA)" para guardar la cotización.',
+                    confirmButtonText: "Aceptar",
+                });
+            }
+        }
+
+        function borrarCotizacion(idx) {
+            Swal.fire({
+                icon: "warning",
+                title: "¿Eliminar cotización?",
+                text: "¿Estás seguro de que deseas borrar esta cotización? Esta acción no se puede deshacer.",
+                showCancelButton: true,
+                confirmButtonColor: "#10b981",
+                cancelButtonColor: "#f87171",
+                confirmButtonText: "Confirmar",
+                cancelButtonText: "Cancelar",
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    historialCotizaciones.splice(idx, 1);
+                    guardarHistorialLocal();
+                    renderHistorial();
+                    Swal.fire({
+                        icon: "success",
+                        title: "Eliminada",
+                        text: "La cotización ha sido eliminada correctamente.",
+                        confirmButtonText: "Aceptar",
+                    });
+                }
+            });
+        }
+
+        function abrirModalEditar(idx) {
+            indiceEnEdicion = idx;
+            const cotizacion = historialCotizaciones[idx];
+
+            document.getElementById("modal-nombre").value = cotizacion.nombre;
+            document.getElementById("modal-cantidad").value = cotizacion.cantidad;
+            document.getElementById("modal-costo").value = cotizacion.costo;
+            document.getElementById("modal-margen").value = cotizacion.margen;
+            document.getElementById("modal-total").value = cotizacion.total;
+            document.getElementById("modal-iva").value = cotizacion.iva.toFixed(2);
+            document.getElementById("modal-costo-sin-iva").value =
+                cotizacion.costoSinIVA.toFixed(2);
+
+            document.getElementById("modal-editar").classList.add("active");
+        }
+
+        function cerrarModal() {
+            document.getElementById("modal-editar").classList.remove("active");
+            indiceEnEdicion = -1;
+        }
+
+        function recalcularModalEdicion() {
+            const costo =
+                parseFloat(document.getElementById("modal-costo").value) || 0;
+            const cantidad =
+                parseInt(document.getElementById("modal-cantidad").value) || 1;
+            const margen =
+                parseFloat(document.getElementById("modal-margen").value) || 0;
+            const total =
+                parseFloat(document.getElementById("modal-total").value) || 0;
+
+            const margenDecimal = margen / 100;
+
+            // Calcular costo sin IVA
+            if (costo > 0) {
+                const costoSinIVA = costo / IVA_FACTOR;
+                document.getElementById("modal-costo-sin-iva").value =
+                    costoSinIVA.toFixed(2);
+            } else {
+                document.getElementById("modal-costo-sin-iva").value = "0.00";
+            }
+
+            // Si se cambió margen, recalcular total
+            if (margen > 0 && margen < 100 && costo > 0 && cantidad > 0) {
+                const pvUnitarioBase = costo / (1 - margenDecimal);
+                const pvTotalSinIVA = pvUnitarioBase * cantidad;
+                const iva = pvTotalSinIVA * 0.13;
+                const pvTotal = pvTotalSinIVA + iva;
+
+                document.getElementById("modal-total").value = pvTotal.toFixed(2);
+                document.getElementById("modal-iva").value = iva.toFixed(2);
+            }
+            // Si se cambió total, recalcular margen
+            else if (total > 0 && costo > 0 && cantidad > 0) {
+                const pvUnitarioBase = total / IVA_FACTOR / cantidad;
+                const margenDecimal2 = 1 - costo / pvUnitarioBase;
+                const margenPorcentaje = margenDecimal2 * 100;
+
+                const pvTotalSinIVA = pvUnitarioBase * cantidad;
+                const iva = pvTotalSinIVA * 0.13;
+
+                document.getElementById("modal-margen").value =
+                    margenPorcentaje.toFixed(2);
+                document.getElementById("modal-iva").value = iva.toFixed(2);
+            }
+            // Si solo cambió cantidad o costo
+            else if (costo > 0 && cantidad > 0) {
+                if (margen > 0 && margen < 100) {
+                    const pvUnitarioBase = costo / (1 - margenDecimal);
+                    const pvTotalSinIVA = pvUnitarioBase * cantidad;
+                    const iva = pvTotalSinIVA * 0.13;
+                    const pvTotal = pvTotalSinIVA + iva;
+
+                    document.getElementById("modal-total").value = pvTotal.toFixed(2);
+                    document.getElementById("modal-iva").value = iva.toFixed(2);
+                }
+            }
+        }
+
+        function guardarCambiosEdicion() {
+            if (indiceEnEdicion < 0) return;
+
+            const nombre =
+                document.getElementById("modal-nombre").value || "Sin nombre";
+            const cantidad =
+                parseInt(document.getElementById("modal-cantidad").value) || 0;
+            const costo =
+                parseFloat(document.getElementById("modal-costo").value) || 0;
+            const margen =
+                parseFloat(document.getElementById("modal-margen").value) || 0;
+            const total =
+                parseFloat(document.getElementById("modal-total").value) || 0;
+            const iva = parseFloat(document.getElementById("modal-iva").value) || 0;
+            const costoSinIVA =
+                parseFloat(document.getElementById("modal-costo-sin-iva").value) || 0;
+
+            if (costo > 0.001) {
+                historialCotizaciones[indiceEnEdicion] = {
+                    nombre,
+                    costo,
+                    cantidad,
+                    margen,
+                    total,
+                    iva,
+                    costoSinIVA,
+                    fecha: historialCotizaciones[indiceEnEdicion].fecha,
+                };
+
+                guardarHistorialLocal();
+                renderHistorial();
+                cerrarModal();
+                Swal.fire({
+                    icon: "success",
+                    title: "Cotización actualizada",
+                    text: "Los cambios se han guardado correctamente.",
+                    confirmButtonText: "Aceptar",
+                });
+            } else {
+                Swal.fire({
+                    icon: "warning",
+                    title: "Dato requerido",
+                    text: "El costo debe ser mayor a 0.001",
+                    confirmButtonText: "Aceptar",
+                });
+            }
+        }
+
+        function renderHistorial() {
+            const list = document.getElementById("historial-list");
+            list.innerHTML = "";
+            if (historialCotizaciones.length === 0) {
+                list.innerHTML =
+                    '<div style="color:#6b7280;">No hay cotizaciones guardadas.</div>';
+                return;
+            }
+            historialCotizaciones.forEach((c, idx) => {
+                list.innerHTML += `
             <div class="historial-cotizacion">
                 <div style="display:flex;gap:8px;margin-bottom:8px;">
                     <button class="edit-btn-historial" onclick="abrirModalEditar(${idx})">✎ Editar</button>
@@ -1352,61 +1519,68 @@ function renderHistorial() {
                 <b>IVA:</b> $${c.iva.toFixed(2)}<br>
             </div>
         `;
-    });
-}
-
-// Mostrar botón guardar solo si hay datos válidos
-function actualizarBotonGuardar(id) {
-	// El botón siempre está visible
-	const btn = document.getElementById(`guardar_cotizacion_btn_${id}`);
-	if (btn) btn.classList.add('visible');
-}
-
-// Dark Mode Toggle
-function initDarkMode() {
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const savedMode = localStorage.getItem('darkMode');
-    
-    if (savedMode !== null) {
-        if (savedMode === 'true') {
-            document.documentElement.classList.add('dark-mode');
+            });
         }
-    } else if (prefersDark) {
-        document.documentElement.classList.add('dark-mode');
-        localStorage.setItem('darkMode', 'true');
-    }
-}
 
-function toggleDarkMode() {
-    const html = document.documentElement;
-    const isDarkMode = html.classList.toggle('dark-mode');
-    localStorage.setItem('darkMode', isDarkMode);
-}
+        // Mostrar botón guardar solo si hay datos válidos
+        function actualizarBotonGuardar(id) {
+            // El botón siempre está visible
+            const btn = document.getElementById(`guardar_cotizacion_btn_${id}`);
+            if (btn) btn.classList.add("visible");
+        }
 
-// Inicializar Dark Mode al cargar la página
-initDarkMode();
+        // Dark Mode Toggle
+        function initDarkMode() {
+            const prefersDark = window.matchMedia(
+                "(prefers-color-scheme: dark)",
+            ).matches;
+            const savedMode = localStorage.getItem("darkMode");
 
-// Inicializar la primera cotización al cargar la página y cargar historial local
-document.addEventListener('DOMContentLoaded', () => {
-        cargarHistorialLocal();
-        const list = document.getElementById('cotizaciones-list');
-        list.innerHTML = crearCotizadorHTML(0);
-        inicializarCotizador(0);
-        actualizarBotonGuardar(0);
-    });
+            if (savedMode !== null) {
+                if (savedMode === "true") {
+                    document.documentElement.classList.add("dark-mode");
+                }
+            } else if (prefersDark) {
+                document.documentElement.classList.add("dark-mode");
+                localStorage.setItem("darkMode", "true");
+            }
+        }
 
-// Prevenir que el modal se cierre al hacer clic fuera
-document.addEventListener('click', function(e) {
-    const modal = document.getElementById('modal-editar');
-    const modalContent = modal.querySelector('.modal-content');
-    
-    // Si se hace clic en el overlay (fondo oscuro), prevenir que se cierre
-    if (e.target === modal) {
-        e.stopPropagation();
-        e.preventDefault();
-        return false;
-    }
-}, true); // Usar captura en lugar de burbuja
-</script>
+        function toggleDarkMode() {
+            const html = document.documentElement;
+            const isDarkMode = html.classList.toggle("dark-mode");
+            localStorage.setItem("darkMode", isDarkMode);
+        }
+
+        // Inicializar Dark Mode al cargar la página
+        initDarkMode();
+
+        // Inicializar la primera cotización al cargar la página y cargar historial local
+        document.addEventListener("DOMContentLoaded", () => {
+            cargarHistorialLocal();
+            const list = document.getElementById("cotizaciones-list");
+            list.innerHTML = crearCotizadorHTML(0);
+            inicializarCotizador(0);
+            actualizarBotonGuardar(0);
+        });
+
+        // Prevenir que el modal se cierre al hacer clic fuera
+        document.addEventListener(
+            "click",
+            function (e) {
+                const modal = document.getElementById("modal-editar");
+                const modalContent = modal.querySelector(".modal-content");
+
+                // Si se hace clic en el overlay (fondo oscuro), prevenir que se cierre
+                if (e.target === modal) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    return false;
+                }
+            },
+            true,
+        ); // Usar captura en lugar de burbuja
+    </script>
 </body>
+
 </html>
