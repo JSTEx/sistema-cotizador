@@ -1,0 +1,29 @@
+[
+  {
+    "producto": "SOPORTE DE ESCRITORIO PARA MONITOR NOVA FDBM2012001C",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 24,
+    "costo_sin_iva": 28.53,
+    "precio_efectivo": 42.5
+  },
+  {
+    "producto": "SOPORTE DE ESCRITORIO PARA MONITOR NOVA FDBM2012001C\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 7,
+    "margen_empresa": 27,
+    "costo_sin_iva": 37.36,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "SOPORTE DE ESCRITORIO DOBLE PARA MONITOR UNNO CON ORGANIZADOR DE CABLES TM8001BK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 25,
+    "costo_sin_iva": 86.8,
+    "precio_efectivo": 135
+  }
+]

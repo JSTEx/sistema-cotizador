@@ -1,0 +1,110 @@
+[
+  {
+    "producto": "IMEXX IME-16152 CABLE DE PODER",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 6,
+    "margen_empresa": 75,
+    "costo_sin_iva": 0.5,
+    "precio_efectivo": 2.5
+  },
+  {
+    "producto": "IMEXX IME-16152 CABLE DE PODER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 284,
+    "margen_empresa": 0,
+    "costo_sin_iva": 2.33,
+    "precio_efectivo": 3.5
+  },
+  {
+    "producto": "ZALMAN ZM-MC1 multi-conector\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 70,
+    "costo_sin_iva": 1.5,
+    "precio_efectivo": 6
+  },
+  {
+    "producto": "SILVERSTONE SST-CPF03 POWER PWM FAN EXTENSION\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 32,
+    "margen_empresa": 0,
+    "costo_sin_iva": 3.73,
+    "precio_efectivo": 7.5
+  },
+  {
+    "producto": "CABLE SPLITTER DE 3 VÍAS PARA VENTILADOR PWM MBIYDEG FS001 (4PIN)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 80,
+    "costo_sin_iva": 1.37,
+    "precio_efectivo": 8
+  },
+  {
+    "producto": "CABLE AGILER HDMI MACHO A HDMI MACHO (6 FT)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 51,
+    "margen_empresa": 35,
+    "costo_sin_iva": 4.96,
+    "precio_efectivo": 9
+  },
+  {
+    "producto": "JSTINCAL JT-ARGB-SPLITTER-3F CABLE SPLITTER DE 3 VÍAS ARGB 5V 3 PINES\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 27,
+    "costo_sin_iva": 7.5,
+    "precio_efectivo": 12
+  },
+  {
+    "producto": "TP-LINK WN725N ADAPTADOR WIFI 150MBPS NANO USB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 7,
+    "margen_empresa": 27,
+    "costo_sin_iva": 9.62,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "TP LINK PORTATIL USB HUB UH400\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10,
+    "precio_efectivo": 15.5
+  },
+  {
+    "producto": "TP LINK ARCHER T2UB NANO Adaptador USB con Wi-Fi 5 AC600 y Bluetooth 4.2\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9,
+    "margen_empresa": 24,
+    "costo_sin_iva": 16.69,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "SHAKING TANK HUB DE VENTILADOR 2 EN 1 ARGB + PWM CON CONTROLADOR 9 PUERTOS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 28,
+    "costo_sin_iva": 22.25,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "TP LINK ADAPTADOR USB INALÁMBRICO AC1300 ARCHER T4U PLUS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 8,
+    "margen_empresa": 20,
+    "costo_sin_iva": 52.88,
+    "precio_efectivo": 75
+  }
+]

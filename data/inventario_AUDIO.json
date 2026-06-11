@@ -1,0 +1,146 @@
+[
+  {
+    "producto": "XTRIKE ME HP-310",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 66,
+    "costo_sin_iva": 4.47,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "XTRIKE ME HP-310\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 35,
+    "costo_sin_iva": 12.42,
+    "precio_efectivo": 22
+  },
+  {
+    "producto": "XTRIKE ME GH-515W - BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 39,
+    "costo_sin_iva": 15.59,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "XTRIKE ME GH-512W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 24.2,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "SOPORTE COOLER MASTER GEM WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 28,
+    "costo_sin_iva": 33.5,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "RAZER BLACKSHARK V2 X WIRED/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 29,
+    "costo_sin_iva": 48.82,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "RAZER KRAKEN V4 X / RGB / ENVOLVENTE 7.1 / USB-A / USB-C\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 55.23,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "LOGITECH ASTRO GEN 2/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 25,
+    "costo_sin_iva": 74.75,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "RAZER KRAKEN KITTY V2 - BLUETOOTH - WIRELESS - RGB - BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 25,
+    "costo_sin_iva": 94.81,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "LOGITECH G535 LIGHTSPEED / WIRELESS / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 25,
+    "costo_sin_iva": 102.62,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "XTECH SPEKTER 2.0",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 16,
+    "margen_empresa": 25,
+    "costo_sin_iva": 7.44,
+    "precio_efectivo": 11.5
+  },
+  {
+    "producto": "XTECH SPEKTER 2.0\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 20,
+    "margen_empresa": 0,
+    "costo_sin_iva": 13.54,
+    "precio_efectivo": 22.5
+  },
+  {
+    "producto": "Logitech S150\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 15,
+    "margen_empresa": 28,
+    "costo_sin_iva": 28.48,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "PARLANTE GENIUS SP-HF500A II CABLEADO/ 16W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.6,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "PARLANTE GENIUS SP-HF520BT CABLEADO + BLUETOOTH / 20W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 31,
+    "costo_sin_iva": 59.84,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "MAONOCASTER LITE AU-AM200 / ESTUDIO PORTATIL INICIAL",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 15,
+    "costo_sin_iva": 163.13,
+    "precio_efectivo": 219
+  }
+]

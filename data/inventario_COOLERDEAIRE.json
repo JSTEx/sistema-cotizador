@@ -1,0 +1,164 @@
+[
+  {
+    "producto": "FORMULA V LINE ICE BURG EX ARPW 6P BK / 1X 120MM",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 12,
+    "margen_empresa": 24,
+    "costo_sin_iva": 21.63,
+    "precio_efectivo": 32.5
+  },
+  {
+    "producto": "FORMULA V LINE ICE BURG EX ARPW 6P BK / 1X 120MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 20.68,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "AEROCOOL CYLON 3H\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 21,
+    "margen_empresa": 31,
+    "costo_sin_iva": 23.69,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "COOLER MASTER HYPER 212 SPECTRUM V3 / 1X 120MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 32,
+    "costo_sin_iva": 23.84,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "PC-COOLER CPS R400 ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 24,
+    "margen_empresa": 25,
+    "costo_sin_iva": 27.95,
+    "precio_efectivo": 42.5
+  },
+  {
+    "producto": "PcCOOLER PALADIN 400 RGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 48,
+    "margen_empresa": 56.64,
+    "costo_sin_iva": 17.25,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "ZALMAN CNPS9X ECO DS / PANTALLA DIGITAL / 120MM / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 11,
+    "margen_empresa": 34,
+    "costo_sin_iva": 26.16,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "AEROCOOL CYLON 4F ARGB / 1X 120MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 21,
+    "margen_empresa": 27,
+    "costo_sin_iva": 28.78,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "PC-COOLER CPS RT400 BLACK (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 22,
+    "margen_empresa": 56.11,
+    "costo_sin_iva": 19.03,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "ZALMAN CNPS9X PERFORMA PLUS ARGB BLACK / 120MM / LEDS ARGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 31,
+    "margen_empresa": 37,
+    "costo_sin_iva": 32.82,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "ZALMAN CNPS13X DS BLACK / PANTALLA DIGITAL / 120MM / LEDS ARGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 12,
+    "margen_empresa": 0,
+    "costo_sin_iva": 37.24,
+    "precio_efectivo": 62.5
+  },
+  {
+    "producto": "PC-COOLER CPS RT500 DIGITAL BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 7,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46.35,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "COOLER MASTER V4 ALPHA 3DHP BLACK / 2X 120MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 39.22,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "DEEPCOOL AG620 WHITE ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 22,
+    "margen_empresa": 57,
+    "costo_sin_iva": 32.12,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "ZALMAN CNPS14X DUO BLACK / 120MM X 2 / DUAL TOWER / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 25,
+    "costo_sin_iva": 60.63,
+    "precio_efectivo": 92.5
+  },
+  {
+    "producto": "COOLER MASTER MASTERAIR MA621P RGB - TR4 SOCKET -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 41,
+    "margen_empresa": 46.99,
+    "costo_sin_iva": 44.11,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "ZALMAN ZET5 BLACK / 120MM X 2 / DUAL CIRCULAR TOWER / ARO ARGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 12,
+    "margen_empresa": 46.87,
+    "costo_sin_iva": 44.25,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "ZALMAN ZET5 WHITE / 120MM X 2 / DUAL CIRCULAR TOWER / ARO ARGB / BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 67.46,
+    "precio_efectivo": 105
+  }
+]

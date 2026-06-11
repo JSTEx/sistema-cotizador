@@ -1,0 +1,2945 @@
+[
+  {
+    "producto": "RAIDMAX X603 LITE / ARGB / VIDRIO TEMPLADO / BLACK",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 65.22,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "RAIDMAX X603 LITE / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 69.67,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "RAIDMAX X603 LITE / ARGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 40,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "RIOTORO CR1280 PRISM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 15,
+    "margen_empresa": 52,
+    "costo_sin_iva": 48.78,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "ZALMAN P40 PRISM PLUS BLACK / VIDRIO TEMPLADO PECERA COMPLETA / 1X ARGB 120MM FAN / USB-C / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 15,
+    "margen_empresa": 44,
+    "costo_sin_iva": 61.86,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "ZALMAN P40 NAMU BLACK / VIDRIO TEMPLADO TIPO PECERA / MADERA / 4X ARGB 120MM FANS / USB-C / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 81.86,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "RIOTORO PRISM CR1288 RGB / FULL TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "THERMALTAKE CORE P8/ VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 107.59,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "DEEPCOOL CH780/ ARGB/ VIDRIO TEMPLADO/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 109.86,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "DEEPCOOL CH780/ ARGB/ VIDRIO TEMPLADO/ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 130.77,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "HYTE X50G MATCHA GREEN / VIDRIO TEMPLADO CURVO / MESH FRONTAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 130.77,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "HYTE X50G STRAWBERRY MILK PINK / VIDRIO TEMPLADO CURVO / MESH FRONTAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 130.77,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "HYTE X50G BLACK / VIDRIO TEMPLADO CURVO / MESH FRONTAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 130.77,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "HYTE X50G WILD CHERRY RED / VIDRIO TEMPLADO CURVO / MESH FRONTAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 130.77,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "HYTE X50G TARO MILK PURPLE / VIDRIO TEMPLADO CURVO / MESH FRONTAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 146.91,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "RIOTORO CR1288TG PRISM RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 156.84,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "COOLERMASTER HAF 500 BLACK EDITION ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 147.96,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "LIAN LI O11 VISION / VIDRIO TEMPLADO/ E-ATX/ CHROME\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 166.96,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "COOLER MASTER HAF500 WHITE / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18,
+    "costo_sin_iva": 163.2,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "COUGAR PANZER MAX-G / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 217.43,
+    "precio_efectivo": 309
+  },
+  {
+    "producto": "VEDDHA V3C 6-GPU MINING CASE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 240.27,
+    "precio_efectivo": 339
+  },
+  {
+    "producto": "COOLERMASTER HAF 700 ARGB MASTERPLUS+\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 352.28,
+    "precio_efectivo": 489
+  },
+  {
+    "producto": "COSMOS C700P BLACK EDITION / ULTRA TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 352.28,
+    "precio_efectivo": 489
+  },
+  {
+    "producto": "COSMOS C700P / ULTRA TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 342.08,
+    "precio_efectivo": 499
+  },
+  {
+    "producto": "HYTE Y70 TOUCH INFINITE / PANTALLA TOUCH 2K / FULL TOWER / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 510.53
+  },
+  {
+    "producto": "CASE CX31KURA001C H410 ATX / 600W PSU",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 13.47,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "CASE CX31KURA001C H410 ATX / 600W PSU\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22.1,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "EAGLE WARRIOR H430 CG05AA / LATERAL TRANSPARENTE / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 16.24,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "EAGLE WARRIOR CM16KTRA001C H350 / RGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 25.89,
+    "precio_efectivo": 36
+  },
+  {
+    "producto": "CASE XTQ-100\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22.37,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "EAGLE WARRIOR CG17Z3RA001C / RAINBOW LEDS / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 24.1,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "X-LION ND-560 / VIDRIO TEMPLADO / RGB / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 33.5,
+    "costo_sin_iva": 22.79,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "X-LION ND-550 / VIDRIO TEMPLADO / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 17.96,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "EAGLE WARRIOR CM04Q1RA001C MICRO-ATX / FUENTE DE PODER 600W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 20.99,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "EAGLE WARRIOR CG06AKRA001C / VIDRIO TEMPLADO / BLACK / SIN FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22.28,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "EAGLE WARRIOR CG08Q3RA003C / RGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 24.6,
+    "precio_efectivo": 42.5
+  },
+  {
+    "producto": "CASE GAMER H004\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 26.6,
+    "precio_efectivo": 43
+  },
+  {
+    "producto": "RIOTORO CR480\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 39.5,
+    "costo_sin_iva": 23.99,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "EAGLE WARRIOR H425 CG08A9 / LATERAL TRANSPARENTE / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 31,
+    "costo_sin_iva": 27.37,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "EAGLE WARRIOR CG08Z3 / LATERAL TRANSPARENTE / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 36,
+    "costo_sin_iva": 25.28,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "EAGLE WARRIOR CG08Z3 H410 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22.17,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "EAGLE WARRIOR CG10AA H430 / RGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 20.43,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "EAGLE WARRIOR CG11Q3RA001C/ MID TOWER/ VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 36.5,
+    "costo_sin_iva": 25.18,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "EAGLE WARRIOR CG06AKRA001C / VIDRIO TEMPLADO / BLACK / con FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 38,
+    "costo_sin_iva": 27.41,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "ZALMAN S3 AC / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 31.27,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "X-LION ND-570 / VIDRIO TEMPLADO / RGB / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 31.16,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "X-LION ND-590 / VIDRIO TEMPLADO / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 38.5,
+    "costo_sin_iva": 26.59,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "EAGLE WARRIOR H435 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 23.83,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "EAGLE WARRIOR H430 CG03AA / LATERAL TRANSPARENTE / 1 FAN RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 29.32,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "EAGLE WARRIOR CG06Z5RA001C/ FRONTAL MESH/ 3 VENTILADORES/ ARGB/ VIDRIO TEMPERADO/ NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 40,
+    "costo_sin_iva": 26.25,
+    "precio_efectivo": 49.5
+  },
+  {
+    "producto": "X-LION N3-391 / LATERAL TRANSPARENTE / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 40,
+    "costo_sin_iva": 26.25,
+    "precio_efectivo": 49.5
+  },
+  {
+    "producto": "X-LION NE-386 / LATERAL TRANSPARENTE / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11.79,
+    "precio_efectivo": 52.5
+  },
+  {
+    "producto": "ZALMAN Z11 PLUS HF1 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11.79,
+    "precio_efectivo": 52.5
+  },
+  {
+    "producto": "ZALMAN Z11 PLUS / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 34.32,
+    "precio_efectivo": 52.5
+  },
+  {
+    "producto": "XTECH DEIMOS XT-GMR3 / ATX GAMER MID TOWER / PANEL TRANSPARENTE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 33,
+    "costo_sin_iva": 31.52,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "XTECH XTQ-100 / 600W PSU\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 32.16,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "RAIDMAX i203 / MID TOWER / VIDRIO TEMPLADO / STATIC RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 28.84,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "EAGLE WARRIOR CG01AMRA001C / MESH CON VIDRIO TEMPLADO / ARGB / 3X FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 26.69,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "EAGLE WARRIOR CG14 / 3X RGB FANS / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 23.59,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "EAGLE WARRIOR CG02 / VIDRIO TEMPLADO / ARGB / 3X FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 37.6,
+    "precio_efectivo": 57.5
+  },
+  {
+    "producto": "ZALMAN T7 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 37.2,
+    "precio_efectivo": 57.5
+  },
+  {
+    "producto": "GAMER CASE IONZ GT503\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 37.6,
+    "precio_efectivo": 57.5
+  },
+  {
+    "producto": "RAIDMAX i206\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 47,
+    "costo_sin_iva": 27.41,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "ZALMAN S2 TG / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 42,
+    "costo_sin_iva": 30,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "ZALMAN S3 TG / MID TOWER / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 39.53,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "ZALMAN S4 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 38.18,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "CASE GAMER G900\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 37.94,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "RIOTORO CR1080\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 40.01,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "ZALMAN S2 AC / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 34.69,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "X-LION KD-873 / VIDRIO TEMPLADO / RGB / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 55,
+    "costo_sin_iva": 23.69,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "EAGLE WARRIOR W275 CG04AD / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 39.41,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "XTECH PHOBOS XT-GMR4 / ATX GAMER MID TOWER / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 37.08,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "X-LION H2-510 / VIDRIO TEMPLADO / RGB / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 27.52,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "AEROCOOL HIVE-G-BK-V3 RGB/ VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 14,
+    "margen_empresa": 0,
+    "costo_sin_iva": 35.03,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "EAGLE WARRIOR CG01 DIGITAL / VIDRIO TEMPLADO / PANTALLA DIGITAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 26.56,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "EAGLE WARRIOR CG03 / VIDRIO TEMPLADO / 2X FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 35.77,
+    "precio_efectivo": 62.5
+  },
+  {
+    "producto": "X-LION KX-580 / VIDRIO TEMPLADO / MID TOWER / RGB\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 64.21
+  },
+  {
+    "producto": "CORSAIR Carbide Series 88R / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 39.87,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "AZZA GOLEM 221G\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 42.3,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "RAIDMAX i207\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 40.9,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "X-LION KN-893 / VIDRIO TEMPLADO / RGB / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 40.38,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "X-LION HF-620 / VIDRIO TEMPLADO / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 36.34,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "X-LION H8-620 / VIDRIO TEMPLADO / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 29,
+    "costo_sin_iva": 40.65,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "X-LION HD-735 / VIDRIO TEMPLADO / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 32.15,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "AEROCOOL PIVOT G V2/ MID TOWER/ ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 66.33
+  },
+  {
+    "producto": "X-LION KN-850 / VIDRIO TEMPLADO / RGB / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 40.89,
+    "precio_efectivo": 67.5
+  },
+  {
+    "producto": "X-LION H2-520 / VIDRIO TEMPLADO / RGB / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 43.47,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "RIOTORO CR1088 RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 49.07,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "FARA R1 BLACK SILENT / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 48.9,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "FARA R1 SILENT / MID TOWER / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 52.25,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "COUGAR MX330-G / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 40,
+    "costo_sin_iva": 36.88,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "X-LION H8-635 / LATERAL TRANSPARENTE / 3 FAN RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 45.95,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "RAIDMAX X922 / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 32,
+    "costo_sin_iva": 40.86,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "XPG VALOR STORM / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 38.41,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "AEROCOOL DESIGNER / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.55,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "DEEPCOOL CC560 WHITE V2 / AQUA LED / VIDRIO TEMPLADO / 4 FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 7,
+    "margen_empresa": 47.4,
+    "costo_sin_iva": 32.11,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "ZALMAN P10 BLACK / VIDRIO TEMPLADO TIPO PECERA / 1X ARGB 120MM FAN / USB-C / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 47.06,
+    "precio_efectivo": 72.5
+  },
+  {
+    "producto": "MSI MAG FORGE M100A / MID TOWER / PANEL TRANSPARENTE / 4X FANS RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46.94,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "RIOTORO CR400\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.03,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "ZALMAN Z3 NEO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 50.19,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "ZALMAN R2 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46.14,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "DEEPCOOL CC560 ARGB V2 / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 33.68,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "DEEPCOOL CC560 WHITE / AQUA LED / VIDRIO TEMPLADO / 4 FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 45.01,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "XPG VALOR/ VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 40.77,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "DEEPCOOL CC360/ ARGB/ VIDRIO TEMPLADO/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 50.53,
+    "precio_efectivo": 77.5
+  },
+  {
+    "producto": "RAIDMAX i302\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 55,
+    "margen_empresa": 50,
+    "costo_sin_iva": 33.78,
+    "precio_efectivo": 77.5
+  },
+  {
+    "producto": "ZALMAN M5 BLACK / MESH FRONTAL / VIDRIO TEMPLADO / 4X ARGB 120MM FANS / USB-C / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 52.1,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "RAIDMAX X616 / MID TOWER / VIDRIO TEMPLADO / ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 50.19,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "ZALMAN R2 / MID TOWER / VIDRIO TEMPLADO / RGB / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 53.08,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "MSI MAG FORGE 112R / VIDRIO TEMPLADO / ARGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 59.8,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "FRACTAL DESIGN FOCUS G\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 45,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "RAIDMAX VECTOR SERIES V300 / ARGB / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 45.18,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "GAMEMAX STORM 2 AB/ ATX / VIDRIO TEMPLADO/ NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46.16,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "MSI PAG PANO M110A RGB / VIDRIO TEMPLADO PANORÁMICO / ARGB / 3X FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 54.1,
+    "precio_efectivo": 82.5
+  },
+  {
+    "producto": "RAIDMAX X902 / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 55.56,
+    "precio_efectivo": 82.5
+  },
+  {
+    "producto": "RAIDMAX VECTOR SERIES V211 / Rainbow LEDs / VIDRIO TEMPLADO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 83.16
+  },
+  {
+    "producto": "SPEC 04 TG\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 62.5,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "MASTERBOX MB600L / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 54.19,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "RIOTORO CR500 TEMPERED GLASS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 59.31,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "FARA B1\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 27.41,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "ZALMAN S4 PLUS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60.22,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "RAIDMAX P815\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 56.35,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "COUGAR ARCHON 2 MESH / RGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 55.41,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "XPG STARKER AIR/ ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 9,
+    "costo_sin_iva": 67.73,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "AEROCOOL CYLON RGB / LATERAL ACRÍLICO / MID T\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 57.39,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "RAIDMAX VECTOR SERIES V212 / Rainbow LEDs / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 47.23,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "FORMULA V LINE AIR POWER G3 PLUS WHITE / VIDRIO TEMPLADO / ARGB / 6X FANS\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 86
+  },
+  {
+    "producto": "DEEPCOOL CH360 DIGITAL WHITE / ARGB / VIDRIO TEMPLADO / LCD SCREEN\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 87.37
+  },
+  {
+    "producto": "CORSAIR Carbide Series 100R / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 57.81,
+    "precio_efectivo": 87.5
+  },
+  {
+    "producto": "RAIDMAX X902 / ARGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 48.44,
+    "precio_efectivo": 87.5
+  },
+  {
+    "producto": "GAMEMAX VISTA COC AB/ ATX / VIDRIO TEMPLADO/ NEGRO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 88.42
+  },
+  {
+    "producto": "MASTERBOX MB600L TG / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 58.25,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "FARA R1 WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 58.25,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "FARA R1 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 57.34,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "COUGAR ARCHON 2 MESH / RGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 62.4,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "MONTECH AIR 903 BASE / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 57.01,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "MSI MAG FORGE 120A AIRFLOW\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 59.99,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "RAIDMAX INFINITA SERIES i802 AIR BLACK / ARGB / VIDRIO TEMPLADO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 89.47
+  },
+  {
+    "producto": "NOVA TG BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 59.94,
+    "precio_efectivo": 92.5
+  },
+  {
+    "producto": "MASTERBOX MB510L\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 94.74
+  },
+  {
+    "producto": "Corsair Carbide Series SPEC-04 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 64.55,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "ZALMAN K1 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 64.61,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "GAMDIAS TALOS E3-W / MID TOWER / ARGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 64.49,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "GAMDIAS TALOS E3-B / MID TOWER / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 70.61,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "MONTECH X3 MESH RGB ATX BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 64.88,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "CORSAIR 3000D AIRFLOW / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 54,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "RAIDMAX INFINITA SERIES i801 WHITE / ARGB / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 63.97,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "RAIDMAX VECTOR SERIES V100 / VIDRIO TEMPLADO / 4X RGB 120MM FANS\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 96.94
+  },
+  {
+    "producto": "CORSAIR 3000D RGB AIRFLOW / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 69.67,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "CORSAIR 470T / RGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 67.39,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "CORSAIR CARBIDE SPEC-DELTA / VIDRIO TEMPLADO / RGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60.96,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "DEEPCOOL CG530 4F WH / ARGB / VIDRIO TEMPLADO TIPO PECERA / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 13,
+    "margen_empresa": 0,
+    "costo_sin_iva": 62.01,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "DEEPCOOL CG530 4F / VIDRIO TEMPLADO PECERA / ARGB / 4X FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 16,
+    "margen_empresa": 48.46,
+    "costo_sin_iva": 45.15,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "ZALMAN P10 NAMU BLACK / MESH FRONTAL DE MADERA / VIDRIO TEMPLADO / 3X 120MM FANS / NEGRO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 100
+  },
+  {
+    "producto": "Corsair Carbide Series 275R / MID TOWER\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 104.21
+  },
+  {
+    "producto": "CARBIDE CLEAR 400C\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 71.82,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "MASTERBOX K500 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 70,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "COUGAR MX430 AIR / RGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 70,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "COUGAR MX430 AIR / RGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9,
+    "margen_empresa": 47.92,
+    "costo_sin_iva": 48.39,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "ZALMAN P10 NAMU WHITE / MESH FRONTAL DE MADERA / VIDRIO TEMPLADO / 3X 120MM FANS / BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 77.06,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "MASTERBOX PRO 5 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 81.89,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "ZALMAN S5 BLACK / MID TOWER / VIDRIO TEMPLADO / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 85,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "GIGABYTE C200 GLASS / MID TOWER / VIDRIO TEMPLADO / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 69.85,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "ZALMAN Z3 ICEBERG BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 73.86,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "GAMDIAS ATHENA M1 ELITE / MID TOWER / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 71.29,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "CORSAIR 4000D AIRFLOW / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 73.71,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "RAIDMAX INFINITA SERIES i801 BLACK / ARGB / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 70.82,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "APEVIA ECLIPSE-WH / ARGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 41.88,
+    "costo_sin_iva": 56.06,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "ZALMAN P30 PINK V2 / VIDRIO TEMPLADO TIPO PECERA / 3X ARGB 120MM FANS / USB-C / ROSADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 40.07,
+    "costo_sin_iva": 57.81,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "ZALMAN P30 MINT V2 / VIDRIO TEMPLADO TIPO PECERA / 3X ARGB 120MM FANS / USB-C / CELESTE MENTA\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 110.53
+  },
+  {
+    "producto": "CARBIDE CLEAR 400C WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 20,
+    "costo_sin_iva": 80,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "MASTERBOX MB511 RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 79.64,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "ARGUS M1\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 79.86,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "AZZA 270 OBSIDIAN PRISMA RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 80,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "XPG INVADER MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 81.47,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "RAIDMAX F01 / MID TOWER / VIDRIO TEMPLADO / ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 73.59,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "ZALMAN Z3 ICEBERG / MID TOWER / VIDRIO TEMPLADO / ARGB / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 64.77,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "LIAN LI LANCOOL 205 MESH/ VIDRIO TEMPLADO/ NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 27.41,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "ZALMAN S5 WHITE / MID TOWER / VIDRIO TEMPLADO / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 77.06,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "ENERMAX MARBLESHELL MS30 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 78.26,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "ENERMAX LIBLLUSION LL30\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 89.1,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "ENERMAX STARRYFOT SF30\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 83.01,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "RAIDMAX EVOL H07 / MID TOWER / VIDRIO TEMPLADO / ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.48,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "DEEPCOOL CG580 /VIDRIO TEMPLADO/ NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 67.06,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "LIAN LI LANCOOL 205 C MESH WH / ARGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 121.05
+  },
+  {
+    "producto": "MONSTER II SE BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 121.05
+  },
+  {
+    "producto": "MONSTER II SE WHITE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 124.21
+  },
+  {
+    "producto": "MASTERBOX MB500 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 91.54,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "RIOTORO CR500-A TEMPERED GLASS (ARGB)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 85,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "MASTERBOX MB511 MESH\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 85.16,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "ZALMAN Z7 NEO / MID TOWER / VIDRIO TEMPLADO / RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 88,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "MONTECH SKY TWO/ VIDRIO TEMPLADO / RGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 70.95,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "DEEPCOOL CG580 4F / ARGB / VIDRIO TEMPLADO TIPO PECERA / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 81.73,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "SHARKOON REBEL C60 BLACK / VIDRIO TEMPLADO / ARGB\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 125.26
+  },
+  {
+    "producto": "Kublai KL07 (silencioso)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 87.32,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "ZALMAN S2 SQUA RGB / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 83.99,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "ASUS TUF GAMING GT301\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 86.69,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "ENERMAX MARBLESHELL MS30 WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 88.44,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "COOLER MASTER MASTERBOX 500 ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 89.24,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "DEEPCOOL CH360 MATX WHITE / ARGB / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 16,
+    "margen_empresa": 0,
+    "costo_sin_iva": 66.85,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "EAGLE WARRIOR CG01 LCD / TIPO PECERA / PANTALLA LCD 9.16pulg\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 131.58
+  },
+  {
+    "producto": "BITFENIX ENSO RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 87.24,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "CORSAIR 4000D AIRFLOW / VIDRIO TEMPLADO / BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 92.35,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "RAIDMAX INFINITA SERIES i630 / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 135.79
+  },
+  {
+    "producto": "ALPHA PRIME BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 135.79
+  },
+  {
+    "producto": "MATREXX 55 TP / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 96.5,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "MasterCase MC500 / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 90.06,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "COOLER MASTER SILENCIO S600 TG\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 89.89,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "COOLER MASTER MASTERBOX MB511 ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 42,
+    "costo_sin_iva": 70,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "THERMALTAKE LEVEL 20 RS ARGB / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 90.49,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "SHARKOON REBEL C70G / VIDRIO TEMPLADO / ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 84.07,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "CORSAIR FRAME 4000D RS / MESH CON VIDRIO TEMPLADO / 3X FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 92.58,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "FRACTAL DESIGN POP AIR / RGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 142.11
+  },
+  {
+    "producto": "MATREXX 55 RING / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 94.07,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "COOLER MASTER MASTERBOX TD500 MESH / MID TOWER / ARGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 103.13,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "APOLLO M2\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 103.88,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "OKINOS MIRAGE 6 WOOD / VIDRIO TEMPLADO/ MID TOWER/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 77.06,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "MASTERBOX PRO 5 RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 100.01,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "MSI MPG GUNGNIR 111R / VIDRIO TEMPLADO / ARGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 102.58,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "MASTERCASE H500\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 109.8,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "BE QUIET! PURE BASE 500DX / RGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 104.42,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "DEEPCOOL CH360 DIGITAL / ARGB / VIDRIO TEMPLADO / LCD SCREEN\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 104.61,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "APNX V1/ VIDRIO TEMPLADO/ MID TOWER/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 105.1,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "APNX V1/ VIDRIO TEMPLADO/ MID TOWER/ BLACK AND WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 105.1,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "APNX V1/ VIDRIO TEMPLADO/ MID TOWER/ WHITE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 167.37
+  },
+  {
+    "producto": "DS 230 DEAD SILENCE (silencioso)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 111,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "CARBIDE AIR 540\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 122.23,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "ZALMAN Z9 ICEBERG / MID TOWER / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 115.54,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "COOLER MASTER MASTERBOX TD500 MESH / MID TOWER / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 120.96,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "SETA A1 SB-G\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 116.23,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "ZALMAN X3 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 116.23,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "ZALMAN X3 WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 121.95,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "COOLER MASTER MASTERCASE H500 ARGB / MID TOWER / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 119.74,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "ZALMAN Z9 ICEBERG / MID TOWER / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 114.05,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "MSI MAG PANO 100L PZ/ VIDRIO TEMPLADO/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 112.93,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "APNX C1/ VIDRIO TEMPLADO/ FRONTAL MESH/ MID TOWER/ CHROMAFAIR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 177.89
+  },
+  {
+    "producto": "CRYSTAL 460X RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 124.94,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "MasterCase MC500P / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 124.96,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "CORSAIR ICUE 4000X / RGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 25,
+    "costo_sin_iva": 116.48,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "COOLER MASTER TD500 MESH V2 BLACK EDITION\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 120.09,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "MSI MAG PANO 100L PZ/ VIDRIO TEMPLADO/ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 117.49,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "HYTE Y40 WHITE / VIDRIO TEMPLADO PECERA / 2X FABS / BRACKET PARA GPU VERTICAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 115.06,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "HYTE Y40 / VIDRIO TEMPLADO PECERA / 2X FANS / BRACKET PARA GPU VERTICAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 128.72,
+    "precio_efectivo": 185
+  },
+  {
+    "producto": "FRACTAL DESING MESHIFY 2 COMPACT LITE / RGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 136.35,
+    "precio_efectivo": 189
+  },
+  {
+    "producto": "SILVERSTONE SETA A1 GW-G / MID TOWER / VIDRIO TEMPLADO / ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 140.89,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "FRACTAL DESIGN NORTH/ MESH/ MID TOWER/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 17,
+    "costo_sin_iva": 148.84,
+    "precio_efectivo": 205
+  },
+  {
+    "producto": "BE QUIET! PURE BASE 500FX / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15.93,
+    "costo_sin_iva": 155.5,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "LIAN-LI O11 VISION / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 148.25,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "ASUS TUF GAMING GT501\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 155.04,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "FRACTAL DESIGN NORTH/ VIDRIO TEMPLADO/ MID TOWER/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 166.68,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "RIOTORO MORPHEUS / MID-MINI TOWER CONVERTIBLE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 158.56,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "MONTECH KING 95 PRO/ ARGB/ VIDRIO TEMPLADO/ NEGRO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 226.32
+  },
+  {
+    "producto": "CRYSTAL 570X RGB\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 226.32
+  },
+  {
+    "producto": "BARONKASE LIQUID RGB / BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 226.32
+  },
+  {
+    "producto": "BARONKASE LIQUID RGB / WHITE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 226.32
+  },
+  {
+    "producto": "CRYSTAL 460X RGB WHITE / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 160.9,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "MasterCase H500P Mesh / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 160.9,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "MasterCase H500P / MID TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 14.39,
+    "costo_sin_iva": 173.5,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "LIAN-LI O11 DYNAMIC EVO / VIDRIO TEMPLADO / RGB / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 157.72,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "HYTE Y60 / VIDRIO TEMPLADO PECERA / 3X FANS / BRACKET PARA GPU VERTICAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 157.1,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "HYTE Y60 WHITE / VIDRIO TEMPLADO PECERA / 3X FANS / BRACKET PARA GPU VERTICAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 168.16,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "ASUS TUF GAMING GT502 / MID TOWER / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 181.24,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "ASUS TUF GAMING GT502 / MID TOWER / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 188.24,
+    "precio_efectivo": 269
+  },
+  {
+    "producto": "COOLER MASTER MASTERCASE H500P MESH / MID TOWER / ARGB / VIDRIO TEMPLADO / GRAY\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 210.9,
+    "precio_efectivo": 309
+  },
+  {
+    "producto": "COOLER MASTER MASTERCASE H500M ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 221.85,
+    "precio_efectivo": 315
+  },
+  {
+    "producto": "MASTERCASE SL600M\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 282.82,
+    "precio_efectivo": 379
+  },
+  {
+    "producto": "SILVERSTONE ALTA F1 / MID TOWER INVERTIDA / VIDRIO TEMPLADO / ARGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 270.29,
+    "precio_efectivo": 385
+  },
+  {
+    "producto": "CASE GAMER GT507",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 18.04,
+    "precio_efectivo": 28
+  },
+  {
+    "producto": "CASE GAMER GT507\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 18.63,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "EAGLE WARRIOR CM05Q1RA001C/ MINI TOWER / FUENTE DE PODER 600W NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 21.24,
+    "precio_efectivo": 32.5
+  },
+  {
+    "producto": "MULTIMEDIA PRO CASE H003\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 23.79,
+    "precio_efectivo": 36
+  },
+  {
+    "producto": "CASE GAMER H003\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 13.47,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "CM12KTRA001C MICRO ATX CASE + FUENTE DE PODER 600W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 17.83,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "CASE GAMER CM17W2RA001C / RGB / MINI TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 13.47,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "CM03KTRA001 STANDARD CASE / MINI TORRE / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 43,
+    "margen_empresa": 58.29,
+    "costo_sin_iva": 14.39,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "ZALMAN T6 / MESH FRONTAL / 1X 120MM FAN / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 25,
+    "margen_empresa": 61.31,
+    "costo_sin_iva": 14.55,
+    "precio_efectivo": 42.5
+  },
+  {
+    "producto": "ZALMAN T8 / FRONTAL ELEGANTE / 1X 120MM FAN / SPECTRUM RGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 25.88,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "CASE XTQ-209 / MID TOWER / 600W PSU / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 23,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "EAGLE WARRIOR CG04ADRA001C / VIDRIO TEMPLADO TIPO PECERA / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 43.3,
+    "costo_sin_iva": 24.41,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "AEROCOOL CS 109/ ARGB / VIDRIO TEMPLADO/ MINI TOWER / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35.5,
+    "costo_sin_iva": 27.88,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "RIOTORO LOKI LC190 / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 33.28,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "AZZA GAMING LUMINOUS 110\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 32.23,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "EAGLE WARRIOR CG10Z7RA001C/ MICRO ATX/ FRONTAL MESH/ VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 32.89,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "MSI MAG SHIELD M301 / MINI TOWER / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 15,
+    "margen_empresa": 56.06,
+    "costo_sin_iva": 22.94,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "ZALMAN T4 PLUS WHITE / FRONTAL ELEGANTE / VIDRIO TEMPLADO / 1X ARGB 120MM FAN / RGB / BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 51,
+    "margen_empresa": 58.48,
+    "costo_sin_iva": 21.68,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "ZALMAN T4 PLUS BLACK / FRONTAL ELEGANTE / VIDRIO TEMPLADO / 1X ARGB 120MM FAN / RGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 33.27,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "AEROCOOL FALCON / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 12,
+    "margen_empresa": 0,
+    "costo_sin_iva": 28.34,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "FORMULA V LINE CRYSTAL Z1CM PLUS / VIDRIO TEMPLADO PECERA / ARGB / 3X FANS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 45.98,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "SUGO SG13B-Q\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 31,
+    "costo_sin_iva": 43.29,
+    "precio_efectivo": 72.5
+  },
+  {
+    "producto": "PC COOLER PLATINUM LM300 ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 33.95,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "AEROCOOL VIEWPORT MINI V1 / ARGB/ VIDRIO TEMPLADO/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 47,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "THERMALTAKE S100 TG SNOW EDITION / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 17.9,
+    "costo_sin_iva": 54.43,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "DEEPCOOL MATREXX 40 / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 49.74,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "MSI MAG FORGE M100A / MINI TOWER / RGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 42.54,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "COOLER MASTER MASTERBOX Q300L / MINI TOWER / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 44.87,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "MasterBox Lite 3.1 TG / MINI TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 52.14,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "COOLER MASTER MASTERBOX Q300L / MINI TOWER / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.7,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "PRECISION PS15W-G\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 53.95,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "GAMDIAS TALOS E1 / MINI TOWER / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 59.23,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "FRACTAL DESIGN CORE 1000 / MESH / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 55.88,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "MASTERBOX Q500L ATX\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 55.38,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "ENERMAX MARBLESHELL M MS20 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60.37,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "DEEPCOOL CH370 / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 27.41,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "ZALMAN M3 PLUS / MINI TORRE / LED BLANCO / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 53.21,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "COOLER MASTER MASTERBOX Q300L V2 RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 62.6,
+    "precio_efectivo": 92.5
+  },
+  {
+    "producto": "MASTERBOX Q300L RAINBOW RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 70.04,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "MONTECH AIR 100 ARGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 66.93,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "PRECISION PS15-RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 71.41,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "RAIDMAX i600 / ARGB / VIDRIO TEMPLADO / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 72,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "JONSBO C6/ ITX/ MINI TORRE/ NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 68.16,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "MASTERBOX Q300P / MINI TOWER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 77.56,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "SILVERSTONE PS15 PRO ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 102.45,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "COOLER MASTER TD300 MESH BLACK / VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 92.58,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "FRACTAL DESIGN POP AIR / RGB / VIDRIO TEMPLADO / MAGENTA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 92.58,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "FRACTAL DESIGN POP AIR / RGB / VIDRIO TEMPLADO / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18,
+    "costo_sin_iva": 108.1,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "LIAN LI O11 AIR MINI\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 112.95,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "MONTECH HERITAGE PRO/ MICRO-ATX / ECO-CUERO/ VIDRIO TEMPLADO/ BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 112.95,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "MONTECH HERITAGE PRO/ MICRO-ATX / ECO-CUERO/ VIDRIO TEMPLADO/ NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 110,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "FRACTAL NODE 304/ BLACK/ ITX\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 173.47,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "SILVERSTONE ALTA G1M / MINI TORRE / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 166.68,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "SILVERSTONE ALTA G1M / MINI TORRE / BLACK + SX750 Platinum COMBO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 283.66,
+    "precio_efectivo": 429
+  },
+  {
+    "producto": "SILVERSTONE LD03-AF + FUENTE PS-SX650-G/ 650W 80+ Gold Modular\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 318.47,
+    "precio_efectivo": 449
+  },
+  {
+    "producto": "EAGLE WARRIOR CG10Z7RA001C/ MICRO ATX/ FRONTAL MESH/ VIDRIO TEMPLADO",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 32.23,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "RAVEN RVZ02\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 114.74
+  },
+  {
+    "producto": "RAVEN RVZ01-E\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 121.05
+  },
+  {
+    "producto": "MILO ML08\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 75,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "Thermaltake Tower 200 black - Professional Gaming Mini Chassis\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 7,
+    "margen_empresa": 0,
+    "costo_sin_iva": 116.88,
+    "precio_efectivo": 179
+  }
+]

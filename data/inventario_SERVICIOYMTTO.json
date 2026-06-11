@@ -1,0 +1,326 @@
+[
+  {
+    "producto": "Diagnóstico",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9789,
+    "margen_empresa": 62,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "Diagnóstico\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9981,
+    "margen_empresa": 62,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "Instalación de componentes - en laptop -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9992,
+    "margen_empresa": 62,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "Mantenimiento de rutina - laptop -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 999,
+    "margen_empresa": 62,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "Cambio de thermal pads - en laptop -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9983,
+    "margen_empresa": 71.73,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 19.99
+  },
+  {
+    "producto": "Mantenimiento completo de software - laptop -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9932,
+    "margen_empresa": 72.5,
+    "costo_sin_iva": 7,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "Limpieza de laptop\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9998,
+    "margen_empresa": 14.94,
+    "costo_sin_iva": 35,
+    "precio_efectivo": 46.5
+  },
+  {
+    "producto": "Re-programación de BIOS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 969,
+    "margen_empresa": 56,
+    "costo_sin_iva": 19,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "LAPTOP OVERHAUL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10000,
+    "margen_empresa": 13.81,
+    "costo_sin_iva": 45,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "Cambio de pantalla - LCD -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 998,
+    "margen_empresa": 59,
+    "costo_sin_iva": 25,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "LAPTOP OVERHAUL - con metal líquido -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10000,
+    "margen_empresa": 16,
+    "costo_sin_iva": 65,
+    "precio_efectivo": 87.5
+  },
+  {
+    "producto": "Cambio de pantalla - LED 14´´ -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10000,
+    "margen_empresa": 14.39,
+    "costo_sin_iva": 75,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "Cambio de pantalla - LED 15.6´´ -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10000,
+    "margen_empresa": 14.64,
+    "costo_sin_iva": 105,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "Cambio de pantalla - SLIM 14´´ -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10000,
+    "margen_empresa": 12.83,
+    "costo_sin_iva": 135,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "Ensamblaje parcial - pc -",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9879,
+    "margen_empresa": 77,
+    "costo_sin_iva": 1,
+    "precio_efectivo": 5
+  },
+  {
+    "producto": "Ensamblaje parcial - pc -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9985,
+    "margen_empresa": 73,
+    "costo_sin_iva": 2.5,
+    "precio_efectivo": 10.5
+  },
+  {
+    "producto": "Instalación de fuente de poder - pc -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9931,
+    "margen_empresa": 77.4,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "Limpieza parcial - pc -",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9980,
+    "margen_empresa": 77,
+    "costo_sin_iva": 1,
+    "precio_efectivo": 5
+  },
+  {
+    "producto": "Limpieza parcial - pc -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9972,
+    "margen_empresa": 73.6,
+    "costo_sin_iva": 3.5,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "Limpieza estándar - pc -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9780,
+    "margen_empresa": 72.72,
+    "costo_sin_iva": 7,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "Limpieza profunda - pc -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 877,
+    "margen_empresa": 56,
+    "costo_sin_iva": 19,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "Cambio de pasta termica - cliente incluye pasta -",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9992,
+    "margen_empresa": 83.85,
+    "costo_sin_iva": 1,
+    "precio_efectivo": 7
+  },
+  {
+    "producto": "Cambio de pasta termica - cliente incluye pasta -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9968,
+    "margen_empresa": 43,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 9.99
+  },
+  {
+    "producto": "Manejo de cables profesional",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9996,
+    "margen_empresa": 62.33,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "Manejo de cables profesional\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9697,
+    "margen_empresa": 62.33,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "Diagnóstico completo - PC escritorio -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9993,
+    "margen_empresa": 62.33,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "Mantenimiento de rutina (software)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9948,
+    "margen_empresa": 71.73,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 19.99
+  },
+  {
+    "producto": "Mantenimiento completo (software)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9987,
+    "margen_empresa": 77.4,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "Flasheo de BIOS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 999,
+    "margen_empresa": 32,
+    "costo_sin_iva": 15,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "Cambio de thermal pads - GPU -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9998,
+    "margen_empresa": 14.94,
+    "costo_sin_iva": 35,
+    "precio_efectivo": 46.5
+  },
+  {
+    "producto": "Servicio a domicilio - Zona Central - x1 día",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 999,
+    "margen_empresa": 27,
+    "costo_sin_iva": 16,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "Servicio a domicilio - Zona Occidental - x1 día",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1000,
+    "margen_empresa": 25,
+    "costo_sin_iva": 35,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "Servicio a domicilio - Zona Oriental - x1 día",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1000,
+    "margen_empresa": 25,
+    "costo_sin_iva": 49,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "Instalación de componentes - en consola -",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 999,
+    "margen_empresa": 62,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "Instalación de componentes - en consola -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 999,
+    "margen_empresa": 47,
+    "costo_sin_iva": 8,
+    "precio_efectivo": 17.5
+  },
+  {
+    "producto": "Cambio de thermal pads - en consola -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 999,
+    "margen_empresa": 72.5,
+    "costo_sin_iva": 7,
+    "precio_efectivo": 29
+  }
+]

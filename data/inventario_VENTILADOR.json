@@ -1,0 +1,542 @@
+[
+  {
+    "producto": "Everest Silence 8cm",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 4,
+    "precio_efectivo": 6.5
+  },
+  {
+    "producto": "Everest Silence 8cm\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 36,
+    "margen_empresa": 0,
+    "costo_sin_iva": 4,
+    "precio_efectivo": 6.5
+  },
+  {
+    "producto": "APOLLISH LED RED (80MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 4,
+    "precio_efectivo": 6.5
+  },
+  {
+    "producto": "POWER COOLER PWM LED (80MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 4.5,
+    "precio_efectivo": 7
+  },
+  {
+    "producto": "ENERMAX FAN LED RED (80MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9,
+    "margen_empresa": 0,
+    "costo_sin_iva": 4.5,
+    "precio_efectivo": 7
+  },
+  {
+    "producto": "ENERMAX FAN LED BLUE (80MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 120,
+    "margen_empresa": 55.07,
+    "costo_sin_iva": 2.98,
+    "precio_efectivo": 7.5
+  },
+  {
+    "producto": "POWER COOLER PWM LED (90MM)",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 8
+  },
+  {
+    "producto": "POWER COOLER PWM LED (90MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 6.15,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "ZALMAN QUIET FAN LED BLUE 120mm",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 1.75,
+    "precio_efectivo": 3.5
+  },
+  {
+    "producto": "ZALMAN QUIET FAN LED BLUE 120mm\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 2.33,
+    "precio_efectivo": 7
+  },
+  {
+    "producto": "ZM-F3 FDB (SF)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 48,
+    "costo_sin_iva": 3.56,
+    "precio_efectivo": 8
+  },
+  {
+    "producto": "ZALMAN ZM-F3 LED BLUE (SF)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1.75,
+    "precio_efectivo": 8
+  },
+  {
+    "producto": "FAN 120MM DEFAULT\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 2,
+    "costo_sin_iva": 7.19,
+    "precio_efectivo": 8.5
+  },
+  {
+    "producto": "Raidmax RV-R120B RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 2.59,
+    "precio_efectivo": 9.99
+  },
+  {
+    "producto": "MARATHON ENLOBAL 120MM COOLING FAN\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 232,
+    "margen_empresa": 55.13,
+    "costo_sin_iva": 3.87,
+    "precio_efectivo": 9.99
+  },
+  {
+    "producto": "ZALMAN ZM-AF120 BLACK / 120MM / ANNULAR BLADES / 2000 RPM / PWM / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 5.76,
+    "precio_efectivo": 11
+  },
+  {
+    "producto": "ARTIC P12 PWM BLACK (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 7.77,
+    "precio_efectivo": 11.5
+  },
+  {
+    "producto": "COOLER MASTER MASTERFAN MF120 S3 - 120MM-ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 7.19,
+    "precio_efectivo": 12
+  },
+  {
+    "producto": "RAIDMAX NV-R120B RGB (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 57,
+    "margen_empresa": 51.45,
+    "costo_sin_iva": 5.37,
+    "precio_efectivo": 12.5
+  },
+  {
+    "producto": "ZALMAN ZM-AF120 ARGB WHITE / 120MM / ANNULAR BLADES / 2000 RPM / PWM / LEDS ARGB / BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 156,
+    "margen_empresa": 53.98,
+    "costo_sin_iva": 5.09,
+    "precio_efectivo": 12.5
+  },
+  {
+    "producto": "ZALMAN ZM-AF120 ARGB BLACK / 120MM / ANNULAR BLADES / 2000 RPM / PWM / LEDS ARGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 6,
+    "precio_efectivo": 12.5
+  },
+  {
+    "producto": "APOLLISH 12cm\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 20,
+    "margen_empresa": 69,
+    "costo_sin_iva": 3.4,
+    "precio_efectivo": 12.5
+  },
+  {
+    "producto": "FORMULA V LINE NULIGHT 12BK ARPW VENTILADOR ARGB (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 13.16
+  },
+  {
+    "producto": "T.B. VEGAS DUO PWM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18,
+    "costo_sin_iva": 10.03,
+    "precio_efectivo": 14
+  },
+  {
+    "producto": "ZALMAN RFD120 ARGB 120mm\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 23,
+    "margen_empresa": 0,
+    "costo_sin_iva": 9.95,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "RAIDMAX NV-T120FWP ARGB (120MM) WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 7.81,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "FW122\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 224,
+    "margen_empresa": 56.45,
+    "costo_sin_iva": 5.78,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "ZALMAN ZM-AF120R ARGB BLACK / 120MM / ANNULAR REVERSE BLADES / 1500 RPM / PWM / LEDS ARGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10.43,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "FN121-P-L\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 60,
+    "margen_empresa": 57,
+    "costo_sin_iva": 5.7,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "ZALMAN ZM-AF120R ARGB WHITE / 120MM / ANNULAR REVERSE BLADES / 1500 RPM / PWM / LEDS ARGB / BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11,
+    "precio_efectivo": 16
+  },
+  {
+    "producto": "T.B. Silence LED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 11,
+    "precio_efectivo": 16
+  },
+  {
+    "producto": "ENERMAX T.B. VEGAS (120 MM) SILVER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10.51,
+    "precio_efectivo": 16
+  },
+  {
+    "producto": "INWIN SIRIUS LOOP 120 mm\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 16.83
+  },
+  {
+    "producto": "LEPA BOL QUIET PWM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 13.04,
+    "precio_efectivo": 17.5
+  },
+  {
+    "producto": "ZM-DF12\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 13,
+    "margen_empresa": 62,
+    "costo_sin_iva": 5.88,
+    "precio_efectivo": 17.5
+  },
+  {
+    "producto": "COOLER MASTER MASTERFAN MF120 S3 VENTILADOR ARGB (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 8.37,
+    "precio_efectivo": 17.5
+  },
+  {
+    "producto": "ENERMAX DF STORM PWN FAN (3500 RPM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 13.33,
+    "precio_efectivo": 18
+  },
+  {
+    "producto": "ZALMAN LF120 ARGB (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 18,
+    "margen_empresa": 0,
+    "costo_sin_iva": 14.35,
+    "precio_efectivo": 19.5
+  },
+  {
+    "producto": "ZALMAN SF120 (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 13.13,
+    "precio_efectivo": 19.5
+  },
+  {
+    "producto": "APNX FP2 ARGB (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 20
+  },
+  {
+    "producto": "D.F. PRESSURE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 15.76,
+    "precio_efectivo": 21
+  },
+  {
+    "producto": "COUGAR H VORTEX RGB FCB 120MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 17.43,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "SILVERSTONE AIR BLAZER 120R ARGB (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10.4,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "EAGLE WARRIOR HURRICANE KIT DE 3 FAN ARGB CONTROL BOX (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 20.99,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "RIOTORO QUIET STORM FRGB-QS120\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 64.12,
+    "costo_sin_iva": 10,
+    "precio_efectivo": 31.5
+  },
+  {
+    "producto": "COOLER MASTER MASTERFAN 120 RGB BULK - KIT\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 19.49,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "AEROCOOL MIRAGE 12 PRO ARGB 120MM/ 3 FAN PACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 14.75,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "AEROCOOL ECLIPSE 12 PRO ARGB 120MM/ 3 FAN PACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 18.65,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "AEROCOOL DUO 12 PRO KIT DE 3 FAN KIT ARGB CONTROL REMOTO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 22,
+    "costo_sin_iva": 26.71,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "COOLER MASTER MOBIUS 120P VENTILADOR ARGB DE GAMA ENTUSIASTA (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 52,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10.4,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "EAGLE WARRIOR FCF2L3W5007C KIT DE 3 FAN ARGB CONTROL BOX (120MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 57.79,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "ENERMAX TB RGB ADDRESSABLE 3 FAN PACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 30.93,
+    "precio_efectivo": 52.5
+  },
+  {
+    "producto": "LIAN LI BORALITE serie RGB BORALITE120-3 S\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 40.23,
+    "precio_efectivo": 57.5
+  },
+  {
+    "producto": "SILVERSTONE AIR BLAZER 120i ARGB X3 PACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 9,
+    "costo_sin_iva": 54.92,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "RIOTORO QUIET RGB STORM 3 FAN KIT\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 55.36,
+    "precio_efectivo": 82.5
+  },
+  {
+    "producto": "ENERMAX SQUA RGB ADDRESSABLE (3-FAN PACK)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 56.5,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "LEPA VORTEX 14CM PWM",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 2.59,
+    "precio_efectivo": 16.5
+  },
+  {
+    "producto": "LEPA VORTEX 14CM PWM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 15,
+    "costo_sin_iva": 18.22,
+    "precio_efectivo": 24.5
+  },
+  {
+    "producto": "ZALMAN SF140 (140MM)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 24.64,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "SILVERSTONE AIR PENETRATOR 140I ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 15,
+    "margen_empresa": 25.5,
+    "costo_sin_iva": 29.51,
+    "precio_efectivo": 45
+  }
+]

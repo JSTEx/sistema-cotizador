@@ -1,0 +1,14 @@
+{
+  "name": "sistema-cotizador",
+  "version": "1.0.0",
+  "description": "Cotizador con chat de inventario y soporte de IA.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.10.0"
+  }
+}

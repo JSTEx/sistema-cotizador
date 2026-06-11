@@ -1,0 +1,650 @@
+[
+  {
+    "producto": "XTECH XTM-165 / 1000 DPI / 3 BOTONES",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 50,
+    "costo_sin_iva": 2.06,
+    "precio_efectivo": 5
+  },
+  {
+    "producto": "XTECH XTM-165 / 1000 DPI / 3 BOTONES\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 40,
+    "costo_sin_iva": 3.94,
+    "precio_efectivo": 7.5
+  },
+  {
+    "producto": "XTECH XTM-310BK / 1600 DPI / 4 BOTONES / INALÁMBRICO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 50,
+    "costo_sin_iva": 3.61,
+    "precio_efectivo": 8.5
+  },
+  {
+    "producto": "XTRIKE ME GM-209W / 8000DPI / RGB / BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 5.8,
+    "precio_efectivo": 9
+  },
+  {
+    "producto": "ZALMAN ZM-M201R\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 3.54,
+    "precio_efectivo": 9
+  },
+  {
+    "producto": "GAMDIAS ZEUS E2 gaming mouse\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 2.5,
+    "precio_efectivo": 9.99
+  },
+  {
+    "producto": "ZALMAN ZM-M500WL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 6.59,
+    "precio_efectivo": 9.99
+  },
+  {
+    "producto": "ZIVA WIRELESS MOUSE COMPACTO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1.64,
+    "precio_efectivo": 11
+  },
+  {
+    "producto": "XTRIKE ME GM-124 / 1200DPI / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 51,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 12
+  },
+  {
+    "producto": "XTRIKE ME GM-226 / 7200DPI / RGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 7.64,
+    "precio_efectivo": 12
+  },
+  {
+    "producto": "ARGOM COMBAT MS42 / USB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 11,
+    "margen_empresa": 0,
+    "costo_sin_iva": 7.86,
+    "precio_efectivo": 12.5
+  },
+  {
+    "producto": "XTECH XTM-620 LIGHTBUZZ / 7200 DPI / RGB / 7 BOTONES\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 3.83,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "ZALMAN ZM-M401R\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 20,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 17.89
+  },
+  {
+    "producto": "DEMETER OPTICAL (2000 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11.83,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "GALAX SLIDER-01 / 7200 DPI / 8 BOTONES / RGB / GAMING MOUSE USB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 63,
+    "costo_sin_iva": 6.2,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "RIOTORO URUZ Z5 CLASSIC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 63,
+    "costo_sin_iva": 6.2,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "RIOTORO URUZ Z5 LIGHTNING (4,000 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11.25,
+    "precio_efectivo": 19.99
+  },
+  {
+    "producto": "MOUSE GAMER MSI FORGE GM300/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 7.22,
+    "precio_efectivo": 19.99
+  },
+  {
+    "producto": "XTRIKE ME GM-320 / 12800DPI / RGB / BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 20
+  },
+  {
+    "producto": "DEMETER OPTICAL YL (2000 DPI)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 20,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 21.05
+  },
+  {
+    "producto": "OUREA OPTICAL (2500 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 6,
+    "margen_empresa": 32,
+    "costo_sin_iva": 13.43,
+    "precio_efectivo": 22.5
+  },
+  {
+    "producto": "PRIMUS GAMING PMO-103 / 12800 DPI / RGB / 8 BOTONES PROGRAMABLES\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 16.86,
+    "precio_efectivo": 22.5
+  },
+  {
+    "producto": "OUREA FPS (4000 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 16.2,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "RAZER DEATHADDER ESSENTIAL BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 14.9,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "MSI CLUTCH GM08\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 16.53,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "TRUST GXT 101 Gav Gaming Mouse\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 9,
+    "precio_efectivo": 25.5
+  },
+  {
+    "producto": "ZALMAN ZM-GM3 Eclipse\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 18.31,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "CORSAIR KATAR PRO ULTRA-LIGHT\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 23.5,
+    "costo_sin_iva": 21.35,
+    "precio_efectivo": 32
+  },
+  {
+    "producto": "LOGITECH G203 / RGB / 8,000 DPI / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 23.5,
+    "costo_sin_iva": 21.35,
+    "precio_efectivo": 32
+  },
+  {
+    "producto": "LOGITECH G203 / RGB / 8,000 DPI / BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 23.5,
+    "costo_sin_iva": 21.35,
+    "precio_efectivo": 32
+  },
+  {
+    "producto": "LOGITECH G203 / RGB / 8,000 DPI / AZUL\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 33.68
+  },
+  {
+    "producto": "Logitech Gaming Mouse G300s (2500 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 21.37,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "TRUST GXT 782 GAV COMBO MOUSE GAMING Y MOUSE PAD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 17,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22.53,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "GALAX SLIDER-05 / 10000 DPI / 6 BOTONES / RGB / GAMING MOUSE USB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 23.06,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "COOLER MASTER CM310 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 19.96,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "MOUSE ERGONÓMICO ASOYIOL/ 1600DPI /6 BOTONES / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 43,
+    "costo_sin_iva": 17.62,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "RAZER DEATHADDER ESSENTIAL WHITE - NASA EDITION\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 17.38,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "ZALMAN KNOSSOS ZM-GM4 (8200 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 21.18,
+    "precio_efectivo": 37
+  },
+  {
+    "producto": "RIOTORO AUROX BLACK PRISM (10K DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 21.18,
+    "precio_efectivo": 37
+  },
+  {
+    "producto": "RIOTORO AUROX WHITE PRISM (10K DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 39.5,
+    "costo_sin_iva": 20.81,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "PRIMUS GLADIUS DM10 / 10000DPI / RGB / 6 BOTONES PROGRAMABLES\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 25.59,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "COOLER MASTER MM311 - WIRELESS - BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 27.52,
+    "precio_efectivo": 42.5
+  },
+  {
+    "producto": "LOGITECH G305 LIGHTSPEED - WIRELESS - BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 29,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "LOGITECH G600 MMO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 30.16,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "COOLER MASTER MM311 - WIRELESS - WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 27,
+    "costo_sin_iva": 28.98,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "RAZER COBRA RGB BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 32.45,
+    "precio_efectivo": 46
+  },
+  {
+    "producto": "ZEUS M1 RGB (7000 DPI)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 47.37
+  },
+  {
+    "producto": "Logitech Gaming Mouse G203 Prodigy (8000 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 32.09,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "RAZER VIPER MINI\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 31.82,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "RAZER DEATHADDER V3 / MOUSE GAMING / 30,000 DPI / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 32.33,
+    "precio_efectivo": 49.5
+  },
+  {
+    "producto": "RIOTORO NADIX RGB (10000 DPI)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 53.68
+  },
+  {
+    "producto": "Logitech Gaming Mouse G600 MMO (8200 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.09,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "HYPERX PULSEFIRE HASTE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 17,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.72,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "COOLER MASTER MM711 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.83,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "COOLER MASTER MM711 WHITE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 56.84
+  },
+  {
+    "producto": "Logitech Gaming Mouse G Pro Hero (16000 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 37.97,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "LOGITECH G502 HERO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46.97,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "RIPJAWS MX780 RGB (8200 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 40.53,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "ZEUS P1 RGB (12000 DPI)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 68.42
+  },
+  {
+    "producto": "Logitech Pro Gaming Mouse (12000 DPI)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 68.42
+  },
+  {
+    "producto": "ZEUS ESPORT LASER (8200 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 42.86,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "RAZER BASILISK V3 X HYPERSPEED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46,
+    "precio_efectivo": 72.5
+  },
+  {
+    "producto": "HADES M1 RGB WIRED/WIRELESS (10800 DPI)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 78.95
+  },
+  {
+    "producto": "Logitech G403 PRODIGY GAMING MOUSE (12000 DPI)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 80
+  },
+  {
+    "producto": "Logitech G603 (12000 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 55.52,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "RAZER BASILISK V3 35K RGB/ 35,000 DPI/ BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 62.56,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "MOUSE RAZER VIPER V3 HYPERSPEED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 25,
+    "costo_sin_iva": 58.92,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "LOGITECH G309 LIGHTSPEED - WIRELESS - BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 66.91,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "RAZER MAMBA ELITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 12,
+    "costo_sin_iva": 72.32,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "LOGITECH G703 HERO/ RGB/ INALÁMBRICO/ 25,600 DPI / NEGRO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 100
+  },
+  {
+    "producto": "Logitech MX Master 2S (4000 DPI)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 81.09,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "LOGITECH G502 LIGHTSPEED / WIRELESS / RGB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 88.52,
+    "precio_efectivo": 129
+  }
+]

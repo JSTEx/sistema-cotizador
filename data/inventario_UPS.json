@@ -1,0 +1,596 @@
+[
+  {
+    "producto": "SUPRESOR DE VOLTAJE CDP R-PP2",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 8,
+    "precio_efectivo": 12
+  },
+  {
+    "producto": "SUPRESOR DE VOLTAJE CDP R-PP2\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 39,
+    "costo_sin_iva": 11.5,
+    "precio_efectivo": 21.5
+  },
+  {
+    "producto": "REGULADOR DE VOLTAJE CENTRA PLUS (1200VA/600W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 14.11,
+    "precio_efectivo": 22.5
+  },
+  {
+    "producto": "REGULADOR SMARTBITT AVR1350 1350VA/675W - 8 SALIDAS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 16,
+    "precio_efectivo": 24.5
+  },
+  {
+    "producto": "REGULADOR DE VOLTAJE CENTRA PLUS (1500VA/750W)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 28.16,
+    "precio_efectivo": 37.5
+  },
+  {
+    "producto": "Xtech XTP-751 (750VA / 375W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 23,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "UPS CENTRA ECO 500 (500VA/250W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 27.5,
+    "precio_efectivo": 41.5
+  },
+  {
+    "producto": "UPS CENTRA ECO 700VA LED (700VA/350W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 27.11,
+    "precio_efectivo": 45.5
+  },
+  {
+    "producto": "HIKVISION DS-UPS600 (600VA/ 360W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 22,
+    "costo_sin_iva": 34,
+    "precio_efectivo": 49.5
+  },
+  {
+    "producto": "CDP R-UPR508 500VA (500VA / 250W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 34,
+    "precio_efectivo": 49.5
+  },
+  {
+    "producto": "CDP UPR508 (500VA/250W) BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 34,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "CENTRA 800VA (800VA/400W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 29,
+    "costo_sin_iva": 33.8,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "FORZA NT-751 (750VA / 375W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 35.5,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "CDP R-UPR758 (750VA/375W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 37,
+    "precio_efectivo": 57.5
+  },
+  {
+    "producto": "UPS CENTRA PLUS 800VA LCD (800VA/400W)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 43.93,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "Forza RT-601LCD (600VA / 360W)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 43.12,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "Forza SL-601UL (600VA / 360W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 40.8,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "SMARTBITT SBNB1000 1000VA (1000VA / 500W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 40,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "CENTRA 1000 PLUS (1000VA/500W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 30,
+    "costo_sin_iva": 42,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "CENTRA 1000 PLUS LCD (1000VA/500W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "CDP R-UPR1008 1000VA (1000VA / 500W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 39,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "HIKVISION DS-UPS1000 (1000VA/ 600W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 30,
+    "costo_sin_iva": 42,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "UPS CENTRA 1000VA LCD (1000VA/500W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 46,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "CDP UPR1008 1000VA (1000VA / 500W) GRIS\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 54.09,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "APC Back-UPS BX800L-LM (800VA/400W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 29,
+    "costo_sin_iva": 46.71,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "Forza NT-1011(1000VA / 500W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 46,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "CDP UPR1008 1000VA (1000VA / 500W) BLANCO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 78.95
+  },
+  {
+    "producto": "FORZA SL-1001UL (1000VA / 600W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 35,
+    "costo_sin_iva": 45,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "CENTRA ECO CHARGER LCD (1200VA/600W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 47,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "UPS CENTRA 1200VA MAX LCD (1200VA/600W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 29,
+    "costo_sin_iva": 50,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "UPS CENTRA OFFICE 1000VA LCD (1000VA/500W)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 100
+  },
+  {
+    "producto": "Back UPS BE750G-LM (750VA / 450W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 72,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "CENTRA 1200 PLUS (1200VA/600W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 75,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "UPS CENTRA 1200 LCD (1200VA/600W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 25,
+    "costo_sin_iva": 75.5,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "APC EASY UPS 1000VA/600W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 75,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "ORBITEC TU-1208LCD (1200VA / 720W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 77.47,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "Forza HT Series HT-1000LCD (1000VA/500W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 83.5,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "APC Back-UPS BX1000L-LM (1000VA/600W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 79.67,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "UPS CENTRA 1500VA MAX PRO LCD (1500VA/750W)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 92.02,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "APC BX1000L-LM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 96.28,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "TRIPP LITE UPS Interactivo de 1000VA 560W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 102.04,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "APC PRO 700G\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 22,
+    "costo_sin_iva": 100.85,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "UPS APC BVX1200L-LM (1200VA/650W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 107,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "CDP R-SMART 1210 (1200VA/720W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 117.5,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "CDP R-SMART 1210 (1200VA/720W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 25,
+    "costo_sin_iva": 113.75,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "FORZA SL-1011-UL (1000VA / 600W)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 130,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "Back UPS Pro BR1000G (1000VA / 600W)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 182.11
+  },
+  {
+    "producto": "APC BX600L-LM (600VA / 300W) - TEC\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 182.11
+  },
+  {
+    "producto": "APC Back-UPS Pro BR (1000VA / 600W)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 130.19,
+    "precio_efectivo": 185
+  },
+  {
+    "producto": "APC Back-UPS BE850M2 (850VA/450W) - TEC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 125,
+    "precio_efectivo": 189
+  },
+  {
+    "producto": "CDP R-SMART 1510 (1500VA/900W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 136,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "UPS CENTRA 1800VA LCD (1800VA/900W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 130,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "UPS CENTRA 2400 LCD (2400VA/1200W)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 144,
+    "precio_efectivo": 205
+  },
+  {
+    "producto": "ORBITEC TU-2210LCD (2200VA / 1320W) - TEC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 149.76,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "FORZA XG-1201LCD\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 227.37
+  },
+  {
+    "producto": "Back UPS Pro BR1300G (1300VA / 780W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 156.48,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "FORZA FX-1500LCD (1500VA /840W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 160,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "Socomec NETYS RT-120V 1000VA\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 171.72,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "FORZA FX-2200LCD (2200VA / 1200W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 22,
+    "costo_sin_iva": 168.3,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "FORZA SL-1501UL 1500VA/900W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 173,
+    "precio_efectivo": 265
+  },
+  {
+    "producto": "CDP UPS R-SMART 2010 (2000VA/1200W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 200,
+    "precio_efectivo": 289
+  },
+  {
+    "producto": "CDP UPRS 1508 (1500VA/1050W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 210,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "CDP UPO11-1 1KVA 8PF (1000VA/900W) - onda sinusoidal pura -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 19,
+    "costo_sin_iva": 213.58,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "APC Back-UPS BX1500M-LM60 (1500VA/900W)-TEC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 199,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "CENTRA OL 1KVA - ONDA SENOIDAL PURA - ONLINE (1000VA/900W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 233.14,
+    "precio_efectivo": 329
+  },
+  {
+    "producto": "FORZA XG-1501LC ONDA SINUSOIDAL PURA (1500VA/900W)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 360,
+    "precio_efectivo": 509
+  }
+]

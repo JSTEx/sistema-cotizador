@@ -1,0 +1,614 @@
+[
+  {
+    "producto": "XTECH XTK-092S BLACK",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 4.58,
+    "precio_efectivo": 9.5
+  },
+  {
+    "producto": "XTECH XTK-092S BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 4.59,
+    "precio_efectivo": 9.99
+  },
+  {
+    "producto": "XTRIKE ME KB-229\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 25,
+    "costo_sin_iva": 9.84,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "XTECH KTK-505S CHEVALIER / MULTICOLOR RGB / MEMBRANA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11.11,
+    "precio_efectivo": 17
+  },
+  {
+    "producto": "DELL KB-216 MULTIMEDIA - USB - BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11.77,
+    "precio_efectivo": 18
+  },
+  {
+    "producto": "MARVO K635 BLACK RAINBOW ESPAÑOL / USB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11.46,
+    "precio_efectivo": 18.5
+  },
+  {
+    "producto": "ARGOM GAMING COMBAT KB55 / USB / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 7.92,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "MEETION K9320 WATERPROOF / RAINBOW BACKLIGHT\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 7.75,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "XTRIKE ME KB-302\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 45,
+    "costo_sin_iva": 9.66,
+    "precio_efectivo": 19.99
+  },
+  {
+    "producto": "XTECH ARMIGER XTK-510S/ RGB/ MEMBRANA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 15.19,
+    "precio_efectivo": 23
+  },
+  {
+    "producto": "ZALMAN ZM-K400G GAMING\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "Thermaltake TTesports Challenger Pro Gaming / Con ventilador integrado\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.12,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "RIOTORO GHOSTWRITER CLASSIC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 17.97,
+    "precio_efectivo": 29.5
+  },
+  {
+    "producto": "KFA2 STEALTH-03 / SWITCH BLUE / RETROILUMINADO / TECLADO MECANICO GAMING\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 14.44,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "XTRIKE ME GK-985P BK / TECLADO MECÁNICO / RGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 19.47,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "FANTECH K613L FIGHTER II SAKURA EDITION PINK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 21.67,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "XTRIKE ME GK-993W BK / TECLADO MECÁNICO / RGB / BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 21.89,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "RAZER CYNOSA LITE RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 20.5,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "XTRIKE ME GK-979\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 18.2,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "REDRAGON DRAGONBORN K630 RGB 60% MECANICO (RED SWITCHES)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 23.19,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "CORSAIR K55 RGB PRO LITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 21.67,
+    "precio_efectivo": 37.5
+  },
+  {
+    "producto": "XTRIKE ME GK-993W BK / TECLADO MECÁNICO / RGB / NEGRO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 37.89
+  },
+  {
+    "producto": "Logitech WIRELESS TOUCH KEYBOARD K400 PLUS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 12,
+    "margen_empresa": 0,
+    "costo_sin_iva": 15,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "Thermaltake TTesports MEKA G1 mechanical keyboard / Cherry MX Black\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22.97,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "TECLADO GAMING RGB XPG SUMMONER MINI\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 34,
+    "costo_sin_iva": 22.72,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "XPG SEEKER MERA EDITION - RGB - 100% - TACTILE MECHA-MEMBRANE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 23.33,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "ARES P1 RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 31,
+    "costo_sin_iva": 24.3,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "PRIMUS BALLISTA61T/ TKL RGB / SWITCHES ROJOS/ BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 31,
+    "costo_sin_iva": 24.3,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "PRIMUS BALLISTA61T/ TKL RGB / SWITCHES ROJOS/ NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "ZALMAN ZM-K500\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 26.46,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "RIOTORO GHOSTWRITER ELITE (Cherry MX Red)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 24.88,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "MSI FORGE GK300 GAMING / SWITCHES AZULES/ RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 27,
+    "precio_efectivo": 41
+  },
+  {
+    "producto": "RIOTORO GHOSTWRITER ELITE (Cherry MX SILENT Red)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 32.49,
+    "precio_efectivo": 47.5
+  },
+  {
+    "producto": "RAZER ORNATA X V3 - RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.41,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "HYPERX ALLOY CORE MERCO/ TECLADO DE MEMBRANA / RGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 71.22,
+    "precio_efectivo": 51
+  },
+  {
+    "producto": "LOGITECH POP EMOJI KEYS / MECÁNICO / WIRELESS / YELLOW/BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 40.33,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "LOGITECH K835 / TKL / MECÁNICO / SWITCH BLUE / GRAPHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 22,
+    "costo_sin_iva": 43.46,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "RAZER ORNATA V3 / RGB / HYBRID SWITCHES / CON REPOSAMANOS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 49.5,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "REDRAGON FIZZ PRO WIRED / BLUETOOTH\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 48.58,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "MEETION HESTIA MK005BT WIRED/BLUETOOTH\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 72.63
+  },
+  {
+    "producto": "HERMES 7 COLOR / ESPAÑOL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 20,
+    "costo_sin_iva": 52.75,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "LOGITECH G213 PRODIGY / RGB / MECH-DOME / CON REPOSAMANOS\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 78.95
+  },
+  {
+    "producto": "Logitech G105\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 78.95
+  },
+  {
+    "producto": "Logitech Prodigy G213\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 53.83,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "COOLER MASTER CK530 V2 -TKL - RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 54.22,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "Razer BlackWidow Lite Mercury\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 57.32,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "COOLER MASTER CK350 SWITCH BROWN\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 54.42,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "RAZER BLACKWIDOW LITE - TKL - BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 61.57,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "HYPERX ALLOY MKW100 / TECLADO MECÁNICO / RGB / NEGRO / SWITCHES ROJOS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60.84,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "Razer Ornata V2\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 89.47
+  },
+  {
+    "producto": "HERMES P1 RGB\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 89.47
+  },
+  {
+    "producto": "HERMES E2 7 COLOR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60.19,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "ASUS TUF Gaming K5 RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "HP OMEN SEQUENCER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 71.84,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "TRUST GXT 860 THURA TECLADO SEMI-MECÁNICO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 71.22,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "RAZER HUNTSMAN TOURNAMENT EDITION / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 20,
+    "costo_sin_iva": 79.61,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "HYPERX ALLOY ORIGINS CORE / TECLADO MECÁNICO TKL / RGB / NEGRO / SWITCHES ROJOS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 20,
+    "costo_sin_iva": 79.95,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "RAZER BLACKWIDOW V3 TENKEYLESS/ SWITCHES AMARILLOS/ RGB\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 121.05
+  },
+  {
+    "producto": "RIPJAWS KM570 MX\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 90.14,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "RAZER BLACKWIDOW V4 X/ SWITCHES VERDES/ RGB\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 131.58
+  },
+  {
+    "producto": "ZM-K900M RGB\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 131.58
+  },
+  {
+    "producto": "Logitech Gaming G413\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 90.96,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "RAZER HUNTSMAN V3 X TENKEYLESS/ SWITCHES ÓPTICOS ANALÓGICOS/ RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 93.5,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "HERMES P2 RGB (optical switches)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 156.84
+  },
+  {
+    "producto": "RIPJAWS KM570 RGB\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 163.16
+  },
+  {
+    "producto": "RIPJAWS KM780 MX\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 104.83,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "HERMES P3 RGB (low profile switches)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 12,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 188.42
+  },
+  {
+    "producto": "RIPJAWS KM780 RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 162.39,
+    "precio_efectivo": 219
+  }
+]

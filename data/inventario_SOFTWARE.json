@@ -1,0 +1,110 @@
+[
+  {
+    "producto": "ESET NOD32 Antivirus / Licencia 1 PC",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 21.27,
+    "precio_efectivo": 28.5
+  },
+  {
+    "producto": "ESET NOD32 Antivirus / Licencia 1 PC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 174,
+    "margen_empresa": 86,
+    "costo_sin_iva": 5.55,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "LICENCIA DE WINDOWS 11 PRO ORIGINAL - OEM -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 993,
+    "margen_empresa": 86,
+    "costo_sin_iva": 5.55,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "LICENCIA DE WINDOWS 10 PRO ORIGINAL - OEM -\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 35.27,
+    "precio_efectivo": 47
+  },
+  {
+    "producto": "ESET NOD32 Internet Security / Licencia 1 PC\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 43.33,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "ESET NOD32 Antivirus / Licencia 3 PCs\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 43,
+    "margen_empresa": 69,
+    "costo_sin_iva": 16,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "LICENCIA DE MICROSOFT OFFICE PROFESSIONAL PLUS 2019 - RETAIL -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 237,
+    "margen_empresa": 0,
+    "costo_sin_iva": 18.12,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "LICENCIA DE MICROSOFT OFFICE PROFESSIONAL PLUS 2021 - RETAIL -\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 83.16
+  },
+  {
+    "producto": "ESET NOD32 Internet Security / Licencia 3 PCs\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 89.47
+  },
+  {
+    "producto": "ESET NOD32 Antivirus / Licencia 5 PCs\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 135.17,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "Windows 10 Home / Licencia 1 PC\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 205.94,
+    "precio_efectivo": 275
+  },
+  {
+    "producto": "Windows 10 Pro / Licencia 1 PC\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 313.68
+  }
+]

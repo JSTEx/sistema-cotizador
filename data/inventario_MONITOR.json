@@ -1,0 +1,1631 @@
+[
+  {
+    "producto": "AOC e1670swu  - SUB HD - TN - PLANO - 15.6´´",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 66.23,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "AOC e1670swu  - SUB HD - TN - PLANO - 15.6´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 25,
+    "costo_sin_iva": 59,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "AOC 20E1H - 20´´ - HD+ 1600 x 900 - VGA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 64.24,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "Viewsonic VA1903h - HD - VA - PLANO - 19´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 72.57,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "ACER V206HQL - SUB HD - TN - PLANO - 20´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 67.43,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "LG 20MK400A-B - 20´´ - HD 1366 X 768 - VGA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 67.49,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "LG 20MK400H-B / HD / TN / 20´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 83.33,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "HP V190- HD - TN - PLANO - 18.5´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 89,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "HP 24ER - FULL HD - IPS - PLANO - 24´´",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 0
+  },
+  {
+    "producto": "HP 24ER - FULL HD - IPS - PLANO - 24´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 0
+  },
+  {
+    "producto": "SPEKZS EM-024 - FHD - VA - 24 PULG - 75HZ\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1,
+    "precio_efectivo": 1.5
+  },
+  {
+    "producto": "AOC M2470SWH - Full HD - MVA - 24´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1,
+    "precio_efectivo": 1.5
+  },
+  {
+    "producto": "AOC E2270SWN - Full HD - TN - 22´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 57,
+    "precio_efectivo": 87.5
+  },
+  {
+    "producto": "HP 21KD - FULL HD - TN - PLANO - 21´´ (Open Box/Nuevo)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 55,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "DELL P2422H - FHD - IPS - 24 PULG - 60HZ - RF\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 31,
+    "costo_sin_iva": 60.49,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "HIKVISION DS-D5022F2-1V2S - FULL HD - E-LED - 22pulg - 100hz\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 64.25,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "AOC 22B2HM2 - 22´´ - FHD - 100 Hz - VA - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9,
+    "margen_empresa": 25,
+    "costo_sin_iva": 70,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "MSI PRO MP225V - 22 - FHD - 100HZ - VA - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 71.55,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "AOC 22B35HM23 - 22´´ - FHD - 120 Hz - VA - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 67.98,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "AOC 22B3HM - FULL HD - VA - 75Hz - PLANO - 21.5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 75.49,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "ASUS VY229HE FHD IPS 22 PULG 75 HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 71,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "HP V22V G5 - FHD - 22 PULG - 75HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 69.3,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "XIAOMI A22i - FULL HD - IPS - 75 Hz - PLANO - 22\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 76.5,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "HP 22F - FULL HD - IPS - 22´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 68.64,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "MSI PRO MP233 - FHD - 22 PULG - 100HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 79.07,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "VIEWSONIC VA220-H - FHD - 100HZ - VA - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 80.25,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "Viewsonic VA2261h-2 - FULL HD - TN - PLANO - 22´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 77.27,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "MSI PRO MP2412 - FHD - VA - 24 PULG - 100HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 75,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "AOC 24B30H2 - 24´´ - FHD - 100 Hz - IPS - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 10,
+    "costo_sin_iva": 100,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "HP 22CWA - FULL HD - IPS - PLANO - 22\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 86,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "HP 22ER - FULL HD - IPS - PLANO - 22´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 73.51,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "LG 24MK430H-B - 1080p - IPS - 75Hz - PLANO - 24\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 80.15,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "MONITOR 21.5´´ LG 22MP410-B FHD 1920X1080 60 HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 81,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "HIKVISION DS-D5022FN-C - FULL HD - E-LED - 22pulg - 60hz\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 131.58
+  },
+  {
+    "producto": "SAMSUNG S22D300NY - Full HD - 22´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 90,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "*LENOVO FR C24-10 / FULL HD / TN / PLANO / 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 65,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "HIKVISION DS-D5024FN11 - FULL HD - IPS - 24PULG\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 89.74,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "XIAOMI A24i - FULL HD - IPS - 100 Hz - PLANO - 24\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 25,
+    "costo_sin_iva": 89,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "MSI PRO MP251L E2 - 25´´ - FULL HD - 120HZ - 1MS - IPS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 91,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "HP 23F - FULL HD - IPS - PLANO - 23´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 96.51,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "AOC E2270SWHN / FULL HD / TN / PLANO / 21.5´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 47,
+    "costo_sin_iva": 65,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "HIKVISION DS-D5024FN - FULL HD - IPS - 24 PULG\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 90.89,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "MSI PRO MP251W - 25´´ - FHD - 120HZ - 1MS - IPS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 94.81,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "XIAOMI MI 1C - FULL HD - IPS - PLANO - 23.8\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 32,
+    "costo_sin_iva": 85.98,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "ASROCK GAMING CL25FF - FHD - 25 PULG - 100HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 76.23,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "MSI PRO MP251 - 25´´ - FULL HD - 100HZ - 1MS - IPS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 87,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "AOC 27B30H - 27´´ - FHD - 120 Hz - IPS - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 100,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "HP V223VE - FULL HD - VA - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 95.75,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "AOC 24B3HM - FULL HD - VA - 75Hz - PLANO - 23.8\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 27,
+    "costo_sin_iva": 96,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "AOC GAMING 24G4E - 24\" - FHD - 180 Hz - IPS - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 102.33,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "Viewsonic VA2405-H 24 - FULL HD - VA - PLANO - 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 105.38,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "AOC 24B2XHM - 1080p - VA - 75HZ - PLANO - 24\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 99,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "ACER NITRO GQ1 SERIES - FHD - VA - 24 PULG - 165HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 29,
+    "costo_sin_iva": 99,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "AOC 27G4 - 27\" - FHD - 180 Hz - IPS - PLANO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 163.16
+  },
+  {
+    "producto": "SAMSUNG LS22F355FHEXXS - FULL HD - TN - 22´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 164.21
+  },
+  {
+    "producto": "HP N223v - FULL HD - TN - PLANO - 21.5´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 110.87,
+    "precio_efectivo": 165
+  },
+  {
+    "producto": "ASUS VP229HE / FULL HD / IPS / PLANO / 21.5´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25.8,
+    "costo_sin_iva": 108.32,
+    "precio_efectivo": 165
+  },
+  {
+    "producto": "MSI G255F - 25´´ - FULL HD - 180HZ - 1MS - IPS FAST\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 103.5,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "HP 23er  - FULL HD - IPS - PLANO - 23\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 105,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "AOC G2490VX - FULL HD - VA - 144Hz - 1MS - PLANO - 24\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 110.31,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "ASUS VA24EHF - FULL HD - IPS - 100 Hz - PLANO - 23.8\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 112.74,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "MSI G2412F - FHD - 24 PULG - 180HZ - RAPID IPS - ADAPTIVE SYNC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 114,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "HP 24F - FULL HD - IPS - 24\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 114,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "HP 24V - FULL HD - IPS - PLANO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 175.79
+  },
+  {
+    "producto": "Samsung LS22F355FHLXZP - FULL HD - TN - PLANO - 22´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 40,
+    "costo_sin_iva": 93.13,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "XIAOMI A27i - FULL HD - IPS - 100 Hz - PLANO - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 101.45,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "MSI PRO MP272L / IPS / FHD / 100HZ / 1MS / HDR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 184.21
+  },
+  {
+    "producto": "GW2270H\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 122,
+    "precio_efectivo": 185
+  },
+  {
+    "producto": "HP 24MH - FULL HD - IPS - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 120.87,
+    "precio_efectivo": 185
+  },
+  {
+    "producto": "HIKVISION DS-D5027FN - FULL HD - E-LED - 27 PULG\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 120,
+    "precio_efectivo": 185
+  },
+  {
+    "producto": "AOC GAMING 27G50F - 27\" - FHD - 144 Hz - IPS - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 135.19,
+    "precio_efectivo": 189
+  },
+  {
+    "producto": "HP N246v -FULL HD - IPS - PLANO - 23.8´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 122,
+    "precio_efectivo": 189
+  },
+  {
+    "producto": "HP VH240 - FULL HD - IPS - PLANO - 24\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 142.18,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "ACER V246HQL / FULL HD/ TN / PLANO / 24\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 131.57,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "ASUS VA24EHE / FULL HD / IPS - PLANO / 75HZ / 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 127.23,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "AOC 27B2H - 1080p - IPS - 75HZ - PLANO - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 134,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "ASUS VZ279HEG1R - 27´´ - FHD 1920X1080 - 75hz\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 122.08,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "MSI MAG 255XFV - 25´´ - FULL HD - 250HZ - 0.5MS - RAPID VA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 12,
+    "costo_sin_iva": 153.24,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "LG ULTRAGEAR GAMING 24GS65F-B - 24´´ - FHD - IPS - 180 Hz - PLANO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 146.1,
+    "precio_efectivo": 205
+  },
+  {
+    "producto": "SAMSUNG S24F350FHL - FULL HD - VA - 24´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 150,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "SAMSUNG C24FG70FQL - FULL HD - VA - CURVO - 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 134.99,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "VIOTEK GFV22CB / FULL HD / TN - PLANO / 144HZ / 22´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 145.98,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "ACER KG241Y - FULL HD - TFT - 165 Hz - PLANO - 23.8\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 221.05
+  },
+  {
+    "producto": "VX228H\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 163.16,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "HP 24y  - FULL HD - IPS - PLANO - 23.8´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 150,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "HP 22y - Full HD - TN - 22´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 150,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "HP 25F - FULL HD - IPS - 25´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 147.3,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "MSI G27C3F - FHD- RAPID VA - 27 PULG - 180 HZ - AMD FREESYNC\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 233.68
+  },
+  {
+    "producto": "ASUS VP247QG  - FULL HD - TN - PLANO - 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 170,
+    "precio_efectivo": 235
+  },
+  {
+    "producto": "HP 25X - FULL HD - TN - PLANO - 25´´ (Open Box/Nuevo)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 172.57,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "HP 27er  - FULL HD - IPS - PLANO - 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 156.68,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "VIEWSONIC VA2718-SH / FULL HD / IPS / PLANO / 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 156.15,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "AOC G2790VX - FULL HD - VA - 144Hz - 1MS - PLANO - 27\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 174.87,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "SAMSUNG CF390 - FULL HD - VA - CURVO - 22´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 174.87,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "SAMSUNG C24F390FHL - FULL HD - VA - CURVO - 24´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 246.32
+  },
+  {
+    "producto": "Samsung S24E650XL - FULL HD - PLS - PLANO - 24´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 251.58
+  },
+  {
+    "producto": "GW2470H\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 252.63
+  },
+  {
+    "producto": "ASUS VZ239H - FULL HD - IPS - PLANO - 23´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 172.27,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "HP 27F - FULL HD - IPS - PLANO - 27´´ (Open Box/Nuevo)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 194.85,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "Acer K272HL bd - FULL HD - IPS PLANO - 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 170.4,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "VIEWSONIC VX2458-MHD / FULL HD / TN / PLANO / 144HZ / 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 180.82,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "LG 27BK430H-B / FULL HD/ IPS / PLANO / 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 5,
+    "costo_sin_iva": 216.97,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "ZOWIE XL2411P - FULL HD - TN - 144Hz - PLANO - 24\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 175.21,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "ASUS VG27VH1B - 1080p - VA - 165Hz - CURVO - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 190.39,
+    "precio_efectivo": 275
+  },
+  {
+    "producto": "MSI OPTIX G24C4 / FULL HD/ VA / CURVO / 144Hz /24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 186.55,
+    "precio_efectivo": 275
+  },
+  {
+    "producto": "HP M27F - Full HD - IPS - 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 186.55,
+    "precio_efectivo": 275
+  },
+  {
+    "producto": "HP V27i - Full HD - IPS - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 195,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "AOC G2590FX / FULL HD / TN / PLANO / 144HZ /25´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 183.3,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "AOC 27V2H / FULL HD / IPS / PLANO / 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 186.55,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "HP 27SV - FULL HD - IPS - 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 5,
+    "costo_sin_iva": 293.54,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "ASUS TUF GAMING VG279Q1R - FULL HD - IPS - 144Hz - PLANO - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 23,
+    "costo_sin_iva": 188,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "AOC GAMING 27G4H - 27\" - FHD - 180 Hz - 1ms - VA - CURVO\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 283.16
+  },
+  {
+    "producto": "AOC M2870VHE - Full HD - MVA - 28´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 186.22,
+    "precio_efectivo": 285
+  },
+  {
+    "producto": "ACER NITRO VG270BMIIX / FULL HD / IPS - PLANO / 75HZ / 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 194.54,
+    "precio_efectivo": 285
+  },
+  {
+    "producto": "MSI OPTIX G24C6P / FULL HD /VA / CURVO / 144HZ / 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 186.55,
+    "precio_efectivo": 285
+  },
+  {
+    "producto": "HP 27M - FULL HD - IPS - 27´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 286.32
+  },
+  {
+    "producto": "HP 25er - FULL HD - IPS - PLANO - 25´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 289.47
+  },
+  {
+    "producto": "BenQ RL2455HM - Full HD - 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 205.17,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "ASUS TUF GAMING VG24VQ - FULL HD - VA - 144Hz - CURVO - 24\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 5,
+    "costo_sin_iva": 286.68,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "LG ULTRAGEAR 27GN600-B - FULL HD - IPS - 144Hz - PLANO - G-SYNC - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 192.39,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "LG 29WQ500-B - WFHD - IPS - 100Hz - ULTRAWIDE - PLANO - 29\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 216.57,
+    "precio_efectivo": 305
+  },
+  {
+    "producto": "MSI OPTIX G241 / FULL HD / IPS - PLANO / 144HZ / 23.8´´ + MOUSE CLUTCH GM08\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 209.67,
+    "precio_efectivo": 309
+  },
+  {
+    "producto": "ASUS TUF GAMING VG24VQE - FULL HD - VA - CURVO - 165Hz - 24\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 231.22,
+    "precio_efectivo": 319
+  },
+  {
+    "producto": "HP 27y - FULL HD - ADS-IPS - PLANO - 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 225.96,
+    "precio_efectivo": 319
+  },
+  {
+    "producto": "SAMSUNG 32 CR500 / FULL HD / VA / CURVO / 32´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 233.55,
+    "precio_efectivo": 325
+  },
+  {
+    "producto": "HP 27y - FULL HD - IPS - 27pulg\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 336.84
+  },
+  {
+    "producto": "ASUS MX239H - Full HD - IPS - 23´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 240,
+    "precio_efectivo": 339
+  },
+  {
+    "producto": "Acer B277 bmiprzx - FULL HD - IPS - 27pulg - 75hz\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 262.93,
+    "precio_efectivo": 349
+  },
+  {
+    "producto": "Acer GN246HL - FULL HD - TN - PLANO - 24´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 269.13,
+    "precio_efectivo": 359
+  },
+  {
+    "producto": "ACER KG271 - FULL HD - TN - PLANO - 27´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 368.42
+  },
+  {
+    "producto": "ASUS MX259H - Full HD - IPS - 25´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 247.6,
+    "precio_efectivo": 375
+  },
+  {
+    "producto": "MSI MAG273R / FULL HD /IPS / PLANO / 144HZ / 27´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 384.21
+  },
+  {
+    "producto": "G2460PQU\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 388.42
+  },
+  {
+    "producto": "MSI Optix G24C - FULL HD - VA - CURVO- 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 279,
+    "precio_efectivo": 395
+  },
+  {
+    "producto": "AOC 27G2 / FULL HD/ FAST IPS / PLANO / 144Hz / 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 265.98,
+    "precio_efectivo": 399
+  },
+  {
+    "producto": "MSI OPTIX / FULL HD / IPS - PLANO / 144HZ / 27´´ + MOUSE CLUTCH GM08\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 278.81,
+    "precio_efectivo": 405
+  },
+  {
+    "producto": "AOC AGON C27G2Z - FULL HD - VA - 240Hz - CURVO - 27\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 415.79
+  },
+  {
+    "producto": "ASUS MX279H - Full HD - IPS - 27´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 319.01,
+    "precio_efectivo": 425
+  },
+  {
+    "producto": "Samsung C32F391FWL - Full HD - VA - CURVO - 32´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 460
+  },
+  {
+    "producto": "ASUS VG248QE - Full HD - 144hz - 24´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 331.85,
+    "precio_efectivo": 489
+  },
+  {
+    "producto": "ASUS TUF GAMING VG259QM / FULL HD/ FAST IPS / PLANO / 280Hz / 25´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 355.93,
+    "precio_efectivo": 495
+  },
+  {
+    "producto": "SAMSUNG C27F591FDL - FULL HD - VA - CURVO - 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 348.99,
+    "precio_efectivo": 499
+  },
+  {
+    "producto": "MSI OPTIX MAG270VC2 / FULL HD / VA - CURVO / 165HZ / 27´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 526.32
+  },
+  {
+    "producto": "MSI Optix G27C2 - FULL HD - VA - CURVO- 27´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 543.16
+  },
+  {
+    "producto": "MSI Optix AG32C - FULL HD - VA - CURVO- 31.5´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 597.89
+  },
+  {
+    "producto": "ASUS PA248Q - WUXGA - A+IPS - 24.1´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 610.53
+  },
+  {
+    "producto": "ASUS VG278HV - Full HD - 144hz - 27´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 613.68
+  },
+  {
+    "producto": "MSI Optix MAG27C - FULL HD - VA - CURVO - 27´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 552.38,
+    "precio_efectivo": 735
+  },
+  {
+    "producto": "LG UltraWide 26WQ500-B - WFHD - 26 PULG - 75HZ - IPS - FREESYNC",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 172
+  },
+  {
+    "producto": "LG UltraWide 26WQ500-B - WFHD - 26 PULG - 75HZ - IPS - FREESYNC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 148.88,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "MSI PRO MP275Q - 27´´ - WQHD - 100HZ - 1MS - IPS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 185.13,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "MSI MAG 27CQ6F - WQHD - RAPID VA - 180 Hz - CURVO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 175.97,
+    "precio_efectivo": 285
+  },
+  {
+    "producto": "GIGABYTE GS27QC - 27´´ - WQHD (2K) - 165HZ - 1MS - 1500R VA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 190.8,
+    "precio_efectivo": 289
+  },
+  {
+    "producto": "SAMSUNG ODYSSEY G5 - 27\" - WQHD - VA - 1000R\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 233.48,
+    "precio_efectivo": 329
+  },
+  {
+    "producto": "LG ULTRAGEAR 27GR75Q-B - 2K - IPS - 165Hz - PLANO - G-SYNC - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 214.35,
+    "precio_efectivo": 329
+  },
+  {
+    "producto": "GIGABYTE GS27Q GAMING - QHD - 27 PULG - 165HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 188.62,
+    "precio_efectivo": 335
+  },
+  {
+    "producto": "MSI Optix G27CQ4  E2- 2K - VA - CURVO - 170 HZ - 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 16,
+    "costo_sin_iva": 247.55,
+    "precio_efectivo": 335
+  },
+  {
+    "producto": "LG ULTRAGEAR GAMING 27GS75Q-B - 27´´ - QHD - IPS - 180 Hz - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 230.92,
+    "precio_efectivo": 349
+  },
+  {
+    "producto": "VIEWSONIC VA2719-2K-SMHD / 2K - QHD / IPS / PLANO / 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22.5,
+    "costo_sin_iva": 242.13,
+    "precio_efectivo": 355
+  },
+  {
+    "producto": "MSI MAG 32CQ6F - 31.5´´ - WQHD - 180 Hz - 1MS - RAPID VA - CURVO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 248.08,
+    "precio_efectivo": 375
+  },
+  {
+    "producto": "ASUS TUF GAMING VG32AQA1A - 32´´ - WQHD - VA - 170 Hz - PLANO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 236.82,
+    "precio_efectivo": 375
+  },
+  {
+    "producto": "LG-32GN600-B GAMING - QHD - VA - 32PLG - 165 HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 256.96,
+    "precio_efectivo": 389
+  },
+  {
+    "producto": "ASUS TUF VG27Q1B / 2K /VA / CURVO / 165HZ / 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 279,
+    "precio_efectivo": 395
+  },
+  {
+    "producto": "AOC GAMING AGON AG271QX - QHD - TN - 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 314.82,
+    "precio_efectivo": 445
+  },
+  {
+    "producto": "IDEA DISPLAY G27Q - 1440p - VA - 170HZ - PLANO - RGB - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 315.95,
+    "precio_efectivo": 449
+  },
+  {
+    "producto": "GALAX VIVANCE-01 - 1440p - IPS - 165HZ - PLANO - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 307.97,
+    "precio_efectivo": 465
+  },
+  {
+    "producto": "GIGABYTE M32QC-SA - 2K - VA - 165Hz - CURVO - 32\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 316.38,
+    "precio_efectivo": 479
+  },
+  {
+    "producto": "ASUS ROG STRIX XG32WCS - CURVO - 2560x1440 - 32 PULG - 180HZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 364.38,
+    "precio_efectivo": 499
+  },
+  {
+    "producto": "SAMSUNG G5 ODYSSEY - 1440p - VA - 144HZ - CURVO - 27\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 336.66,
+    "precio_efectivo": 499
+  },
+  {
+    "producto": "AOC CQ32G1 / QHD / VA / CURVO / 144HZ /32´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 424.8,
+    "precio_efectivo": 645
+  },
+  {
+    "producto": "LG GAMING ULTRAGEAR 27GL850-B / QHD / NANO IPS / PLANO / 27´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 449.07,
+    "precio_efectivo": 679
+  },
+  {
+    "producto": "ASUS TUF GAMING VG32VQ1B / WQHD / VA / CURVO / 32´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 778
+  },
+  {
+    "producto": "ASUS TUF GAMING VG289Q1A /4k / IPS / PLANO / 28´´",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 339.55,
+    "precio_efectivo": 479
+  },
+  {
+    "producto": "ASUS TUF GAMING VG289Q1A /4k / IPS / PLANO / 28´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 511.58
+  },
+  {
+    "producto": "Samsung UE590 - 4K - TN - PLANO - 28´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 495,
+    "precio_efectivo": 685
+  },
+  {
+    "producto": "LG 34UB88-P - 4K - ULTRAWIDE - IPS - 34´´\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 539.81,
+    "precio_efectivo": 699
+  },
+  {
+    "producto": "TCL 50S546 50 - QLED - 4K - GOOGLE TV - 50´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 950
+  },
+  {
+    "producto": "HP ENVY 27 - QHD - IPS - 27´´\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 1475.79
+  },
+  {
+    "producto": "LG UltraWide 26WQ500-B - UWFHD - 26 PULG - 75HZ - IPS - FREESYNC",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 27,
+    "costo_sin_iva": 147,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "LG UltraWide 26WQ500-B - UWFHD - 26 PULG - 75HZ - IPS - FREESYNC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 19,
+    "costo_sin_iva": 420.78,
+    "precio_efectivo": 589
+  },
+  {
+    "producto": "LG ULTRAGEAR GAMING 34GP63A-B - 34´´ - UWQHD - VA - 160 Hz - CURVO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 10,
+    "costo_sin_iva": 1500,
+    "precio_efectivo": 1885
+  }
+]

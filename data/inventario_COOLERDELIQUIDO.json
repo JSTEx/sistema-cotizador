@@ -1,0 +1,137 @@
+[
+  {
+    "producto": "Thermaltake TH120 V2 ARGB AIO - 120mm",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 34,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "Thermaltake TH120 V2 ARGB AIO - 120mm\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 21,
+    "margen_empresa": 0,
+    "costo_sin_iva": 34.15,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "EAGLE WARRIOR FROSTBITE HL240 RGB / 240MM / PANTALLA DIGITAL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 20,
+    "margen_empresa": 35.34,
+    "costo_sin_iva": 54.36,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "ZALMAN ALPHA2 V2 A24 BLACK / PANTALLA DIGITAL / 240MM / LEDS ARGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 55,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "DEEPCOOL LE520 (GAMMAXX SERIES) - 240MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 12,
+    "margen_empresa": 30,
+    "costo_sin_iva": 60.77,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "COOLER MASTER MASTERLIQUID CORE NEX 240 ARGB / 240MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 7,
+    "margen_empresa": 30,
+    "costo_sin_iva": 66.71,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "COOLER MASTER MASTERLIQUID 240L CORE ARGB / 240MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 32,
+    "costo_sin_iva": 71.07,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "COOLER MASTER MASTERLIQUID CORE NEX 360 ARGB / 360MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 93.38,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "RAIDMAX INFINITA LS360 ARGB BLACK (360mm)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 5,
+    "costo_sin_iva": 120.33,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "COOLER MASTER MASTERLIQUID ML240 CORE MIRROR ARGB - 240MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 96.96,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "ZALMAN RESERATOR5 Z36 WHITE ARGB 360MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 25,
+    "costo_sin_iva": 102.23,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "CORSAIR NAUTILUS 360 RS AIO / 360MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 24,
+    "margen_empresa": 31.8,
+    "costo_sin_iva": 95.88,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "ZALMAN ALPHA2 DS A24 BLACK / PANTALLA IPS PERSONALIZABLE Y DESPLEGABLE / 240MM / LEDS ARGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 112.11,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "DEEPCOOL LT360 (INFINITY SERIES) - 360MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 6,
+    "margen_empresa": 35.74,
+    "costo_sin_iva": 99.51,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "ZALMAN ALPHA2 DS A36 BLACK / PANTALLA IPS PERSONALIZABLE Y DESPLEGABLE / 360MM / LEDS ARGB / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 33.25,
+    "costo_sin_iva": 103.37,
+    "precio_efectivo": 175
+  }
+]
