@@ -1,0 +1,974 @@
+[
+  {
+    "producto": "COSAIR M",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 0
+  },
+  {
+    "producto": "COSAIR M\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 25,
+    "costo_sin_iva": 13.65,
+    "precio_efectivo": 21
+  },
+  {
+    "producto": "ALMOHADILLA REPOSACODOS/ REPOSAMUÑECAS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 29,
+    "costo_sin_iva": 18.05,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "SOPORTE ERGONÓMICO PARA BRAZO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 54,
+    "costo_sin_iva": 14.07,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "COJIN ERGONÓMICO MEMORY FOAM EN U - NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 57,
+    "costo_sin_iva": 17.06,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "COJIN ERGONÓMICO MEMORY FOAM - GRIS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 57,
+    "costo_sin_iva": 17.06,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "COJIN ERGONÓMICO MEMORY FOAM - NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 35,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "ESCRITORIO DE ACERO Y MADERA XTECH XTF-CD203\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 48.35,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "ESCRITORIO XTECH LOMBARDI/ NEGRO/ VIDRIO TEMPLADO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 40,
+    "costo_sin_iva": 41.19,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "COJIN ERGONÓMICO CON COOLING GEL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 35,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "ESCRITORIO GAMING MODEL P1\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 65,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "Silla KARNA Warrior GA201 Black\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 32,
+    "costo_sin_iva": 59.49,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "XTRIKE-ME GC-803 GRAY\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 32,
+    "costo_sin_iva": 59.49,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "XTRIKE-ME GC-803 RED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 37,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "ESCRITORIO GAMING MODEL C2\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 76.97,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "POLAR AURORA TABLE Y ESCRITORIO GAMER / BLACK / 42 pulg\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 20,
+    "costo_sin_iva": 79.17,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "ESCRITORIO PARA PC MAMORU DE MADERA Y ACERO - W113309140\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 85,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "XTRIKE-ME GC-911 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 81.25,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "EAGLE WARRIOR GC-2133 BLACK-WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 89.79,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "HOMALL COMPUTER TABLE Z ESCRITORIO GAMER / BLACK / 43 pulg\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 95.3,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "RAIDMAX DK260 WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 95.3,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "RAIDMAX DK260 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 60,
+    "costo_sin_iva": 48.35,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "ESCRITORIO DE VIDRIO, ACERO Y MADERA XTECH CT-1211\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 100,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "XTRIKE-ME GC-909 GREEN\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 104.6,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "MEETION E-SPORT CHR05 MESH / ORANGE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 94.38,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "RAIDMAX DK290 AQUA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 102.64,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "FURMAX RACING TABLE Y ESCRITORIO GAMER / BLACK / 43 pulg\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18,
+    "costo_sin_iva": 110,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "XTRIKE ME DK-01 BLACK / ESCRITORIO GAMER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 27,
+    "costo_sin_iva": 97,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "ESCRITORIO DE VIDRIO Y MADERA XTECH XTF-CF197\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 10,
+    "costo_sin_iva": 122.75,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "STAND PARA MONITOR Y TV LANCAER - NEGRO - W006112330\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 113.23,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "AEROCOOL THUNDERX3 ED5 BLACK/ ESCRITORIO GAMER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 111.94,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "ESCRITORIO PARA PC SMOTHERMAN - W110004068 - NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 115.14,
+    "precio_efectivo": 165
+  },
+  {
+    "producto": "ESCRITORIO PARA PC SMOTHERMAN - W110004068 - BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 115.14,
+    "precio_efectivo": 165
+  },
+  {
+    "producto": "ESCRITORIO GAMING CON LUZ LED Y ESTACIÓN DE CARGA - W111503471 - NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 112.23,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "LIKE REGAL EXECUTIVE GAMING CHAIR RED/BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 111,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "Silla ALVAR Warrior GA218\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 110,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "XTRIKE ME DK-05 BLACK RGB/ ESCRITORIO GAMER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 116.82,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "RAIDMAX DK602 WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 121.54,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "ESCRITORIO PARA PC L-SHAPE - W112731789 - BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 117.99,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "RAIDMAX DK602 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 118.24,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "RAIDMAX DK602 RED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 10,
+    "costo_sin_iva": 148.6,
+    "precio_efectivo": 189
+  },
+  {
+    "producto": "STAND PARA MONITOR Y TV CHERREE - JJP10565 - MADERA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 152.63,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "ACHILLES E3-L RGB GAMING CHAIR / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 152.63,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "ACHILLES E3-L RGB GAMING CHAIR / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 152.63,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "ACHILLES E3-L RGB GAMING CHAIR / RED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 128.4,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "ESCRITORIO ELÉCTRICO FURMAX - NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 140.97,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "GREESUM TABLE Z ESCRITORIO GAMER / BLACK / 44 PULG\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 141.35,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "SOGES TABLE Z ESCRITORIO GAMER / BLACK / 43 PULG\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 140.71,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "RIOTORO SPITFIRE M1.2 MESH BLACK/RED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 26,
+    "costo_sin_iva": 128.87,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "ESCRITORIO GAMING L-SHAPE ZERO SHERRI - BLANCO Y NEGRO - W002502307\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 201
+  },
+  {
+    "producto": "SILLA GAMING PRIMUS THRONOS 100T/ BLANCO GRIS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 1,
+    "costo_sin_iva": 175.49,
+    "precio_efectivo": 205
+  },
+  {
+    "producto": "KPC-KAWAII GAMING CHAIR / REBEL FUN PINK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 138,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "RAIDMAX DK802 SOFT FABRIC - PINK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 15,
+    "costo_sin_iva": 157.3,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "SILLA ERGONÓMICA PARA OFICINA NAHJEE - BLANCO Y BEIGE - W112380120\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 15,
+    "costo_sin_iva": 155.41,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "SILLA ERGONÓMICA PARA OFICINA NAHJEE - GRIS - W112380120\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 147.36,
+    "precio_efectivo": 215
+  },
+  {
+    "producto": "MEETION E-PORT CHR15 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 147.79,
+    "precio_efectivo": 215
+  },
+  {
+    "producto": "MEETION E-PORT CHR15 WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 151.74,
+    "precio_efectivo": 215
+  },
+  {
+    "producto": "VITESSE KAWAII TABLE T ESCRITORIO GAMER / PINK REBEL FUN / 40 PULG\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 20,
+    "costo_sin_iva": 149.72,
+    "precio_efectivo": 215
+  },
+  {
+    "producto": "ESCRITORIO PARA PC L-SHAPE ACERO Y MADERA - W009950253\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 147,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "RAIDMAX DK802 SOFT FABRIC - BLUE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 183.84,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "SILLA EJECUTIVA - AZUL - W112585023\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 5,
+    "costo_sin_iva": 183.84,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "SILLA EJECUTIVA - IVORY - W112585023\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 148.82,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "RAIDMAX A606-1 PREMIUM FABRIC CHAIR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 147,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "RAIDMAX DK802 SOFT FABRIC - GRAY\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 10,
+    "costo_sin_iva": 176.87,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "STAND PARA MONITOR Y TV ALANI - W003213391 - BLANCO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 159.9,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "ZELUS E1-L GAMING CHAIR / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 159.9,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "ZELUS E1-L GAMING CHAIR / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 141.19,
+    "precio_efectivo": 229
+  },
+  {
+    "producto": "FURMAX PROFESSIONAL RACING SERIES - BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 151.62,
+    "precio_efectivo": 235
+  },
+  {
+    "producto": "SILLA ERGONÓMICA PARA OFICINA - GRIS - W100287264\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 167,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "MEETION E-SPORT CHR16 PINK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 169.77,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "RAIDMAX DK709 BROWN\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 20,
+    "costo_sin_iva": 170.57,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "ESCRITORIO MINIMALISTA PARA PC - BLACK - W112731236\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 33,
+    "costo_sin_iva": 146.4,
+    "precio_efectivo": 249
+  },
+  {
+    "producto": "RAIDMAX DK719 SOFT FABRIC - GRAY\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 18,
+    "costo_sin_iva": 180,
+    "precio_efectivo": 249
+  },
+  {
+    "producto": "STAND PARA MONITOR Y TV LABELLE BRANDERBURG - COLOR MADERA - W112359541\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 20,
+    "costo_sin_iva": 180.05,
+    "precio_efectivo": 255
+  },
+  {
+    "producto": "ESCRITORIO PARA PC CON GAVETAS L-SHAPE - BLANCO - W112359831\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 144.44,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "VON RACER 8280 BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 182.73,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "MEETION E-SPORT CHR22 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 160.62,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "RAIDMAX DK729 - GRAY\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 170.57,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "ESCRITORIO GAMING L-SHAPE CON LUCES - NEGRO- W113705458\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 20,
+    "costo_sin_iva": 184.83,
+    "precio_efectivo": 265
+  },
+  {
+    "producto": "ESCRITORIO PARA PC RICKARD - CAFÉ RÚSTICO - W100256614\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 20,
+    "costo_sin_iva": 187.11,
+    "precio_efectivo": 265
+  },
+  {
+    "producto": "ESCRITORIO PARA PC CHANNAY - W005849507 - NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 177.62,
+    "precio_efectivo": 269
+  },
+  {
+    "producto": "MEETION E-SPORT CHR15 RED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 190.42,
+    "precio_efectivo": 275
+  },
+  {
+    "producto": "ACHILLES E1-L RGB GAMING CHAIR / BLUE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 183.5,
+    "precio_efectivo": 275
+  },
+  {
+    "producto": "ZIMOS SIRIO SILLA GAMING (BLACK / ORANGE)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 195.16,
+    "precio_efectivo": 275
+  },
+  {
+    "producto": "RAIDMAX DK925 BLACK RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 180.84,
+    "precio_efectivo": 275
+  },
+  {
+    "producto": "RAIDMAX DK719 SOFT FABRIC - BLUE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 278.95
+  },
+  {
+    "producto": "ACHILLES E1-L RGB GAMING CHAIR / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 194.83,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "VIVO TABLE Z ESCRITORIO GAMER /LED RED/ BLACK / 47 PULG\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 194.42,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "COOLER MASTER CALIBER R2 PURPLE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 182.32,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "RAIDMAX DK729 - BROWN\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 197.11,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "ESCRITORIO EJECUTIVO L-SHAPE REVERSIBLE AFJOL - BLANCO - W111279748\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 197.23,
+    "precio_efectivo": 289
+  },
+  {
+    "producto": "COOLER MASTER CALIBER R2 BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 193.66,
+    "precio_efectivo": 289
+  },
+  {
+    "producto": "COOLER MASTER CALIBER R2 GRAY\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 250,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "PREMIUM GAMING CHAIR AURORA WHITE BRD RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 212.32,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "MEETION CHR25 ORANGE CON SISTEMA DE MASAJE / TELA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 199.72,
+    "precio_efectivo": 309
+  },
+  {
+    "producto": "CORSAIR T3 RUSH - GRAY/CARBON\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 191.32,
+    "precio_efectivo": 315
+  },
+  {
+    "producto": "VON RACER 8280 PINK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 26,
+    "costo_sin_iva": 212.27,
+    "precio_efectivo": 325
+  },
+  {
+    "producto": "ESCRITORIO GAMER CON GAVETAS - BLACK - W112447803\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 218.87,
+    "precio_efectivo": 329
+  },
+  {
+    "producto": "CORSAIR T3 RUSH - GRAY/WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 250,
+    "precio_efectivo": 335
+  },
+  {
+    "producto": "PREMIUM GAMING CHAIR AURORA RED EYE RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 250,
+    "precio_efectivo": 335
+  },
+  {
+    "producto": "PREMIUM GAMING CHAIR AURORA BLACK BRD RGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 198.83,
+    "precio_efectivo": 345
+  },
+  {
+    "producto": "ATELERIX VENTRIS NOIR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 246.39,
+    "precio_efectivo": 349
+  },
+  {
+    "producto": "ESCRITORIO GAMING CON LUCES Y GAVETAS - WHITE - W111713487\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 20,
+    "costo_sin_iva": 252.08,
+    "precio_efectivo": 359
+  },
+  {
+    "producto": "ESCRITORIO MINIMALISTA DE MADERA DE PINO CON GAVETAS - BLANCO - W100301686\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 287.64,
+    "precio_efectivo": 415
+  },
+  {
+    "producto": "ACHILLES E1-L RGB GAMING CHAIR / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 287.64,
+    "precio_efectivo": 415
+  },
+  {
+    "producto": "ACHILLES E1-L RGB GAMING CHAIR / RED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 287.64,
+    "precio_efectivo": 415
+  },
+  {
+    "producto": "ACHILLES P1-L RGB GAMING CHAIR / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 287.64,
+    "precio_efectivo": 415
+  },
+  {
+    "producto": "ACHILLES P1-L RGB GAMING CHAIR / RED\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 287.64,
+    "precio_efectivo": 419
+  }
+]

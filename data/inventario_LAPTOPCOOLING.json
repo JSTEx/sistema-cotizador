@@ -1,0 +1,173 @@
+[
+  {
+    "producto": "X-TECH XTA-150",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 5.78,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "X-TECH XTA-150\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 31,
+    "costo_sin_iva": 10,
+    "precio_efectivo": 16.5
+  },
+  {
+    "producto": "ZALMAN NC1000-B ULTRA QUIET / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 31,
+    "costo_sin_iva": 15,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "ZALMAN NC1500-W ULTRA QUIET / WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 20,
+    "costo_sin_iva": 17.67,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "ZALMAN NC1500 MINI ULTRA QUIET / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 31,
+    "costo_sin_iva": 15,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "ZALMAN NC1000-S ULTRA QUIET / SILVER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 17.67,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "ZALMAN NC1500-B ULTRA QUIET / BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 26.32
+  },
+  {
+    "producto": "LEPAD A15\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 13,
+    "margen_empresa": 38,
+    "costo_sin_iva": 15.82,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "ZALMAN ZM-NS2000 / AJUSTABLE A 4 NIVELES / USB HUB / CONTROLADOR DE FAN / 17\" MAX\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 17,
+    "costo_sin_iva": 22,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "KLIP XTREME KNS 110B/ VENTILADOR / 4 PUERTOS USB / 17´´ / NEGRO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 30.53
+  },
+  {
+    "producto": "ZALMAN NC3 COOLER / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 14,
+    "margen_empresa": 40,
+    "costo_sin_iva": 18.55,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "ZALMAN ZM-NS3000 / AJUSTABLE A 6 NIVELES / USB HUB / CONTROLADOR DE FAN / 17\" MAX\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10.17,
+    "precio_efectivo": 37.5
+  },
+  {
+    "producto": "ZALMAN ZM-NS2000\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 24,
+    "costo_sin_iva": 26,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "ZALMAN NS100F ADJUSTABLE STAND NOTEBOOK COOLER\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 47,
+    "costo_sin_iva": 18.72,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "ZALMAN ZM-NC2000NT ULTRA SLIM / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 28.39,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "NotePal X3\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 47,
+    "costo_sin_iva": 18.72,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "ZALMAN NC300U COOLER / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 42.09
+  },
+  {
+    "producto": "ZALMAN NC3500 TURBO COOLING / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23.5,
+    "costo_sin_iva": 33,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "ZALMAN NC3500-PLUS PREMIUM COOLER / BLACK\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 78.95
+  }
+]

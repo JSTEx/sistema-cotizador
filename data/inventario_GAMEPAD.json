@@ -1,0 +1,110 @@
+[
+  {
+    "producto": "REDRAGON G807 SATURN USB",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10.71,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "REDRAGON G807 SATURN USB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 18.89,
+    "precio_efectivo": 22
+  },
+  {
+    "producto": "TRUST GXT 24 Runa Compact Gamepad\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22.79,
+    "precio_efectivo": 26.5
+  },
+  {
+    "producto": "TRUST GXT 540 YULA GAMEPAD\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 39,
+    "costo_sin_iva": 15.53,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "REDRAGON G808 HARROW INALAMBRICO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 25,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "LOGITECH F310 / USB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 34.86,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "MSI FORCE GC20\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 21.5,
+    "costo_sin_iva": 39.71,
+    "precio_efectivo": 57.5
+  },
+  {
+    "producto": "MSI FORCE GC30 V2 WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 42.65,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "MSI FORCE GC30\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "LOGITECH F710 / WIRELESS\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.31,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "DRIVING FORCE SHIFTER G29\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60.17,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "XBOX SERIES X|S CONTROLLER CARBON BLACK - WIRELESS\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 299.5,
+    "precio_efectivo": 399
+  }
+]

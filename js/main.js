@@ -2,6 +2,7 @@ initDarkMode();
 
 document.addEventListener("DOMContentLoaded", () => {
     cargarHistorialLocal();
+    cargarInventario();
     const list = document.getElementById("cotizaciones-list");
     list.innerHTML = crearCotizadorHTML(0);
     inicializarCotizador(0);

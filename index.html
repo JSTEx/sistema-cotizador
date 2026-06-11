@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/features/menu-historial-theme.css" />
     <link rel="stylesheet" href="css/features/modal.css" />
     <link rel="stylesheet" href="css/features/calculadora.css" />
+    <link rel="stylesheet" href="css/features/chat.css" />
 </head>
 
 <body>
@@ -252,11 +253,36 @@
                 </div>
             </div>
         </div>
+        <div id="chat-panel" class="chat-panel">
+            <div class="chat-header">
+                <h3>Chat de inventario</h3>
+                <p>Haz preguntas sobre los productos y el inventario.</p>
+            </div>
+            <div class="chat-mode">
+                <label for="chat-mode-select">Modo de respuesta:</label>
+                <select id="chat-mode-select" onchange="actualizarModoChat(this.value)">
+                    <option value="auto">IA / Local</option>
+                    <option value="ia">Solo IA</option>
+                    <option value="local">Solo local</option>
+                </select>
+            </div>
+            <div id="chat-messages" class="chat-messages">
+                <div class="chat-message chat-assistant">Bienvenido. Escribe tu pregunta para obtener información del inventario.</div>
+            </div>
+            <form id="chat-form" class="chat-form" onsubmit="enviarPreguntaChat(event)">
+                <input id="chat-input" type="text" placeholder="¿Qué deseas saber?" autocomplete="off" />
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="chat-footer">
+                <small>Modo: <span id="chat-mode-label">IA / Local</span>. Usa IA si está disponible, de lo contrario busca localmente.</small>
+            </div>
+        </div>
     </div>
     <script src="js/core/state.js"></script>
     <script src="js/features/cotizador.js"></script>
     <script src="js/features/historial.js"></script>
     <script src="js/features/calculadora.js"></script>
+    <script src="js/features/chat.js"></script>
     <script src="js/ui/menu.js"></script>
     <script src="js/ui/theme.js"></script>
     <script src="js/main.js"></script>

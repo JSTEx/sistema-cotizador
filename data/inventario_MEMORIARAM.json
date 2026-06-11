@@ -1,0 +1,1604 @@
+[
+  {
+    "producto": "4 GB",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 19.63,
+    "precio_efectivo": 28
+  },
+  {
+    "producto": "4GB Kingston ValueRAM (1X4GB) 2400MHZ CL17 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 25.8,
+    "precio_efectivo": 34.5
+  },
+  {
+    "producto": "4GB KINGSTON HyperX FURY (1X4GB) 2400MHZ CL15 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 64.21
+  },
+  {
+    "producto": "8 GB",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 0
+  },
+  {
+    "producto": "8GB CRUCIAL BALLISTIX SPORT LT GRAY (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10.78,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "8GB KINGSTON KVR (1x8GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 15.58,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "8GB PATRIOT VIPER 4 STELL HS (1X8GB) 3600MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 15.95,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "8GB XPG GAMMIX D35 BLACK (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 40,
+    "costo_sin_iva": 15.25,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "8GB PATRIOT SIGNATURE LINE (1X8GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 17.96,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "8GB PATRIOT SIGNATURE PREMIUM (1X8GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 16.78,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "KINGSTON FURY BEAST 8GB 3200MHZ\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 15.85,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "8GB XPG GAMMIX D35 WHITE (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 22.34,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "8GB XPG SPECTRIX D41 (1X8GB) 3200MHZ CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 19.98,
+    "precio_efectivo": 32.5
+  },
+  {
+    "producto": "8GB CORSAIR VENGEANCE LPX (1x8GB) 3600MHz CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 19.49,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "8GB KINGSTON HyperX FURY (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 17.24,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "8GB PATRIOT VIPER ELITE II (1X8GB) 3200MHZ CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 22.54,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "8GB CORSAIR VENGEANCE LPX (1x8GB) 3200MHz CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 34.5,
+    "costo_sin_iva": 20.15,
+    "precio_efectivo": 35
+  },
+  {
+    "producto": "8GB XPG GAMMIX D20 (1X8GB) 3200MHZ CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 45,
+    "costo_sin_iva": 18.77,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "8GB PATRIOT VIPER STEEL (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22.17,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "8GB KINGSTON FURY RGB (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 62,
+    "costo_sin_iva": 15,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "32GB KINGSTON KVR (1x32GB) 3200MHz CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 38,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "8GB KINGSTON HyperX FURY (1X8GB) 2666MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 39,
+    "precio_efectivo": 57.5
+  },
+  {
+    "producto": "8GB Kingston ValueRAM (1X8GB) 2400MHZ CL17 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.77,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "8GB CRUCIAL BALLISTIX SPORT LT WHITE (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 38.43,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "16GB XPG GAMMIX D20 (1X16GB) 3200MHZ CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 42.19,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "8GB KINGSTON HyperX FURY RGB (1X8GB) 3000MHZ CL15 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "8GB CRUCIAL BALLISTIX SPORT (1X8GB) 2666MHZ CL16 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 43.84,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "8GB Corsair VENGEANCE LPX (1x8GB) 2666MHZ CL16 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 8,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 62.11
+  },
+  {
+    "producto": "8GB G.SKILL RIPJAWS V (2X4GB) 2133MHZ CL15 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 40.17,
+    "precio_efectivo": 62.5
+  },
+  {
+    "producto": "8GB G.SKILL VALUE HIGH PERFORMANCE (1x8GB) 2666MHZ CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 44.35,
+    "precio_efectivo": 62.5
+  },
+  {
+    "producto": "8GB KINGSTON HyperX FURY (1X8GB) 3000MHZ CL15 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 32.5,
+    "precio_efectivo": 62.5
+  },
+  {
+    "producto": "8GB XPG HUNTER (1x8GB) 3000MHZ CL16 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.18,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "8GB G.SKILL RIPJAWS V (1X8GB) 2800MHZ CL17 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 76,
+    "costo_sin_iva": 13.33,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "8GB HIKSEMI ARMOR (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 40.96,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "8GB PATRIOT VIPER STEEL RGB (1x8GB) 3600MHz CL20 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 49.17,
+    "precio_efectivo": 67.5
+  },
+  {
+    "producto": "8GB KINGSTON HyperX FURY (1X8GB) 2133MHZ CL14 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46.08,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "8GB PNY XLR8 Gaming EPIC-X RGB (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 49.4,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "8GB KINGSTON HyperX FURY RGB (1X8GB) 2666MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 48,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "8GB KINGSTON HyperX Predator (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.68,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "8GB KINGSTON HyperX FURY RGB (1X8GB) 3466MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 47.12,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "8GB CRUCIAL BALLISTIX TACTICAL TRACER RGB (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 49,
+    "costo_sin_iva": 37.94,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "8GB HIKSEMI FUTURE RGB (1X8GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46.5,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "8GB HIKSEMI AKIRA RGB (1X8GB) 3200MTS - DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 35,
+    "costo_sin_iva": 54.08,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "8GB CORSAIR VENGEANCE LPX (1X8GB) 2400MHZ CL16 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 102.63
+  },
+  {
+    "producto": "8GB KINGSTON HyperX Predator RGB (1x8GB) 2933MHZ CL15 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 104.21
+  },
+  {
+    "producto": "8GB G.SKILL TRIDENT Z (2X4GB) 3000MHZ CL15 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 107.37
+  },
+  {
+    "producto": "8GB ADATA XPG Flame (1X8GB) 2400MHZ CL16 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 136.83
+  },
+  {
+    "producto": "16GB G.SKILL RIPJAWS V (2X8GB) 2133MHZ CL15 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 20,
+    "costo_sin_iva": 97.07,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "8GB KINGSTON FURY BEAST RGB (1X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 101.42,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "16GB KINGSTON HyperX FURY RGB (1X16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 87,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "16GB KINGSTON HyperX FURY (1X16GB) 2666MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 15,
+    "costo_sin_iva": 110.89,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "8GB Kingston ValueRAM (1X8GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 152.63
+  },
+  {
+    "producto": "8GB G.SKILL TRIDENT Z (2X4GB) 3600MHZ CL17 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 101.5,
+    "precio_efectivo": 189
+  },
+  {
+    "producto": "16 GB",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 28.64,
+    "precio_efectivo": 43.5
+  },
+  {
+    "producto": "16GB PATRIOT SIGNATURE PREMIUM (1X16GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 18.31,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "16GB PATRIOT VIPER STEEL (1X16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 52,
+    "costo_sin_iva": 19.07,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "16GB HIKSEMI ARMOR WHITE (1X16GB) 3200MHZ - DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 28.69,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "16GB HIKSEMI HIKER (1X16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 29.9,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "16GB XPG SPECTRIX D35G RGB (1X16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 29.57,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "16GB Kingston HyperX FURY (1X16GB) 3200 mhz CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 29.75,
+    "precio_efectivo": 57.5
+  },
+  {
+    "producto": "16GB PATRIOT VIPER 4 STELL HS (1X16GB) 3600MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 36.3,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "16GB PATRIOT VIPER STEEL RGB (1X16GB) 3200MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 36.15,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "16GB G.SKILL Flare X (2x8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 29.24,
+    "costo_sin_iva": 40.7,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "16GB GSKILL TRIDENT Z KIT (2X8GB) 3200MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.58,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "16GB G.SKILL TRIDENT Z RGB (2X8GB) 3600MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 48.98,
+    "precio_efectivo": 87.5
+  },
+  {
+    "producto": "16GB G.SKILL RIPJAWS V (2x8GB) 3600mhz CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 32,
+    "costo_sin_iva": 52.89,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "16GB G.SKILL TRIDENT Z NEO (2X8GB) 3600MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 36.51,
+    "precio_efectivo": 92.5
+  },
+  {
+    "producto": "16GB G.SKILL AEGIS (1x16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 68,
+    "precio_efectivo": 92.5
+  },
+  {
+    "producto": "16GB KINGSTON HyperX FURY (1X16GB) 2400MHZ CL15 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 37,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "16GB MUSHKIN (1X16) 3200MHZ - DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 64.09,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "16GB G.SKILL VALUE HIGH PERFORMANCE (2x8GB) 266MHZ CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 72.23,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "16GB CORSAIR VENGEANCE RGB (1X16GB) 3600MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 67.98,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "16GB HIKSEMI SWORD RGB (1X16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 69,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "16GB KINGSTON KVR (1x16GB) 3200MHz CL22 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 54.89,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "16GB RIPJAWS V (2x8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60.13,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "16GB G.SKILL RIPJAWS V (2x8GB) 3600mhz CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 58.86,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "16GB G.SKILL AEGIS (2x8GB) 3200mhz CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 56,
+    "costo_sin_iva": 50.82,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "16GB HIKSEMI AKIRA RGB (1X16GB) 3200MTS - DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 81.13,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "32GB Kingston HyperX FURY (1X32GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 105.72,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "16GB KINGSTON HyperX FURY (2X8GB) 2400MHZ CL15 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 59.14,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "16GB G.SKILL Sniper X (2x8GB) 3600MHZ CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 104.56,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "16GB G.SKILL AMD TRIDENT Z RGB (2X8GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 94.2,
+    "precio_efectivo": 165
+  },
+  {
+    "producto": "16GB G.SKILL TRIDENT Z RGB (2X8GB) 2666MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 108.15,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "16GB PATRIOT SIGNATURE PREMIUM (2X8GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 106.14,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "16GB G.SKILL TRIDENT Z ROYAL (2x8GB) 3600mhz CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 103.4,
+    "precio_efectivo": 169
+  },
+  {
+    "producto": "16GB G.SKILL TRIDENT Z (1X16GB) 4000MHZ CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 106,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "16GB HIKSEMI ARMOR (1X16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 106,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "16GB HIKSEMI ARMOR BLACK (1X16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 177.89
+  },
+  {
+    "producto": "16GB G.SKILL TRIDENT Z (1X16GB) 3000MHZ CL15 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 115.54,
+    "precio_efectivo": 189
+  },
+  {
+    "producto": "16GB HIKSEMI FUTURE RGB (1X16GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 40,
+    "costo_sin_iva": 99,
+    "precio_efectivo": 189
+  },
+  {
+    "producto": "16GB KINGSTON FURY BEAST RGB (1X16GB) 3200MHZ CL20 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 41,
+    "margen_empresa": 0,
+    "costo_sin_iva": 122.81,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "16GB CORSAIR VENGEANCE LPX (1X16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 20,
+    "costo_sin_iva": 165.19,
+    "precio_efectivo": 235
+  },
+  {
+    "producto": "16GB Kingston ValueRAM (1X16GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 159.43,
+    "precio_efectivo": 255
+  },
+  {
+    "producto": "32GB G.SKILL TRIDENT Z ROYAL (2X16GB) 3600MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 20,
+    "costo_sin_iva": 179.84,
+    "precio_efectivo": 255
+  },
+  {
+    "producto": "16GB Kingston ValueRAM FuryCore Special Edition (1X16GB) 3200MHZ CL22 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 347.37
+  },
+  {
+    "producto": "32 GB",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 29,
+    "costo_sin_iva": 49.49,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "32GB XPG SPECTRIX D35G RGB (1X32GB) 3200MT/S CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 61.82,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "32GB GSKILL TRIDENT Z KIT (2X16GB) 3200MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 31,
+    "costo_sin_iva": 64.25,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "32GB G.SKILL Flare X (2X16GB) 3200MHZ CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 54.89,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "16GB G.SKILL RIPJAWS V (1x16GB) 3200mhz CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 79.68,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "32GB G.SKILL TRIDENT Z RGB KIT (2X16GB) 3600MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 32,
+    "costo_sin_iva": 77.43,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "32GB G.SKILL TRIDENT Z NEO (2X16GB) 3600MHZ CL18 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 91.19,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "32GB G.SKILL RIPJAWS V (2x16GB) 3600MHZ CL19 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 102.36,
+    "precio_efectivo": 235
+  },
+  {
+    "producto": "32GB RIPJAWS V (2x16GB) 3200mhz CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 130.54,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "32GB G.SKILL RIPJAWS V (1X32GB) 3200mhz CL16 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 199.51,
+    "precio_efectivo": 309
+  },
+  {
+    "producto": "32GB G.SKILL TRIDENT Z ROYAL GOLD (2X16GB) 3600MHZ CL18 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 315.79
+  },
+  {
+    "producto": "32GB G.SKILL RIPJAWS V (2x16GB) 2400MHZ CL15 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 253.59,
+    "precio_efectivo": 339
+  },
+  {
+    "producto": "32GB HyperX Predator RGB (4X8GB) 2933MHZ CL15 -DDR4\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 272.8,
+    "precio_efectivo": 439
+  },
+  {
+    "producto": "64GB G.SKILL TRIDENT Z NEO (2x32GB) 3600mhz CL18 -DDR4\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 472.63
+  },
+  {
+    "producto": "64 GB",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 140.63,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "KINGSTON KVR 4GB 2666Mhz - SODIMM\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 65.79
+  },
+  {
+    "producto": "KINGSTON KVR 8GB 3200Mhz - SODIMM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 33.06,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "MEMORIA RAM ADATA 8GB 2666MHz - SODIMM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 34,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "MEMORIA RAM ADATA 8GB 3200MHz - SODIMM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 37.4,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "8GB PATRIOT SIGNATURE LINE PREMIUM (1X8GB) 5200MTS CL42 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 38,
+    "costo_sin_iva": 24.55,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "8GB PATRIOT SIGNATURE PREMIUM (1X8GB) 4800MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 22.77,
+    "costo_sin_iva": 74.5,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "8GB KINGSTON KCP (1X8GB) 4800MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 11,
+    "margen_empresa": 25,
+    "costo_sin_iva": 92,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "16GB ADATA PREMIER (1X16GB) 4800MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 44,
+    "costo_sin_iva": 31.7,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "16GB PATRIOT SIGNATURE LINE (1X16GB) 5200MHZ CL42 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 39,
+    "costo_sin_iva": 39.18,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "16GB G.SKILL AEGIS 5 (1X16GB) 5600MTS - DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 29,
+    "costo_sin_iva": 50.51,
+    "precio_efectivo": 82.5
+  },
+  {
+    "producto": "16GB KINGSTON HyperX FURY BEAST RGB (1X16GB) 5200MHZ CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46.65,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "16GB KINGSTON KCP DDR5 (1X16GB) 4800MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 55.48,
+    "precio_efectivo": 87.5
+  },
+  {
+    "producto": "16GB XPG LANCER BLADE WHITE RGB (1X16GB) 6000MTS CL30 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 57,
+    "precio_efectivo": 87.5
+  },
+  {
+    "producto": "16GB KINGSTON FURY BEAST BLACK EXPO 6000MT/S CL30 - DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 52,
+    "costo_sin_iva": 39.93,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "16GB KINGSTON FURY BEAST (1X16GB) 5200MHZ CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 67.2,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "16GB HIKSEMI ARMOR (1X16GB) 5600MHZ -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 73,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "16GB KINGSTON FURY BEAST RGB EXPO 6400MT/S CL32 - DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 52,
+    "costo_sin_iva": 48.3,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "16GB CORSAIR VENGEANCE RGB (1X16GB) 5600MTS - DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 60,
+    "costo_sin_iva": 39.73,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "16GB G.SKILL AEGIS 5 (1X16GB) 6000MTS - DDR5\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "16GB ADATA XPG LANCER BLADE RGB (1X16GB) 6000MTS CL30 -DDR5 -subasta\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 77.04,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "16GB ADATA XPG CASTER RGB (1X16GB) 6400MTS CL32 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 80.25,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "16GB ADATA XPG LANCER RGB (1X16GB) 6000MTS CL30 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.2,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "16GB CORSAIR VENGEANGE RGB (1X16GB) 6000MTS - DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 33,
+    "costo_sin_iva": 78.43,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "16GB ADATA XPG LANCER BLADE WHITE RGB (1X16GB) 6400MTS CL32 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 95.67,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "16GB CORSAIR VENGEANCE RGB (1X16GB) 5200MTS - DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 91.15,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "16GB KINGSTON HyperX FURY BEAST (1X16GB) 5600MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 20,
+    "costo_sin_iva": 129.46,
+    "precio_efectivo": 185
+  },
+  {
+    "producto": "8GB KINGSTON KVR (1x8GB) 5600MHz CL46 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 75,
+    "costo_sin_iva": 44.31,
+    "precio_efectivo": 205
+  },
+  {
+    "producto": "16GB HIKSEMI HIKER (1X16GB) 4800MTS CL19 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 143.17,
+    "precio_efectivo": 235
+  },
+  {
+    "producto": "16GB PATRIOT SIGNATURE LINE (1X16GB) 5600MTs CL46 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 143.17,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "16GB PATRIOT SIGNATURE LINE (1X16GB) 4800MTs CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 143.17,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "16GB ADATA PREMIER (1X16GB) 4800MHZ CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 170.93,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "16GB KINGSTON FURY BEAST (1X16GB) 5600MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9,
+    "margen_empresa": 25,
+    "costo_sin_iva": 162.55,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "Kingston KVR Black Armor Edition Barrowch Heatsink (1X16GB) DDR5 16GB 5600 CL46\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 30,
+    "costo_sin_iva": 159.18,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "Patriot Signature FrostShield Limited Edition (1X16GB) DDR5 16GB 4800 CL40\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 159.18,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "Patriot Signature FrostShield Limited Edition White (1X16GB) DDR5 16GB 4800 CL40\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 20,
+    "margen_empresa": 22.5,
+    "costo_sin_iva": 184.65,
+    "precio_efectivo": 269
+  },
+  {
+    "producto": "16GB ADATA FURYCORE SPECIAL EDITION (1X16GB) 5600MTs CL46 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 32,
+    "costo_sin_iva": 167.46,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "ADATA PREMIER FrostShield Limited Edition (1X16GB) DDR5 16GB 5600 CL46\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 32,
+    "costo_sin_iva": 167.46,
+    "precio_efectivo": 279
+  },
+  {
+    "producto": "ADATA PREMIER FrostShield Limited Edition White (1X16GB) DDR5 16GB 5600 CL46\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 170,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "16GB ADATA PREMIER (1X16GB) 5600MTs CL46 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 232.9,
+    "precio_efectivo": 329
+  },
+  {
+    "producto": "16GB KINGSTON KVR (1x16GB) 5600MHz CL46 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 26.11,
+    "costo_sin_iva": 215.12,
+    "precio_efectivo": 329
+  },
+  {
+    "producto": "16GB ADATA XPG LANCER BLADE RGB WHITE (1X16GB) 6000MTS CL48 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 215.13,
+    "precio_efectivo": 329
+  },
+  {
+    "producto": "16GB ADATA XPG CASTER RGB (1X16GB) 6000MTS CL30 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 29,
+    "costo_sin_iva": 212,
+    "precio_efectivo": 339
+  },
+  {
+    "producto": "16GB CORSAIR VENGEANCE RGB (1X16GB) 6000MTs CL36 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9,
+    "margen_empresa": 20,
+    "costo_sin_iva": 238.28,
+    "precio_efectivo": 339
+  },
+  {
+    "producto": "16GB KINGSTON HyperX FURY BEAST RGB (1X16GB) 5600MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 30,
+    "costo_sin_iva": 211.15,
+    "precio_efectivo": 345
+  },
+  {
+    "producto": "16GB ADATA XPG LANCER BLADE RGB (1X16GB) 5600MTS CL46 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 215.13,
+    "precio_efectivo": 349
+  },
+  {
+    "producto": "24 GB",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 226.6,
+    "precio_efectivo": 345
+  },
+  {
+    "producto": "24GB ADATA (1X24GB) 5600MTs CL46 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 25,
+    "costo_sin_iva": 241.25,
+    "precio_efectivo": 365
+  },
+  {
+    "producto": "32GB ADATA AD5U480032G-S (1x32GB) 4800MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 76.87,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "32GB PATRIOT SIGNATURE PREMIUM (1X32GB) 4800MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 81.75,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "PATRIOT VIPER ELITE 5 RGB WHITE (1X32GB) 6000MT/S CL42 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 99.45,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "32GB TEAMGROUP T-CREATE CLASSIC (2x16GB) 5600MTS CL46 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 106,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "32GB KINGSTON FURY BEAST BLACK EXPO 6000MT/S CL30 - DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26.41,
+    "costo_sin_iva": 102.6,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "32GB G.SKILL FLARE X5 (2X16GB) 6000MTS CL36 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 108.07,
+    "precio_efectivo": 165
+  },
+  {
+    "producto": "32GB ADATA XPG LANCER BLADE RGB (1X32GB) 6000MTS CL30 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25.42,
+    "costo_sin_iva": 117.4,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "32GB G.SKILL TRIDENT Z5 RGB (2X16GB) 6800MTS CL36 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 124.54,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "32GB G.SKILL TRIDENT Z5 NEO RGB (2X16GB) 6400MTS CL36 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 134.94,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "32GB ADATA XPG LANCER RGB (1X32GB) 6400MTS CL30 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 133,
+    "precio_efectivo": 205
+  },
+  {
+    "producto": "32GB KINGSTON FURY BEAST RGB EXPO 6400MT/S CL32 - DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 38,
+    "costo_sin_iva": 171.95,
+    "precio_efectivo": 315
+  },
+  {
+    "producto": "32GB HIKSEMI ARMOR (1X32GB) 5600MTS CL22 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 221.23,
+    "precio_efectivo": 345
+  },
+  {
+    "producto": "32GB CORSAIR DOMINATOR RGB (2X16GB) 5200MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24.24,
+    "costo_sin_iva": 267.5,
+    "precio_efectivo": 399
+  },
+  {
+    "producto": "32GB HIKSEMI ARMOR (1X32GB) 4800MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 20,
+    "costo_sin_iva": 291.87,
+    "precio_efectivo": 415
+  },
+  {
+    "producto": "32GB KINGSTON KVR (1x32GB) 5600MHz CL46 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 203.01,
+    "precio_efectivo": 479
+  },
+  {
+    "producto": "32GB G.SKILL FLARE X5 (1X32GB) 6000MTS CL36 - DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 23,
+    "costo_sin_iva": 361.67,
+    "precio_efectivo": 535
+  },
+  {
+    "producto": "32GB PATRIOT VIPER VENOM RGB (2X16GB) 6400MTs CL32 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 25.66,
+    "costo_sin_iva": 387.49,
+    "precio_efectivo": 589
+  },
+  {
+    "producto": "32GB G.SKILL TRIDENT Z5 ROYAL SILVER (2X16GB) 7200MTS CL34 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 20,
+    "costo_sin_iva": 460.39,
+    "precio_efectivo": 635
+  },
+  {
+    "producto": "48 GB",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 155.6,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "64GB CORSAIR VENGEANCE (2X32GB) 5200MTS CL40 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 190.3,
+    "precio_efectivo": 289
+  },
+  {
+    "producto": "64GB G.SKILL TRIDENT Z5 NEO RGB (2X32GB) 6000MTS CL32 -DDR5\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 266,
+    "precio_efectivo": 405
+  }
+]

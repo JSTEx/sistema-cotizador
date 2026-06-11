@@ -1,0 +1,1739 @@
+[
+  {
+    "producto": "16 series",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 121.98,
+    "precio_efectivo": 185
+  },
+  {
+    "producto": "INNO3D GTX 1630 COMPACT (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 132,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "GALAX GTX 1650 EX (1-CLICK OC) 4GB GDDR6\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 133.91,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "INNO3D GTX 1650 TWIN X2 D6 (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 128.74,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "MSI GEFORCE VENTUS GTX 1650 XS D6 OC V3 (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 132.62,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "INNO3D GTX 1650 COMPACT D6 (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 137.75,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "MSI VENTUS GTX 1650 D6 XS (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 138.18,
+    "precio_efectivo": 209
+  },
+  {
+    "producto": "INNO3D GTX 1650 PLUS TWIN X2 OC V2 (4GB GDDR6)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 209.47
+  },
+  {
+    "producto": "INNO3D GTX 1650 TWIN X2 (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 132.74,
+    "precio_efectivo": 215
+  },
+  {
+    "producto": "INNO3D GTX 1650 COMPACT (4GB GDDR5)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 130.6,
+    "precio_efectivo": 215
+  },
+  {
+    "producto": "GIGABYTE GTX 1650 D6 OC 4GB GDDR6\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 161.91,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "MSI GTX 1650 SUPER VENTUS XS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 180.43,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "ASUS TUF GTX 1650 O4G GAMING (4GB GDDR5)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 251.58
+  },
+  {
+    "producto": "INNO3D GTX 1660 SUPER COMPACT (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 167.16,
+    "precio_efectivo": 255
+  },
+  {
+    "producto": "ASUS GTX 1650 SUPER PHOENIX O4G (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 195,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "ROG STRIX GTX1650 SUPER O4G GAMING\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 172.59,
+    "precio_efectivo": 265
+  },
+  {
+    "producto": "ASUS TUF GTX 1650 SUPER O4G GAMING (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24.28,
+    "costo_sin_iva": 190.97,
+    "precio_efectivo": 285
+  },
+  {
+    "producto": "ARKTEK GEFORCE GTX 1660 TI MATRIX V2 (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 198.39,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "INNO3D GTX 1650 SUPER TWIN X2 OC (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 228.96,
+    "precio_efectivo": 325
+  },
+  {
+    "producto": "EVGA GeForce GTX 1660 BLACK GAMING (6GB GDDR5)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 244.39,
+    "precio_efectivo": 329
+  },
+  {
+    "producto": "GIGABYTE GTX 1660 SUPER OC 6G (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 238.14,
+    "precio_efectivo": 335
+  },
+  {
+    "producto": "GALAX GTX 1660 SUPER (1-CLICK OC) 6GB GDDR6\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 241.28,
+    "precio_efectivo": 345
+  },
+  {
+    "producto": "MSI GTX 1660 SUPER VENTUS XS\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 235,
+    "precio_efectivo": 349
+  },
+  {
+    "producto": "ASUS GTX 1650 PHOENIX OC EDITION O4G (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 239.91,
+    "precio_efectivo": 365
+  },
+  {
+    "producto": "EVGA GeForce GTX 1650 SUPER SC ULTRA GAMING (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 276.3,
+    "precio_efectivo": 369
+  },
+  {
+    "producto": "INNO3D GTX 1660 TI GAMING OC X2 (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 276.3,
+    "precio_efectivo": 369
+  },
+  {
+    "producto": "INNO3D GTX 1660 TI TWIN X2 (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 278.09,
+    "precio_efectivo": 395
+  },
+  {
+    "producto": "MSI GeForce GTX 1650 SUPER™ GAMING X (4GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 274.4,
+    "precio_efectivo": 399
+  },
+  {
+    "producto": "INNO3D GTX 1660 TWIN X2 (6GB GDDR5)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 420
+  },
+  {
+    "producto": "MSI GeForce GTX 1660 Ti VENTUS XS 6G OC (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 354.15,
+    "precio_efectivo": 475
+  },
+  {
+    "producto": "MSI GeForce GTX 1660 SUPER™ GAMING X\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 396,
+    "precio_efectivo": 529
+  },
+  {
+    "producto": "INNO3D GEFORCE GTX 1660 SUPER TWIN X2 (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 417.46,
+    "precio_efectivo": 565
+  },
+  {
+    "producto": "ASUS DUAL-GTX1660TI-6G-EVO (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 425.1,
+    "precio_efectivo": 589
+  },
+  {
+    "producto": "RTX series",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 0
+  },
+  {
+    "producto": "ARKTEK GEFORCE RTX 3050 HYPERION (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 125,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "ASUS GEFORCE RTX 3060 TUF GAMING OC (12GB GDDR6) - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 125,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "GIGABYTE GEFORCE RTX 3060 EAGLE OC (12GB GDDR6) - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 40,
+    "costo_sin_iva": 125,
+    "precio_efectivo": 239
+  },
+  {
+    "producto": "ASUS GEFORCE RTX 3060 DUAL V2 OC (12GB GDDR6) - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26.46,
+    "costo_sin_iva": 159.44,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 3050 TWIN X2 (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 154.28,
+    "precio_efectivo": 245
+  },
+  {
+    "producto": "MSI GEFORCE RTX 3050 LP OC (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 180.81,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "ASUS DUAL RTX 3050 OC (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 172.5,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "GIGABYTE GEFORCE RTX 3050 LP OC (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 178.78,
+    "precio_efectivo": 269
+  },
+  {
+    "producto": "MSI RTX 3050 VENTUS 2X OC (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 209.99,
+    "precio_efectivo": 315
+  },
+  {
+    "producto": "INNO3D RTX 3050 TWIN X2 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 125,
+    "precio_efectivo": 315
+  },
+  {
+    "producto": "PALIT RTX 3080 GAMINGPRO (10GB GDDR6X) - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 218,
+    "precio_efectivo": 319
+  },
+  {
+    "producto": "MSI GEFORCE VENTUS RTX 3050 2X XS (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 206.67,
+    "precio_efectivo": 319
+  },
+  {
+    "producto": "ASUS GEFORCE RTX 3070 DUAL V2 OC (8GB GDDR6) - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 243.35,
+    "precio_efectivo": 365
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 5050 TWIN X2 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 244.2,
+    "precio_efectivo": 369.55
+  },
+  {
+    "producto": "INNO3D RTX 3050 TWIN X2 (8GB GDDR6) -- RESERVA --\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 246.4,
+    "precio_efectivo": 375
+  },
+  {
+    "producto": "INNO3D RTX 3060 TWIN X2 (8 GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 217.27,
+    "precio_efectivo": 379
+  },
+  {
+    "producto": "GIGABYTE RTX 3060 EAGLE OC 12GB GDDR6\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 255.1,
+    "precio_efectivo": 395
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 3060 TWIN X2 (12GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 297.23,
+    "precio_efectivo": 399
+  },
+  {
+    "producto": "MSI RTX 3050 AERO ITX OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 298.28,
+    "precio_efectivo": 399
+  },
+  {
+    "producto": "ASUS DUAL RTX 3060 V2 (12GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23.5,
+    "costo_sin_iva": 275.87,
+    "precio_efectivo": 409
+  },
+  {
+    "producto": "GIGABYTE GEFORCE RTX 3060 Windforce OC (12GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 256.17,
+    "precio_efectivo": 415
+  },
+  {
+    "producto": "GIGABYTE RTX 3050 GAMING OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 276.36,
+    "precio_efectivo": 425
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 4060 TWIN X2 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 225,
+    "precio_efectivo": 425
+  },
+  {
+    "producto": "ASUS GEFORCE RTX 3080 ROG STRIX GAMING (10GB GDDR6X) - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18,
+    "costo_sin_iva": 315.03,
+    "precio_efectivo": 435
+  },
+  {
+    "producto": "ASUS DUAL RTX 4060 OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 250,
+    "precio_efectivo": 435
+  },
+  {
+    "producto": "EVGA RTX 3080 FTW3 ULTRA GAMING (10GB GDDR6X) - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 253.55,
+    "precio_efectivo": 439
+  },
+  {
+    "producto": "GALAX RTX 3050 EX (1-CLICK OC) 8GB GDDR6\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 329.96,
+    "precio_efectivo": 439
+  },
+  {
+    "producto": "GIGABYTE RTX 3050 EAGLE OC 8GB GDDR6\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 275,
+    "precio_efectivo": 445
+  },
+  {
+    "producto": "MSI GEFORCE RTX 3070 VENTUS 3X OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 295.72,
+    "precio_efectivo": 445
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 5060 TWIN X2 (8GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 215,
+    "precio_efectivo": 445
+  },
+  {
+    "producto": "ASUS GEFORCE RTX 3080 TUF GAMING (10GB GDDR6X) - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 337.72,
+    "precio_efectivo": 449
+  },
+  {
+    "producto": "MSI RTX 3060 VENTUS 2X OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 305.8,
+    "precio_efectivo": 449
+  },
+  {
+    "producto": "MSI RTX 4060 VENTUS 2X OC WHITE (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 14,
+    "costo_sin_iva": 340.11,
+    "precio_efectivo": 449
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5060 VENTUS 2X OC PLUS (8GB GDDR7)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 455
+  },
+  {
+    "producto": "GIGABYTE GEFORCE RTX 5060 TI WINDFORCE (8GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 324.15,
+    "precio_efectivo": 459
+  },
+  {
+    "producto": "MSI GeForce RTX 4060 Ventus 2X OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 321.54,
+    "precio_efectivo": 459
+  },
+  {
+    "producto": "GIGABYTE RTX 4060 EAGLE OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 309.67,
+    "precio_efectivo": 465
+  },
+  {
+    "producto": "GALAX RTX 3060 1-CLICK-OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 316.14,
+    "precio_efectivo": 465
+  },
+  {
+    "producto": "MSI RTX 5060 SHADOW 2X OC (8GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 363.05,
+    "precio_efectivo": 485
+  },
+  {
+    "producto": "MSI RTX 4060 GAMING X (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 14,
+    "costo_sin_iva": 379.5,
+    "precio_efectivo": 499
+  },
+  {
+    "producto": "INNO3D RTX 3060 TI TWIN X2 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 338.07,
+    "precio_efectivo": 515
+  },
+  {
+    "producto": "GALAX RTX 3060 (1-CLICK OC) 12GB GDDR6 LHR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 403.27,
+    "precio_efectivo": 539
+  },
+  {
+    "producto": "INNO3D RTX 2060 TWIN X2 OC (12GB)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 364.6,
+    "precio_efectivo": 549
+  },
+  {
+    "producto": "GIGABYTE RTX 3060 TI GAMING OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 364.6,
+    "precio_efectivo": 549
+  },
+  {
+    "producto": "GIGABYTE RTX 3060 TI VISION (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 55.55,
+    "costo_sin_iva": 215,
+    "precio_efectivo": 549
+  },
+  {
+    "producto": "ASUS GEFORCE RTX 3080TI TUF GAMING (12GB GDDR6X) - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 389.08,
+    "precio_efectivo": 559
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5060 TI VENTUS 2X OC PLUS (8GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23.5,
+    "costo_sin_iva": 383.55,
+    "precio_efectivo": 569
+  },
+  {
+    "producto": "INNO3D RTX 4060TI TWIN X2 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18,
+    "costo_sin_iva": 410.29,
+    "precio_efectivo": 569
+  },
+  {
+    "producto": "MSI RTX 4060TI VENTUS 2X BLACK OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 378.64,
+    "precio_efectivo": 575
+  },
+  {
+    "producto": "INNO3D RTX 4060TI TWIN X2 OC WHITE (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 440,
+    "precio_efectivo": 585
+  },
+  {
+    "producto": "ASUS DUAL RTX2060 O6G EVO\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 424.63,
+    "precio_efectivo": 599
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 3060 TI TWIN X2 LHR (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 411.97,
+    "precio_efectivo": 599
+  },
+  {
+    "producto": "ASUS GeForce RTX 4060 Ti DUAL EVO (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 412.03,
+    "precio_efectivo": 609
+  },
+  {
+    "producto": "GALAX RTX 3060 Ti (1-CLICK OC) 8GB GDDR6 LHR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 430.98,
+    "precio_efectivo": 609
+  },
+  {
+    "producto": "ASUS DUAL RTX 4060TI OC WHITE (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23.43,
+    "costo_sin_iva": 416.7,
+    "precio_efectivo": 615
+  },
+  {
+    "producto": "MSI GEFORCE RTX 4060 Ti Ventus 3X OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 422.28,
+    "precio_efectivo": 635
+  },
+  {
+    "producto": "GALAX RTX 3060 TI PLUS 1-CLICK-OC (8GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 373.6,
+    "precio_efectivo": 635
+  },
+  {
+    "producto": "INNO3D RTX 3060 Ti X3 OC (8 GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 27,
+    "costo_sin_iva": 422.03,
+    "precio_efectivo": 655
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 5060TI TWIN X2 (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 464.49,
+    "precio_efectivo": 659
+  },
+  {
+    "producto": "ASUS DUAL RTX 3060TI PLUS (8GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 539.79,
+    "precio_efectivo": 699
+  },
+  {
+    "producto": "GALAX RTX 3070 (1-CLICK OC) 8GB GDDR6 LHR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 448,
+    "precio_efectivo": 699
+  },
+  {
+    "producto": "GIGABYTE RTX 3070 GAMING OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 488.6,
+    "precio_efectivo": 699
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 4060TI TWIN X2 OC (16GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 464.69,
+    "precio_efectivo": 705
+  },
+  {
+    "producto": "EVGA GeForce RTX 3060 XC GAMING (12GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 23,
+    "costo_sin_iva": 492.97,
+    "precio_efectivo": 725
+  },
+  {
+    "producto": "MSI RTX 5060 TI VENTUS 2X OC PLUS (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 434.5,
+    "precio_efectivo": 759
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 3060 TI ICHILL X3 RED (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 478.91,
+    "precio_efectivo": 775
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5060 TI VENTUS 3X OC (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 480,
+    "precio_efectivo": 775
+  },
+  {
+    "producto": "ASUS DUAL RTX 5060TI OC EDITION (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 534.71,
+    "precio_efectivo": 799
+  },
+  {
+    "producto": "INNO3D RTX 4070 TWIN X2 (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 17.5,
+    "costo_sin_iva": 582,
+    "precio_efectivo": 799
+  },
+  {
+    "producto": "GALAX RTX 4070 1-Click OC 2X (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18.76,
+    "costo_sin_iva": 574.45,
+    "precio_efectivo": 799
+  },
+  {
+    "producto": "MSI GEFORCE RTX 4070 Ventus 2X OC (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 573.55,
+    "precio_efectivo": 825
+  },
+  {
+    "producto": "INNO3D RTX 3070 TI X3 (8GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 19,
+    "costo_sin_iva": 591.61,
+    "precio_efectivo": 829
+  },
+  {
+    "producto": "MSI RTX 4070 VENTUS 3X OC (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23.76,
+    "costo_sin_iva": 563.35,
+    "precio_efectivo": 835
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 4070 SUPER TWIN X2 (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 614.43,
+    "precio_efectivo": 849
+  },
+  {
+    "producto": "GIGABYTE RTX 4070 SUPER WINDFORCE OC (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 17.5,
+    "costo_sin_iva": 619.94,
+    "precio_efectivo": 849
+  },
+  {
+    "producto": "ZOTAC GAMING RTX 4070 SUPER TWIN EDGE OC (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 655.8,
+    "precio_efectivo": 849
+  },
+  {
+    "producto": "GALAX RTX 5070 1-Click OC BLACK -- W-LEDS -- (12GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 584.61,
+    "precio_efectivo": 859
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 4070 SUPER X3 OC (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 23,
+    "costo_sin_iva": 584.36,
+    "precio_efectivo": 859
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5060 TI GAMING TRIO OC (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 19,
+    "costo_sin_iva": 630.36,
+    "precio_efectivo": 879
+  },
+  {
+    "producto": "MSI RTX 4070 SUPER 12G VENTUS 3X OC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 11,
+    "costo_sin_iva": 693.42,
+    "precio_efectivo": 885
+  },
+  {
+    "producto": "GIGABYTE GEFORCE RTX 4070 SUPER GAMING OC (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 630.34,
+    "precio_efectivo": 895
+  },
+  {
+    "producto": "EVGA GeForce RTX 3060 Ti XC GAMING (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 654.08,
+    "precio_efectivo": 899
+  },
+  {
+    "producto": "EVGA GEFORCE RTX 3060 Ti FTW3 ULTRA GAMING (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 16,
+    "costo_sin_iva": 668.57,
+    "precio_efectivo": 899
+  },
+  {
+    "producto": "MSI GEFORCE RTX 4070 SUPER VENTUS 2X OC (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 683.2,
+    "precio_efectivo": 909
+  },
+  {
+    "producto": "ASUS PHOENIX RTX 3060 (12GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 680.53,
+    "precio_efectivo": 925
+  },
+  {
+    "producto": "PALIT GAMINGPRO RTX 3070 8GB LHR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18.9,
+    "costo_sin_iva": 666.75,
+    "precio_efectivo": 929
+  },
+  {
+    "producto": "ASUS PRIME GEFORCE RTX 4070 SUPER OC Edition (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 543,
+    "precio_efectivo": 945
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 3070 ICHILL X3 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 693.14,
+    "precio_efectivo": 959
+  },
+  {
+    "producto": "INNO3D RTX 3070 TWIN X2 LHR (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 655.47,
+    "precio_efectivo": 975
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5070 VENTUS 2X OC (12GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 655.01,
+    "precio_efectivo": 989
+  },
+  {
+    "producto": "GALAX RTX 3080 SG (1-CLICK OC) 10GB GDDR6X LHR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 673.7,
+    "precio_efectivo": 989
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5070 SHADOW 3X OC (12GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 29,
+    "costo_sin_iva": 627.83,
+    "precio_efectivo": 999
+  },
+  {
+    "producto": "GIGABYTE GEFORCE RTX 5070 WINDFORCE OC SSF (12GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 16,
+    "costo_sin_iva": 778.92,
+    "precio_efectivo": 1049
+  },
+  {
+    "producto": "INNO3D RTX 4070 Ti X3 (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 795.2,
+    "precio_efectivo": 1059
+  },
+  {
+    "producto": "GIGABYTE GEFORCE RTX ™ 3070 EAGLE OC 8G rev. 1.0 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 753.29,
+    "precio_efectivo": 1065
+  },
+  {
+    "producto": "ASUS DUAL-RTX3070-O8G (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 821.08,
+    "precio_efectivo": 1089
+  },
+  {
+    "producto": "MSI GEFORCE RTX™ 3060 Ti VENTUS 3X OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 727,
+    "precio_efectivo": 1099
+  },
+  {
+    "producto": "EVGA GeForce RTX 3070 XC3 ULTRA GAMING\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 752.1,
+    "precio_efectivo": 1099
+  },
+  {
+    "producto": "INNO3D RTX 3070 TI X3 OC (8GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 10,
+    "costo_sin_iva": 891.79,
+    "precio_efectivo": 1119
+  },
+  {
+    "producto": "MSI GEFORCE RTX 4070 Ti SUPER VENTUS 3X OC (16GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18,
+    "costo_sin_iva": 815.48,
+    "precio_efectivo": 1125
+  },
+  {
+    "producto": "MSI RTX 4070 Ti SUPER 16G VENTUS 2X WHITE OC\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 893.28,
+    "precio_efectivo": 1125
+  },
+  {
+    "producto": "MSI GEFORCE RTX 4070 TI SUPER SHADOW 3X OC (16GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 683.84,
+    "precio_efectivo": 1189
+  },
+  {
+    "producto": "INNO3D RTX 3070 TWIN X2 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 19,
+    "costo_sin_iva": 852.6,
+    "precio_efectivo": 1189
+  },
+  {
+    "producto": "MSI RTX 4070Ti SUPER 16G GAMING X SLIM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22.5,
+    "costo_sin_iva": 822.97,
+    "precio_efectivo": 1199
+  },
+  {
+    "producto": "ASUS TUF GAMING RTX 4070TI SUPER OC (16GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 858.72,
+    "precio_efectivo": 1199
+  },
+  {
+    "producto": "GIGABYTE RTX 4070 TI SUPER GAMING OC 16GB GDDR6X\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25.37,
+    "costo_sin_iva": 791.88,
+    "precio_efectivo": 1199
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 4070TI SUPER ICHILL X3 (16GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 915.46,
+    "precio_efectivo": 1219
+  },
+  {
+    "producto": "GALAX RTX 5070TI 1-Click OC BLACK -- ARGB-LEDS -- (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 926.1,
+    "precio_efectivo": 1235
+  },
+  {
+    "producto": "GALAX RTX 5070TI 1-Click OC WHITE -- ARGB-LEDS -- (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 831.44,
+    "precio_efectivo": 1255
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 3080 TWIN X2 OC LHR (10GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 737,
+    "precio_efectivo": 1285
+  },
+  {
+    "producto": "INNO3D RTX 3080 ICHILL X3 (10GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 17.84,
+    "costo_sin_iva": 980.87,
+    "precio_efectivo": 1349
+  },
+  {
+    "producto": "ASUS GEFORCE RTX 5070 TI TUF GAMING OC EDITION (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 860.61,
+    "precio_efectivo": 1389
+  },
+  {
+    "producto": "MSI RTX 5070 TI VENTUS 3X OC (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 984.08,
+    "precio_efectivo": 1395
+  },
+  {
+    "producto": "EVGA GeForce RTX 3070 FTW3 ULTRA\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 984.08,
+    "precio_efectivo": 1395
+  },
+  {
+    "producto": "EVGA GEFORCE RTX 3070 TI FTW3 ULTRA (8GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1041.34,
+    "precio_efectivo": 1475
+  },
+  {
+    "producto": "MSI GEFORCE RTX™ 3080 VENTUS 3X OC (10GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 18,
+    "costo_sin_iva": 1072.13,
+    "precio_efectivo": 1479
+  },
+  {
+    "producto": "MSI RTX 5070 TI SHADOW 3X OC (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1687.99,
+    "precio_efectivo": 1499
+  },
+  {
+    "producto": "GALAX RTX 4090 SG 1-CLICK-OC (24GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1133.48,
+    "precio_efectivo": 1499
+  },
+  {
+    "producto": "MSI GeForce RTX 4080 SUPER Gaming X SLIM (16GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 995.33,
+    "precio_efectivo": 1499
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 5080 X3 (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 955.15,
+    "precio_efectivo": 1499
+  },
+  {
+    "producto": "MSI RTX 5070 TI INSPIRE 3X (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 14.32,
+    "costo_sin_iva": 1156.34,
+    "precio_efectivo": 1529
+  },
+  {
+    "producto": "GIGABYTE GEFORCE RTX 4080 SUPER Windforce V2 (16GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 1096.2,
+    "precio_efectivo": 1549
+  },
+  {
+    "producto": "GALAX RTX 5080 1-Click OC BLACK -- ARGB-LEDS -- (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 964.79,
+    "precio_efectivo": 1559
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 3080 TWIN X2 OC (10GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 1100.97,
+    "precio_efectivo": 1559
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5070 TI GAMING TRIO OC WHITE (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1169.98,
+    "precio_efectivo": 1595
+  },
+  {
+    "producto": "GALAX RTX 5080 1-Click OC WHITE -- ARGB-LEDS -- (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1411,
+    "precio_efectivo": 1599
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 3090 iCHILL X4 (24GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 1150.26,
+    "precio_efectivo": 1649
+  },
+  {
+    "producto": "INNO3D RTX 4080 X3 (16 GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 13.5,
+    "costo_sin_iva": 1301.13,
+    "precio_efectivo": 1699
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5080 SUPRIM SOC (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 15,
+    "costo_sin_iva": 1276.3,
+    "precio_efectivo": 1699
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5080 SHADOW 3X OC (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20.2,
+    "costo_sin_iva": 1199,
+    "precio_efectivo": 1699
+  },
+  {
+    "producto": "ZOTAC GEFORCE RTX 5080 SOLID OC (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1299,
+    "precio_efectivo": 1729
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5080 INSPIRE 3X OC (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 1197.02,
+    "precio_efectivo": 1759
+  },
+  {
+    "producto": "GALAX RTX 4080 ST I-CLICK-OC (16GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1362.5,
+    "precio_efectivo": 1999
+  },
+  {
+    "producto": "INNO3D RTX 3080 TI X3 OC (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 10,
+    "costo_sin_iva": 1589.11,
+    "precio_efectivo": 1999
+  },
+  {
+    "producto": "INNO3D RTX 4090 ICHILL X3 (24GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 18,
+    "costo_sin_iva": 1469.38,
+    "precio_efectivo": 2025
+  },
+  {
+    "producto": "MSI GEFORCE RTX 5080 GAMING TRIO OC (16GB GDDR7)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1466.05,
+    "precio_efectivo": 2199
+  },
+  {
+    "producto": "INNO3D RTX 3080 TI ICHILL X3 (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1747.2,
+    "precio_efectivo": 2535
+  },
+  {
+    "producto": "EVGA GEFORCE RTX 3080 Ti XC3 GAMING (12GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 2016.5,
+    "precio_efectivo": 2875
+  },
+  {
+    "producto": "INNO3D GEFORCE RTX 3090 X3 (24GB GDDR6X)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 2044,
+    "precio_efectivo": 3079
+  },
+  {
+    "producto": "RX 500 series",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 712.33,
+    "precio_efectivo": 999
+  },
+  {
+    "producto": "RX NAVI series",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 1487.56,
+    "precio_efectivo": 2099
+  },
+  {
+    "producto": "RX BIG NAVI series",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 627.2,
+    "precio_efectivo": 835
+  },
+  {
+    "producto": "MSI RADEON™ RX 6600 XT MECH 2X 8G OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 965.68,
+    "precio_efectivo": 1365
+  },
+  {
+    "producto": "RX RDNA series",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 201.65,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "ARKTEK RX 6600 CYCLOPS (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 193.77,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "POWERCOLOR FIGHTER RADEON RX 6600 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 221.22,
+    "precio_efectivo": 315
+  },
+  {
+    "producto": "ASROCK CHALLENGER D RX 6600 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 19,
+    "costo_sin_iva": 254.92,
+    "precio_efectivo": 359
+  },
+  {
+    "producto": "ASROCK CHALLENGER OC RX 7600 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 22,
+    "costo_sin_iva": 255.94,
+    "precio_efectivo": 375
+  },
+  {
+    "producto": "GIGABYTE EAGLE RX 6600 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 252.15,
+    "precio_efectivo": 379
+  },
+  {
+    "producto": "POWERCOLOR RX 7600 FIGHTER (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 297.8,
+    "precio_efectivo": 429
+  },
+  {
+    "producto": "GIGABYTE RADEON RX 7600 GAMING OC (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 18,
+    "costo_sin_iva": 334.17,
+    "precio_efectivo": 465
+  },
+  {
+    "producto": "ASROCK PHANTOM GAMING OC RX 7600 (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 296.66,
+    "precio_efectivo": 519
+  },
+  {
+    "producto": "ASROCK PHANTOM GAMING D RX 6600XT (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 388.4,
+    "precio_efectivo": 589
+  },
+  {
+    "producto": "XFX SPEEDSTER SWFT 309 RX 6700 (10GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 13,
+    "margen_empresa": 30,
+    "costo_sin_iva": 394.41,
+    "precio_efectivo": 639
+  },
+  {
+    "producto": "POWERCOLOR RX 9060 XT REAPER (16GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 34,
+    "costo_sin_iva": 407.66,
+    "precio_efectivo": 699
+  },
+  {
+    "producto": "POWERCOLOR RX 9060 XT HELLHOUND (16GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 20,
+    "costo_sin_iva": 769.22,
+    "precio_efectivo": 1089
+  },
+  {
+    "producto": "ASROCK INTEL ARC A380 CHALLENGER ITX OC (6GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 303.71,
+    "precio_efectivo": 365
+  },
+  {
+    "producto": "ASROCK INTEL ARC A770 PHANTOM GAMING D (8GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 24,
+    "costo_sin_iva": 248.65,
+    "precio_efectivo": 369
+  },
+  {
+    "producto": "ASROCK INTEL ARC B570 CHALLENGER OC (10GB GDDR6)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 19,
+    "margen_empresa": 25.5,
+    "costo_sin_iva": 318.51,
+    "precio_efectivo": 485
+  }
+]

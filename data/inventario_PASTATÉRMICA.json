@@ -1,0 +1,200 @@
+[
+  {
+    "producto": "COOLER MASTER MASTERGEL PRO (1GR)",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 75,
+    "costo_sin_iva": 1,
+    "precio_efectivo": 5
+  },
+  {
+    "producto": "COOLER MASTER MASTERGEL PRO (1GR)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 2.78,
+    "precio_efectivo": 5
+  },
+  {
+    "producto": "ZALMAN STC8 SUPER THERMAL COMPOUND (1.5gr)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 1,
+    "costo_sin_iva": 5.39,
+    "precio_efectivo": 6.5
+  },
+  {
+    "producto": "KIT DE CAMBIO DE PASTA TERMICA HYDRONAUT\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 3.89,
+    "precio_efectivo": 6.5
+  },
+  {
+    "producto": "THERMAL GRIZZLY HYDRONAUT (1gr)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 145,
+    "margen_empresa": 57,
+    "costo_sin_iva": 2.93,
+    "precio_efectivo": 8
+  },
+  {
+    "producto": "ZALMAN ZM-STC10 / COMPUESTO TÉRMICO PREMIUM / NANOPARTÍCULAS / 2gr\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 30,
+    "costo_sin_iva": 4.74,
+    "precio_efectivo": 8
+  },
+  {
+    "producto": "THERMAL GRIZZLY KRYONAUT (1gr)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 49,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 8.42
+  },
+  {
+    "producto": "Super Thermal Grease STG2\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 11,
+    "margen_empresa": 0,
+    "costo_sin_iva": 5.47,
+    "precio_efectivo": 9
+  },
+  {
+    "producto": "THERMAL HERO NEO SERIES (1G)\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 250,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 9.47
+  },
+  {
+    "producto": "IC Diamond 7 Carat\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 5,
+    "precio_efectivo": 11.5
+  },
+  {
+    "producto": "Arctic MX-4 / 2019 Edition\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 7.2,
+    "precio_efectivo": 12
+  },
+  {
+    "producto": "THERMAL HERO NEO SERIES (2G)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 6.24,
+    "precio_efectivo": 12.5
+  },
+  {
+    "producto": "KIT DE CAMBIO DE PASTA TERMICA KRYONAUT\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 9.04,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "THERMAL GRIZZLY HYDRONAUT (3.9gr)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 34,
+    "costo_sin_iva": 8.64,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "ZALMAN STC9 SUPER THERMAL COMPOUND (4gr)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 36,
+    "margen_empresa": 24.12,
+    "costo_sin_iva": 10.07,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "THERMAL HERO ULTRA SERIES (1G)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 55,
+    "margen_empresa": 30,
+    "costo_sin_iva": 12.38,
+    "precio_efectivo": 19.99
+  },
+  {
+    "producto": "THERMAL HERO NEO SERIES (4G)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 14.44,
+    "precio_efectivo": 22.5
+  },
+  {
+    "producto": "THERMAL HERO METALLIQ SERIES (1G)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 52,
+    "costo_sin_iva": 10.14,
+    "precio_efectivo": 24
+  },
+  {
+    "producto": "KIT DE CAMBIO DE PASTA TERMICA STC-9\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 14.82,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "THERMAL GRIZZLY KRYONAUT (5.55gr)\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 19.24,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "THERMALRIGHT EXTREME ODYSSEY THERMALPAD 1.5MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 24.55,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "THERMALRIGHT EXTREME ODYSSEY THERMALPAD 2.5MM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 20,
+    "margen_empresa": 27.5,
+    "costo_sin_iva": 28.62,
+    "precio_efectivo": 45
+  }
+]

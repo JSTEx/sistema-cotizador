@@ -1,0 +1,1559 @@
+[
+  {
+    "producto": "THERMALTAKE TOUGHPOWER 750W 80 PLUS GOLD - BULK -",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 27.86,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER 750W 80 PLUS GOLD - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 55,
+    "costo_sin_iva": 27.86,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER GF1 SNOW 850W 80 PLUS GOLD - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 27,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "THERMALTAKE SMART 850W 80 PLUS BRONCE - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 24,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER 650W 80 PLUS GOLD - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 48.16,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "CORSAIR RM550X 550W 80 PLUS GOLD / FULL MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 25,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "THERMALTAKE EVO BLUE 2.0/ 850W/ 80+ GOLD /MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 60,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "EVGA 450 B3 / 450W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 20,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER PF1 / 650W / 80+ PLATINUM / MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER / 650W / 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 48.53,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "SHARKOON / 700W / 80 PLUS BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 89.47
+  },
+  {
+    "producto": "Triathlor ECO 550 / 550w - 80+ BRONZE MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 28,
+    "precio_efectivo": 92.5
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER 850W 80 PLUS GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 59.89,
+    "precio_efectivo": 92.5
+  },
+  {
+    "producto": "RIOTORO ONYX 650W / 650W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 68.83,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "MSI MAG A650GL / 650W/240v / 80+ GOLD / MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 70.68,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "RIOTORO ONYX 750W / 750W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 33,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER PF1 750W 80 PLUS PLATINUM\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 114.74
+  },
+  {
+    "producto": "ST60F-PB / 600w - 80+ BRONZE - Modular\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 114.74
+  },
+  {
+    "producto": "M12II EVO / 620W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 17,
+    "margen_empresa": 30,
+    "costo_sin_iva": 69.64,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "AEROCOOL MIRAGE GOLD / 850W / 80+ GOLD / FULL MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 30,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER PF1 / 1050W / 80+ PLATINUM / MODULAR - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 82.08,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "RIOTORO ENIGMA G1 850W / 850W - 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 79.04,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "ENERMAX REVOLUTION D.F. 650W 80 PLUS GOLD / FULL MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 22,
+    "costo_sin_iva": 80.04,
+    "precio_efectivo": 119
+  },
+  {
+    "producto": "RAIDMAX COBRA GOLD / 800W / 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 35,
+    "costo_sin_iva": 70.2,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "RAIDMAX COBRA GOLD GEN 5 / 850W / 80+ GOLD / MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 82.04,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "ET550-HG / 550w - 80 + GOLD- Modular\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 8,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 125.26
+  },
+  {
+    "producto": "ST70F-PB / 700w - 80+ BRONZE - Modular\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 29,
+    "costo_sin_iva": 79.97,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "MSI MAG A850GL / 850W / 80+ GOLD / ATX 3.0 / 12V-2X6 PCIe 5.0 / MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 80.76,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "SEASONIC G12 / 750W / 80+ GOLD / SEMI MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 13,
+    "margen_empresa": 0,
+    "costo_sin_iva": 83.28,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "COOLER MASTER MWE GOLD / 850W / 80+ GOLD / ATX 3.1 / 12V-2X6 PCIe 5.1 / FULL MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 36.72,
+    "costo_sin_iva": 75,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER PF1 ARGB/ 1050W / 80+ PLATINUM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 41.75,
+    "precio_efectivo": 135
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER PF1 850W 80 PLUS PLATINUM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 89.9,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "AZZA PSAZ-850G / 850W / 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 91.55,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "MSI MAG A750GL PCIE5 / 750W / 80+ GOLD / MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 103.28,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "EVGA 850 BQ / 850W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 59.89,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "RIOTORO ENIGMA G2 850W / 850W - 80+ GOLD / MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 93.86,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "SILVERSTONE ET700-MG / 700w - 80 + GOLD- Modular\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 146.32
+  },
+  {
+    "producto": "M12II EVO / 750W - 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 147.37
+  },
+  {
+    "producto": "EVGA 750 B3 / 750W - 80+ BRONCE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 98.94,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "EVGA 850 BQ / 850W 80+ BRONZE Semi Modular\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 58.91,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER/ 1200W / 80+ GOLD - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 32,
+    "costo_sin_iva": 88.98,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "GIGABYTE UD750GM 750W 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 93.56,
+    "precio_efectivo": 149
+  },
+  {
+    "producto": "SEASONIC G12 GM-850 / 850W / 80+ GOLD / SEMI MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 100.57,
+    "precio_efectivo": 155
+  },
+  {
+    "producto": "SILVERSTONE PS-ET750-HG / 750W / 80+ GOLD - SEMI MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 95.83,
+    "precio_efectivo": 159
+  },
+  {
+    "producto": "GIGABYTE P850GM / 850W / 80+ GOLD / FULL MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 110.65,
+    "precio_efectivo": 165
+  },
+  {
+    "producto": "ENERMAX REVOLUTION D.F. 750W 80 PLUS GOLD / FULL MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 23,
+    "costo_sin_iva": 111.67,
+    "precio_efectivo": 165
+  },
+  {
+    "producto": "DEEPCOOL PQ850M/ 850W/ 80 PLUS GOLD/ MÓDULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 8,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 173.68
+  },
+  {
+    "producto": "M12II EVO / 850W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 115.35,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "REVOLUTION D.F. 2 1200 /1200 WATTS/ 80 PLUS GOLD/ MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 112.89,
+    "precio_efectivo": 175
+  },
+  {
+    "producto": "CORSAIR RM850E GEN 5 / 850W / CYBERNETICS GOLD / MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 119.9,
+    "precio_efectivo": 179
+  },
+  {
+    "producto": "ASTRAPE P1-750G / 750W - 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 27,
+    "costo_sin_iva": 119.09,
+    "precio_efectivo": 185
+  },
+  {
+    "producto": "COOLER MASTER V850 SFX GOLD ATX 3.1 / 850W 80 PLUS GOLD / MODULAR / SFX\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 107.69,
+    "precio_efectivo": 189
+  },
+  {
+    "producto": "MSI MPG A1000G PCIE5 / 1000W 80 PLUS GOLD / MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 189.47
+  },
+  {
+    "producto": "ST75F-GS / 750w - 80 + GOLD - Modular\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 137.12,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "CORSAIR RM850x WHITE / 850W /80+ GOLD - MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 144.08,
+    "precio_efectivo": 195
+  },
+  {
+    "producto": "EVGA 850 GQ / 850W - 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 139.58,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "EVGA SuperNOVA 850 GA / 80+ GOLD 850W - MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 125.98,
+    "precio_efectivo": 199
+  },
+  {
+    "producto": "REVOLUTION D.F. X ARGB/1200 WATTS/ 80 PLUS GOLD/ MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 144,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "ST85F-PT / 850w - 80 + PLATINUM - Modular\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 143.74,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "DEEPCOOL PX1000G/ 1000W/ 80 PLUS GOLD/ MÓDULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 149.74,
+    "precio_efectivo": 219
+  },
+  {
+    "producto": "ROG-STRIX-750G / 750W / 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 20,
+    "costo_sin_iva": 158,
+    "precio_efectivo": 225
+  },
+  {
+    "producto": "ASUS ROG STRIX 1000G 1000W 80 PLUS GOLD / FULL MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 226.32
+  },
+  {
+    "producto": "X-850 / 850W - 80+ GOLD\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 234.74
+  },
+  {
+    "producto": "G-1200-MA / 1200w - 80+ Gold\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 132,
+    "precio_efectivo": 235
+  },
+  {
+    "producto": "RIOTORO BUILDER EDITION / 1200W - 80+ GOLD\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 241.05
+  },
+  {
+    "producto": "ST85F-GS / 850w - 80 + GOLD - Modular\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 241.05
+  },
+  {
+    "producto": "P-1050-MA / 1050w - 80+ PLATINUM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 167.07,
+    "precio_efectivo": 249
+  },
+  {
+    "producto": "ROG-STRIX-850G / 850W / 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 169.36,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "ASUS ROG STRIX 850G WHITE/ 850W 80+ GOLD / MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 21,
+    "costo_sin_iva": 180,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "ASUS ROG THOR 1000P / 1000W / 80+ PLATINUM / MODULAR / Pantalla Digital\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 182.65,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "EVGA 1000 GQ / 1000W /80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 186.99,
+    "precio_efectivo": 259
+  },
+  {
+    "producto": "SILVERSTONE PS-ST85F-PT / 850W - 80 + PLATINUM- MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 4,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 262.11
+  },
+  {
+    "producto": "X-1050 / 1050W - 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 3,
+    "margen_empresa": 20,
+    "costo_sin_iva": 190.47,
+    "precio_efectivo": 269
+  },
+  {
+    "producto": "SEASONIC FOCUS GX-1000 ATX 3.0 / 1000W 80 PLUS GOLD / MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 278.95
+  },
+  {
+    "producto": "P-1375-MA / 1375w - 80+ PLATINUM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 191,
+    "precio_efectivo": 299
+  },
+  {
+    "producto": "SEASONIC VERTEX PX / 850W / 80+ PLATINUM / MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 3,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 315.78
+  },
+  {
+    "producto": "Snow Silent / 1050W - 80+ PLATINUM\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 208.96,
+    "precio_efectivo": 319
+  },
+  {
+    "producto": "SILVERSTONE ST1000-PTS / 1000W / 80+ PLATINUM - MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 214.12,
+    "precio_efectivo": 329
+  },
+  {
+    "producto": "SEASONIC VERTEX PX / 1000W / 80+ PLATINUM / MODULAR\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 340
+  },
+  {
+    "producto": "FIVESTAR 600W STANDARD PSU",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 9.61,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "FIVESTAR 600W STANDARD PSU\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10.46,
+    "precio_efectivo": 16
+  },
+  {
+    "producto": "Xtech ATX Power Supply 500W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 36,
+    "costo_sin_iva": 14,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "THERMALTAKE SMART 430W 80 PLUS WHITE - BULK -\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 14,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "THERMALTAKE SMART/ 500W/ 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 26,
+    "costo_sin_iva": 19.56,
+    "precio_efectivo": 29.99
+  },
+  {
+    "producto": "XTECH ATX POWER SUPPLY 700W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 45,
+    "costo_sin_iva": 16,
+    "precio_efectivo": 33
+  },
+  {
+    "producto": "THERMALTAKE TR2 600W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 16,
+    "precio_efectivo": 36.5
+  },
+  {
+    "producto": "THERMALTAKE SMART 600W 80 PLUS WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 33,
+    "margen_empresa": 31,
+    "costo_sin_iva": 23.69,
+    "precio_efectivo": 39
+  },
+  {
+    "producto": "EAGLE WARRIOR PK650RSF001C / 650W 80 PLUS WHITE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 25.53,
+    "precio_efectivo": 39.99
+  },
+  {
+    "producto": "AEROCOOL VX PLUS 500W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 15,
+    "precio_efectivo": 42.5
+  },
+  {
+    "producto": "ZM-500-LE+ / 500w - 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 20.05,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "EAGLE WARRIOR WHITE PK600RSF001X / 600W 80 PLUS WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 28.2,
+    "precio_efectivo": 45
+  },
+  {
+    "producto": "EZCOOL GAMING RGB / 600W / 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 60,
+    "costo_sin_iva": 16,
+    "precio_efectivo": 45.5
+  },
+  {
+    "producto": "THERMALTAKE SMART RGB/ 500W/ 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22,
+    "precio_efectivo": 45.5
+  },
+  {
+    "producto": "THERMALTAKE SMART/ 700W/ 80+ WHITE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 35.44,
+    "precio_efectivo": 47.5
+  },
+  {
+    "producto": "EVGA 400 N1 / 400W - 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 56,
+    "costo_sin_iva": 19,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "AEROCOOL VX PLUS 600W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 29.04,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "RAIDMAX RX-500XT / 500W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 50,
+    "costo_sin_iva": 22,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "THERMALTAKE SMART 650W 80 PLUS BRONCE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "APEVIA PR800W PRESTIGE 800W 80 PLUS GOLD - BULK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 32.92,
+    "precio_efectivo": 49
+  },
+  {
+    "producto": "AZZA PSAZ 550W / 550W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 22,
+    "precio_efectivo": 52.5
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER 600W 80 PLUS GOLD - BULK -\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 12,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 52.63
+  },
+  {
+    "producto": "VS400 / 400W - 80+ WHITE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 52.63
+  },
+  {
+    "producto": "EVGA 430W / 430w - 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 18,
+    "margen_empresa": 35,
+    "costo_sin_iva": 31.42,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "EAGLE WARRIOR PK700R2B001C / 700W 80 PLUS BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 40.14,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "EVGA 400 N1 / 400W\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 35.33,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "AZZA PSAZ-650W / 650W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 19,
+    "precio_efectivo": 55
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER GX1/ 500W / 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 25,
+    "precio_efectivo": 57.5
+  },
+  {
+    "producto": "THERMALTAKE SMART 750W 80 PLUS BRONCE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 37.72,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "EAGLE WARRIOR EW600 / 600W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 38.59,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "CORSAIR CV450 / 450W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 38.58,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "RIOTORO BUILDER EDITION / 600W - 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 35,
+    "precio_efectivo": 59
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER GX1/ 600W / 80+ GOLD\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 46.17,
+    "precio_efectivo": 62.5
+  },
+  {
+    "producto": "EVGA 450 BT / 450W - 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 63.16
+  },
+  {
+    "producto": "EVGA 500W / 500w - 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 42.27,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "XPG PYLON / 550w 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 43.02,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "AZZA PSAZ-650W ARGB / 650W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 41.92,
+    "precio_efectivo": 65
+  },
+  {
+    "producto": "MSI MAG A550BN 500W 80 PLUS BRONCE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 19,
+    "margen_empresa": 33,
+    "costo_sin_iva": 40.28,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "MSI MAG A650BN 650W 80 Plus Bronce\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.07,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "EVGA 650W / 650W -80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 35.29,
+    "precio_efectivo": 69
+  },
+  {
+    "producto": "AEROCOOL KCAS 700W 80+ BRONCE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 28,
+    "precio_efectivo": 72.5
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER 700W 80 PLUS GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 50.78,
+    "precio_efectivo": 72.5
+  },
+  {
+    "producto": "EVGA 500 W1 / 500W - 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 52.65,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "EVGA 600 W1 / 600W - 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 46.94,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "XPG PYLON / 650w / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 47.42,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "SEASONIC S12III / 500W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 34.99,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "RAIDMAX VORTEX WHITE / 600W / 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 48.75,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "GIGABYTE P450B / 450W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 33,
+    "costo_sin_iva": 43.9,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "AZZA PSAZ-750W / 750W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 15,
+    "margen_empresa": 0,
+    "costo_sin_iva": 39.41,
+    "precio_efectivo": 75
+  },
+  {
+    "producto": "EAGLE WARRIOR PK850E5B001C / 850W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 54.08,
+    "precio_efectivo": 77.5
+  },
+  {
+    "producto": "ET550-B / 550W - 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 12,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 78.95
+  },
+  {
+    "producto": "CX550 / 550W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 53.81,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "GIGABYTE P650B / 650W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 28,
+    "costo_sin_iva": 49.62,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "AZZA PSAZ-750W ARGB / 750W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 43.01,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "AEROCOOL KCAS 800W 80+BRONCE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 49.2,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "DEEPCOOL PL750D / 750W / 80 PLUS BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 57.5,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "GIGABYTE P550B / 550W / 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 84.2
+  },
+  {
+    "producto": "S12II / 520w - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 56.87,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "GAMDIAS KRATOS M1 550B / 550W 80 PLUS BRONCE / ARGB\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 1,
+    "costo_sin_iva": 110.82,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "COOLER MASTER MWE V2 700W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 55.23,
+    "precio_efectivo": 85
+  },
+  {
+    "producto": "RAIDMAX VORTEX BRONZE / 535W / 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 86.32
+  },
+  {
+    "producto": "EVGA 600 B1 / 600W - 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 88.42
+  },
+  {
+    "producto": "EVGA 600B / 600w - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.42,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "SEASONIC S12III / 550W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 59.84,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "EVGA 600 BA / 600w - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 57.79,
+    "precio_efectivo": 89
+  },
+  {
+    "producto": "ENERMAX CYBERBRON / 600W - 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 12,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 89.47
+  },
+  {
+    "producto": "CX600 / 600W - 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 15,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 89.47
+  },
+  {
+    "producto": "ST60F-ESB / 600w - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 59.93,
+    "precio_efectivo": 92.5
+  },
+  {
+    "producto": "RAIDMAX VORTEX BRONZE / 635W / 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 20,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 93.68
+  },
+  {
+    "producto": "ET650-B / 550W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 66.75,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "EVGA 700 W1/ 700W 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 49.75,
+    "precio_efectivo": 95
+  },
+  {
+    "producto": "RAIDMAX VORTEX BRONZE / 700W / 80+ BRONZE\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 97.89
+  },
+  {
+    "producto": "S12II / 620w - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 65.73,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "SEASONIC B12 BC-750 / 750W / 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 69.3,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "EVGA 750 N1 / 750W / 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 65.51,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "GIGABYTE P650G 650W 80+ GOLD\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 20,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 100
+  },
+  {
+    "producto": "ASTRAPE M1-650W / 650W - 80+ WHITE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 4,
+    "margen_empresa": 35,
+    "costo_sin_iva": 58.2,
+    "precio_efectivo": 105
+  },
+  {
+    "producto": "RAIDMAX COBRA POWER GOLD GEN 5.1 / 750W / 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 75,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "EVGA 600 BQ / 600W 80+ BRONZE Semi Modular\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 73.92,
+    "precio_efectivo": 109
+  },
+  {
+    "producto": "GAMDIAS KRATOS M1 750B / 750W 80 PLUS BRONCE / ARGB\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 6,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 114.74
+  },
+  {
+    "producto": "CX750 / 750W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 79.02,
+    "precio_efectivo": 115
+  },
+  {
+    "producto": "EVGA 750 BQ / 750W 80+ BRONZE Semi Modular\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 2,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 117.89
+  },
+  {
+    "producto": "EVGA 700 B / 700W - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 85,
+    "precio_efectivo": 125
+  },
+  {
+    "producto": "EVGA 700 BQ / 700W 80+ BRONZE Semi Modular\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 86.69,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "ENERMAX MARBLEBRON / 750W - 80+ BRONZE / SEMI MODULAR\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 83.48,
+    "precio_efectivo": 129
+  },
+  {
+    "producto": "AZZA PSAZ-750G / 750W / 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 90.51,
+    "precio_efectivo": 139
+  },
+  {
+    "producto": "SILVERSTONE ET750-G / 750W / 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 0,
+    "costo_sin_iva": 97.54,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "DEEPCOOL PM750D/ 750W/ 80 PLUS GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 95.74,
+    "precio_efectivo": 145
+  },
+  {
+    "producto": "XPG CORE REACTOR / 850W / 80+ GOLD\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 152.63
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER SFX 600W 80 PLUS GOLD",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 25,
+    "precio_efectivo": 67.5
+  },
+  {
+    "producto": "THERMALTAKE TOUGHPOWER SFX 600W 80 PLUS GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 51.84,
+    "precio_efectivo": 79
+  },
+  {
+    "producto": "ST45SF / 450w - 80+ BRONZE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 45.5,
+    "precio_efectivo": 99
+  },
+  {
+    "producto": "SX550 / 550w - 80+ GOLD\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 5,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 131.58
+  },
+  {
+    "producto": "SX500-LG / 500w - 80+ GOLD\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 2,
+    "margen_empresa": 27,
+    "costo_sin_iva": 119.09,
+    "precio_efectivo": 185
+  }
+]

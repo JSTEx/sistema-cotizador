@@ -1,0 +1,146 @@
+[
+  {
+    "producto": "XTRIKE ME MP-204",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 4.9,
+    "precio_efectivo": 12
+  },
+  {
+    "producto": "XTRIKE ME MP-204\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 8.88,
+    "precio_efectivo": 13.5
+  },
+  {
+    "producto": "RAZER SPHEX V3 ULTRA THIN / SMALL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 6,
+    "margen_empresa": 35,
+    "costo_sin_iva": 8.38,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "RIOTORO VYRON MULTI BULL LARGE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 7,
+    "margen_empresa": 35,
+    "costo_sin_iva": 8.38,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "RIOTORO VYRON CLASSIC BULL LARGE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 21,
+    "margen_empresa": 23,
+    "costo_sin_iva": 9.99,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "RAZER SPHEX V2 GAMING\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 1,
+    "margen_empresa": 25,
+    "costo_sin_iva": 9.84,
+    "precio_efectivo": 15
+  },
+  {
+    "producto": "ZALMAN ZM-MP1000S\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 15.79
+  },
+  {
+    "producto": "MP1000s\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 10.37,
+    "precio_efectivo": 16
+  },
+  {
+    "producto": "RAZER GIGANTUS V2 SOFT LARGE\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 9,
+    "margen_empresa": 25,
+    "costo_sin_iva": 12.59,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "ZALMAN ZM-GP2\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 11.81,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "SHARKOON SKILLER SGP1 / L / BLACK\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 25,
+    "costo_sin_iva": 12.57,
+    "precio_efectivo": 19
+  },
+  {
+    "producto": "MOUSEPAD REDRAGON FLICK XL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 14,
+    "margen_empresa": 15,
+    "costo_sin_iva": 15.5,
+    "precio_efectivo": 21
+  },
+  {
+    "producto": "ZALMAN AMP1000 Premium Aluminum\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 0,
+    "margen_empresa": 0,
+    "costo_sin_iva": 15.89,
+    "precio_efectivo": 25
+  },
+  {
+    "producto": "MasterAccessory MP510\t\t",
+    "es_kpc": false,
+    "habilitado": false,
+    "stock": 10,
+    "margen_empresa": 0,
+    "costo_sin_iva": 0,
+    "precio_efectivo": 26.32
+  },
+  {
+    "producto": "RAVEN RVP01\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 11,
+    "margen_empresa": 24,
+    "costo_sin_iva": 19.25,
+    "precio_efectivo": 29
+  },
+  {
+    "producto": "RIOTORO VYRON SMOKEY BULL XL\t\t",
+    "es_kpc": true,
+    "habilitado": true,
+    "stock": 13,
+    "margen_empresa": 27,
+    "costo_sin_iva": 25.01,
+    "precio_efectivo": 39
+  }
+]
