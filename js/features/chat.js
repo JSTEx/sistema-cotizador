@@ -139,6 +139,24 @@ function crearRespuestaInventario(pregunta) {
 
     const resultados = obtenerCoincidenciasInventario(pregunta);
     if (resultados.length === 0) {
+        // Si la pregunta contiene un número (p.ej. modelo 9070), sugerir números cercanos del inventario
+        const numMatch = (pregunta.match(/\d{3,4}/) || [null])[0];
+        if (numMatch) {
+            const disponibles = new Set();
+            inventarioData.forEach(item => {
+                const m = String(item.nombre || item.modelo || '').match(/\d{3,4}/g);
+                if (m) m.forEach(x => disponibles.add(x));
+            });
+            const arr = Array.from(disponibles).map(x => Number(x)).filter(n => !Number.isNaN(n));
+            if (arr.length > 0) {
+                // ordenar por cercanía numérica
+                const qn = Number(numMatch);
+                arr.sort((a,b) => Math.abs(a-qn) - Math.abs(b-qn));
+                const top = arr.slice(0,3).map(n => String(n));
+                return `No encontré coincidencias directas para "${pregunta}". ¿Quizás quisiste decir: ${top.join(', ')}? Prueba con uno de esos números o con el nombre completo del modelo.`;
+            }
+        }
+
         return "No encontré coincidencias directas en el inventario. Prueba con otra palabra clave como nombre, categoría, marca o modelo.";
     }
 
