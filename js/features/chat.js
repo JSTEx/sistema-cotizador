@@ -138,6 +138,33 @@ function crearRespuestaInventario(pregunta) {
         .join("\n\n");
 }
 
+function esSaludo(texto) {
+    if (!texto) return false;
+    const t = String(texto || "").toLowerCase().trim();
+    // Frases cortas de saludo comunes
+    const saludos = [
+        "hola",
+        "holaa",
+        "buenos días",
+        "buenos dias",
+        "buenas",
+        "buenas tardes",
+        "buenas noches",
+        "buen día",
+        "buen dia",
+        "buenas días",
+        "buenos",
+        "buen",
+        "saludos",
+        "buenas noches",
+        "hi",
+        "hey",
+        "hello"
+    ];
+
+    return saludos.some(s => t === s || t.startsWith(s + " ") || t.includes(" " + s + " ") );
+}
+
 async function enviarPreguntaChat(event) {
     if (event) event.preventDefault();
 
@@ -149,6 +176,12 @@ async function enviarPreguntaChat(event) {
 
     appendChatMessage(pregunta, "user");
     input.value = "";
+    // Responder localmente a saludos sin llamar a la API
+    if (esSaludo(pregunta)) {
+        const saludo = "¡Hola! Soy el asistente del cotizador. Puedes preguntarme por productos, stock, precios o categorías. ¿En qué te ayudo?";
+        setTimeout(() => appendChatMessage(saludo, "assistant"), 150);
+        return;
+    }
 
     let respuesta = null;
     let fallbackReason = null;
