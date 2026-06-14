@@ -205,17 +205,23 @@ async function enviarPreguntaChat(event) {
                 },
                 body: JSON.stringify({ question: pregunta }),
             });
-
             if (response.ok) {
                 const data = await response.json();
 
-                // Validar la respuesta de la IA: si es muy corta o genérica, preferimos la respuesta local
-                const aiText = (data.answer || "").trim();
-                const isUseless = aiText.length < 20 || /no se encontr|no se encontro/i.test(aiText.toLowerCase());
-                if (data.source && data.source !== 'local' && isUseless) {
-                    respuesta = crearRespuestaInventario(pregunta);
+                if (data.source === 'local') {
+                    // La API devolvió un fallback local; preferir las coincidencias del cliente si existen
+                    const localResp = crearRespuestaInventario(pregunta);
+                    const hasLocalUseful = localResp && !/no encontr|no se encontr/i.test(localResp.toLowerCase());
+                    respuesta = hasLocalUseful ? localResp : (data.answer || localResp);
                 } else {
-                    respuesta = aiText || null;
+                    // Validar la respuesta de la IA: si es muy corta o genérica, preferimos la respuesta local
+                    const aiText = (data.answer || "").trim();
+                    const isUseless = aiText.length < 20 || /no se encontr|no se encontro/i.test(aiText.toLowerCase());
+                    if (data.source && data.source !== 'local' && isUseless) {
+                        respuesta = crearRespuestaInventario(pregunta);
+                    } else {
+                        respuesta = aiText || null;
+                    }
                 }
 
                 // Si hay resultados de búsqueda web, añadirlos a la respuesta
@@ -251,8 +257,9 @@ async function enviarPreguntaChat(event) {
             }
         } catch (error) {
             fallbackReason = "Error de conexión con el servidor IA.";
-        }
+        } finally {
             showLoading(false);
+        }
     }
 
     if (!respuesta) {
