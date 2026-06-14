@@ -138,6 +138,34 @@ html.dark-mode {
     background: #4338ca;
 }
 
+/* Loading indicator */
+.chat-loading {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat-loading .spinner {
+    width: 18px;
+    height: 18px;
+    stroke: currentColor;
+    stroke-width: 2.5px;
+    fill: none;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.chat-form input[disabled],
+.chat-form button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 .chat-footer {
     color: var(--text-secondary);
     font-size: 0.92rem;
