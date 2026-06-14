@@ -271,7 +271,13 @@
             </div>
             <form id="chat-form" class="chat-form" onsubmit="enviarPreguntaChat(event)">
                 <input id="chat-input" type="text" placeholder="¿Qué deseas saber?" autocomplete="off" />
-                <button type="submit">Enviar</button>
+                <div id="chat-loading" class="chat-loading" aria-hidden="true" style="display:none; margin-right:6px">
+                    <svg class="spinner" viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="12" cy="12" r="9" stroke-opacity="0.25"></circle>
+                        <path d="M21 12a9 9 0 0 1-9 9" stroke-linecap="round"></path>
+                    </svg>
+                </div>
+                <button id="chat-send-btn" type="submit">Enviar</button>
             </form>
             <div class="chat-footer">
                 <small>Modo: <span id="chat-mode-label">IA / Local</span>. Usa IA si está disponible, de lo contrario busca localmente.</small>

@@ -55,6 +55,15 @@ function appendChatMessage(text, role = "assistant") {
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
 }
 
+function showLoading(show) {
+    const loader = document.getElementById("chat-loading");
+    const input = document.getElementById("chat-input");
+    const btn = document.getElementById("chat-send-btn");
+    if (loader) loader.style.display = show ? "inline-flex" : "none";
+    if (input) input.disabled = show;
+    if (btn) btn.disabled = show;
+}
+
 function obtenerCoincidenciasInventario(pregunta) {
     const q = normalizarTexto(pregunta);
     if (!q || inventarioData.length === 0) return [];
@@ -188,6 +197,7 @@ async function enviarPreguntaChat(event) {
 
     if (chatMode !== "local") {
         try {
+            showLoading(true);
             const response = await fetch("/api/chat", {
                 method: "POST",
                 headers: {
@@ -198,8 +208,16 @@ async function enviarPreguntaChat(event) {
 
             if (response.ok) {
                 const data = await response.json();
-                respuesta = data.answer || null;
-                
+
+                // Validar la respuesta de la IA: si es muy corta o genérica, preferimos la respuesta local
+                const aiText = (data.answer || "").trim();
+                const isUseless = aiText.length < 20 || /no se encontr|no se encontro/i.test(aiText.toLowerCase());
+                if (data.source && data.source !== 'local' && isUseless) {
+                    respuesta = crearRespuestaInventario(pregunta);
+                } else {
+                    respuesta = aiText || null;
+                }
+
                 // Si hay resultados de búsqueda web, añadirlos a la respuesta
                 if (data.searchResults && Array.isArray(data.searchResults) && data.searchResults.length > 0) {
                     respuesta += "\n\n📱 Resultados de búsqueda web:\n";
@@ -209,10 +227,23 @@ async function enviarPreguntaChat(event) {
                         respuesta += `${index + 1}. ${titulo}\n   Fuente: ${result.source || url}\n`;
                     });
                 }
-                
+
                 // Mostrar la fuente de la IA
                 if (data.source) {
                     respuesta += `\n🔗 Fuente: ${data.source === 'huggingface' ? 'Hugging Face (IA Gratis)' : data.source === 'openai' ? 'OpenAI (ChatGPT)' : 'Inventario Local'}`;
+                }
+
+                // Añadir coincidencias locales como referencia si la IA respondió pero hay items locales
+                try {
+                    const localMatches = obtenerCoincidenciasInventario(pregunta);
+                    if (localMatches && localMatches.length > 0 && data.source && data.source !== 'local') {
+                        respuesta += `\n\n🔎 Posibles coincidencias en Inventario:`;
+                        localMatches.forEach((it, idx) => {
+                            respuesta += `\n${idx + 1}. ${formatearItem(it)}`;
+                        });
+                    }
+                } catch (e) {
+                    // ignore
                 }
             } else {
                 const errorData = await response.json().catch(() => null);
@@ -221,6 +252,7 @@ async function enviarPreguntaChat(event) {
         } catch (error) {
             fallbackReason = "Error de conexión con el servidor IA.";
         }
+            showLoading(false);
     }
 
     if (!respuesta) {
