@@ -166,6 +166,21 @@ async function enviarPreguntaChat(event) {
             if (response.ok) {
                 const data = await response.json();
                 respuesta = data.answer || null;
+                
+                // Si hay resultados de búsqueda web, añadirlos a la respuesta
+                if (data.searchResults && Array.isArray(data.searchResults) && data.searchResults.length > 0) {
+                    respuesta += "\n\n📱 Resultados de búsqueda web:\n";
+                    data.searchResults.forEach((result, index) => {
+                        const titulo = result.title || result.snippet || "Sin título";
+                        const url = result.url || result.source || "#";
+                        respuesta += `${index + 1}. ${titulo}\n   Fuente: ${result.source || url}\n`;
+                    });
+                }
+                
+                // Mostrar la fuente de la IA
+                if (data.source) {
+                    respuesta += `\n🔗 Fuente: ${data.source === 'huggingface' ? 'Hugging Face (IA Gratis)' : data.source === 'openai' ? 'OpenAI (ChatGPT)' : 'Inventario Local'}`;
+                }
             } else {
                 const errorData = await response.json().catch(() => null);
                 fallbackReason = errorData?.error || `No se pudo conectar al servidor (${response.status}).`;
