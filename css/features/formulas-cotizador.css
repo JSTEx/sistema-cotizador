@@ -151,3 +151,46 @@
             color: #34d399;
             border: 2px solid #10b981;
         }
+
+        @media (max-width: 768px) {
+            .formulas-container {
+                padding: 20px 16px;
+                border-radius: 16px;
+                width: 100%;
+            }
+
+            .formula-block {
+                width: 100%;
+                min-width: 0;
+                max-width: 100%;
+                flex: 1 1 100%;
+            }
+
+            .cotizaciones-list {
+                gap: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .formulas-container {
+                padding: 16px 12px;
+            }
+
+            .formulas-blocks-row {
+                gap: 12px;
+            }
+
+            .formula-block {
+                padding: 14px 12px;
+            }
+
+            .formula-math {
+                font-size: 1em;
+                word-break: break-word;
+            }
+
+            .add-cotizacion-btn {
+                width: 100%;
+                padding: 12px 18px;
+            }
+        }
