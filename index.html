@@ -266,11 +266,12 @@
                     <option value="local">Solo local</option>
                 </select>
             </div>
-            <div id="chat-messages" class="chat-messages">
+            <div id="chat-messages" class="chat-messages" aria-live="polite">
                 <div class="chat-message chat-assistant">Bienvenido. Escribe tu pregunta para obtener información del inventario.</div>
             </div>
             <form id="chat-form" class="chat-form" onsubmit="enviarPreguntaChat(event)">
-                <input id="chat-input" type="text" placeholder="¿Qué deseas saber?" autocomplete="off" />
+                <input id="chat-input" type="text" placeholder="¿Qué deseas saber?" autocomplete="off"
+                    maxlength="500" />
                 <div id="chat-loading" class="chat-loading" aria-hidden="true" style="display:none; margin-right:6px">
                     <svg class="spinner" viewBox="0 0 24 24" aria-hidden="true">
                         <circle cx="12" cy="12" r="9" stroke-opacity="0.25"></circle>
@@ -280,7 +281,8 @@
                 <button id="chat-send-btn" type="submit">Enviar</button>
             </form>
             <div class="chat-footer">
-                <small>Modo: <span id="chat-mode-label">IA / Local</span>. Usa IA si está disponible, de lo contrario busca localmente.</small>
+                <small>Modo: <span id="chat-mode-label">IA / Local</span>. Las consultas con datos personales se procesan
+                    solo en el servidor local.</small>
             </div>
         </div>
     </div>

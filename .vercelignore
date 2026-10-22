@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+.git
+.gitignore
+.vercel
+README.md
+scripts
+tools
+server.js
+data/backup_merged

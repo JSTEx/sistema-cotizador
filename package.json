@@ -4,7 +4,11 @@
   "description": "Cotizador con chat de inventario y soporte de IA.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "check:secrets": "node scripts/check-secrets.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "dotenv": "^16.3.1",

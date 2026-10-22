@@ -1,22 +1,89 @@
 let inventarioData = [];
+let inventarioError = null;
 let chatMode = "auto";
+let chatHistory = [];
+
+const MAX_PREGUNTA = 500;
+const MAX_HISTORIAL = 6;
+
+const PALABRAS_IGNORADAS = new Set([
+    "a", "al", "algo", "algun", "alguna", "algunas", "alguno", "algunos", "ante", "antes",
+    "como", "con", "contra", "cual", "cuales", "cuando", "cuanto", "cuanta", "cuantos",
+    "cuantas", "de", "del", "desde", "donde", "dos", "el", "ella", "ellas", "ellos", "en",
+    "entre", "era", "es", "esa", "esas", "ese", "eso", "esos", "esta", "estas", "este",
+    "esto", "estos", "fue", "ha", "hasta", "hay", "la", "las", "le", "les", "lo", "los",
+    "mas", "me", "mi", "mis", "mucho", "muy", "necesito", "nos", "o", "para", "pero", "por",
+    "precio", "precios", "producto", "productos", "que", "quien", "quiero", "se", "sin",
+    "sobre", "su", "sus", "te", "tiene", "tienen", "tu", "tus", "un", "una", "uno", "unos",
+    "unas", "vende", "venden", "y", "ya", "yo", "dame", "muestra", "buscar", "busca",
+    "inventario", "cuesta", "cuestan", "vale", "valen", "disponible", "disponibles",
+    "stock", "cantidad", "hola", "buenas", "buenos", "dias", "tardes", "noches", "favor",
+]);
+
+const SINONIMOS = {
+    fuente: ["fuente", "poder", "psu"],
+    fuentes: ["fuente", "poder", "psu"],
+    psu: ["fuente", "poder", "psu"],
+    grafica: ["tarjeta", "grafica", "gpu"],
+    graficas: ["tarjeta", "grafica", "gpu"],
+    tarjeta: ["tarjeta", "grafica", "gpu"],
+    gpu: ["tarjeta", "grafica", "gpu"],
+    ram: ["memoria", "ram"],
+    memoria: ["memoria", "ram"],
+    disco: ["disco", "ssd", "hdd", "unidad", "datos"],
+    discos: ["disco", "ssd", "hdd", "unidad", "datos"],
+    almacenamiento: ["disco", "ssd", "hdd", "almacenamiento"],
+    ssd: ["disco", "ssd", "unidad", "datos"],
+    hdd: ["disco", "hdd", "unidad", "datos"],
+    procesador: ["procesador", "cpu"],
+    procesadores: ["procesador", "cpu"],
+    cpu: ["procesador", "cpu"],
+    board: ["placa", "base", "motherboard"],
+    motherboard: ["placa", "base", "motherboard"],
+    placa: ["placa", "base", "motherboard"],
+    monitor: ["monitor", "pantalla"],
+    monitores: ["monitor", "pantalla"],
+    pantalla: ["monitor", "pantalla"],
+    laptop: ["laptop", "notebook", "portatil"],
+    laptops: ["laptop", "notebook", "portatil"],
+    notebook: ["laptop", "notebook", "portatil"],
+    portatil: ["laptop", "notebook", "portatil"],
+    cooler: ["cooler", "ventilador", "refrigeracion"],
+    coolers: ["cooler", "ventilador", "refrigeracion"],
+    ventilador: ["ventilador", "cooler"],
+    ventiladores: ["ventilador", "cooler"],
+    teclado: ["teclado"],
+    teclados: ["teclado"],
+    mouse: ["mouse", "raton"],
+    raton: ["mouse", "raton"],
+    audifonos: ["audifonos", "audio", "headset"],
+    headset: ["audifonos", "audio", "headset"],
+    bocina: ["bocina", "parlante", "audio"],
+    bocinas: ["bocina", "parlante", "audio"],
+    parlante: ["bocina", "parlante", "audio"],
+    impresora: ["impresora"],
+    impresoras: ["impresora"],
+    ups: ["ups", "bateria"],
+    case: ["case", "gabinete", "chasis"],
+    gabinete: ["case", "gabinete", "chasis"],
+    silla: ["silla", "mueble"],
+    sillas: ["silla", "mueble"],
+    escritorio: ["escritorio", "mueble"],
+    mesa: ["mesa", "mueble"],
+};
 
 async function cargarInventario() {
     inventarioData = [];
+    inventarioError = null;
 
-    const urls = ["/api/inventory", "data/inventario.json"];
-    for (const url of urls) {
-        try {
-            const response = await fetch(url, { cache: "no-store" });
-            if (!response.ok) continue;
-            const data = await response.json();
-            if (Array.isArray(data)) {
-                inventarioData = data;
-                return;
-            }
-        } catch (error) {
-            // continue trying fallback sources
-        }
+    try {
+        const response = await fetch("/api/inventory", { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        if (!Array.isArray(data)) throw new Error("Formato de inventario inválido.");
+        inventarioData = data;
+    } catch (error) {
+        inventarioError = error.message;
     }
 }
 
@@ -35,13 +102,18 @@ function actualizarModoChat(value) {
 }
 
 function normalizarTexto(texto) {
-    const str = String(texto || "");
-    return str
+    return String(texto || "")
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/g, " ")
         .replace(/\s+/g, " ")
-        .trim()
-        .toLowerCase();
+        .trim();
+}
+
+function truncarTexto(texto, maximo) {
+    const limpio = String(texto || "").replace(/\s+/g, " ").trim();
+    return limpio.length > maximo ? `${limpio.slice(0, maximo - 1)}…` : limpio;
 }
 
 function appendChatMessage(text, role = "assistant") {
@@ -64,132 +136,185 @@ function showLoading(show) {
     if (btn) btn.disabled = show;
 }
 
+function tokenizar(texto) {
+    const base = normalizarTexto(texto)
+        .split(/\s+/)
+        .filter((token) => token && !PALABRAS_IGNORADAS.has(token) && (token.length > 1 || /\d/.test(token)));
+    const tokens = new Set();
+
+    for (const token of base) {
+        tokens.add(token);
+        for (const sinonimo of SINONIMOS[token] || []) tokens.add(sinonimo);
+        if (token.length > 3) {
+            const singular = token.replace(/es$/, "").replace(/s$/, "");
+            if (singular.length > 2) tokens.add(singular);
+        }
+    }
+
+    return [...tokens];
+}
+
+function puntuarItem(item, tokens, frase) {
+    const campos = {
+        nombre: normalizarTexto(item.nombre),
+        modelo: normalizarTexto(item.modelo),
+        marca: normalizarTexto(item.marca),
+        categoria: normalizarTexto(item.categoria),
+        descripcion: normalizarTexto(item.descripcion),
+    };
+    let puntaje = 0;
+
+    if (frase.length >= 3 && campos.nombre.includes(frase)) puntaje += 12;
+
+    for (const token of tokens) {
+        if (campos.modelo.includes(token)) puntaje += 6;
+        if (campos.nombre.includes(token)) puntaje += 5;
+        if (campos.marca.includes(token)) puntaje += 4;
+        if (campos.categoria.includes(token)) puntaje += 3;
+        if (campos.descripcion.includes(token)) puntaje += 1;
+        if (token.length >= 4) {
+            if (campos.nombre.split(/\s+/).some((palabra) => palabra.startsWith(token))) puntaje += 2;
+            if (campos.modelo.split(/\s+/).some((palabra) => palabra.startsWith(token))) puntaje += 2;
+        }
+    }
+
+    return puntaje;
+}
+
 function obtenerCoincidenciasInventario(pregunta) {
-    const q = normalizarTexto(pregunta);
-    if (!q || inventarioData.length === 0) return [];
+    const palabras = normalizarTexto(pregunta)
+        .split(/\s+/)
+        .filter((token) => token && !PALABRAS_IGNORADAS.has(token));
+    const tokens = tokenizar(pregunta);
+    const frase = palabras.join(" ");
+
+    if (!tokens.length && !frase) return [];
 
     return inventarioData
-        .map((item) => {
-            const texto = normalizarTexto(
-                [
-                    item.nombre,
-                    item.categoria,
-                    item.descripcion,
-                    item.marca,
-                    item.modelo,
-                    item.precio,
-                    item.stock,
-                    item.habilitado,
-                ]
-                    .filter(Boolean)
-                    .join(" "),
-            );
+        .map((item) => ({ item, score: puntuarItem(item, tokens, frase) }))
+        .filter((entrada) => entrada.score > 0)
+        .sort((a, b) => b.score - a.score || String(a.item.nombre).localeCompare(String(b.item.nombre)))
+        .slice(0, 5)
+        .map((entrada) => entrada.item);
+}
 
-            const score = q
-                .split(/\s+/)
-                .filter(Boolean)
-                .reduce((acc, palabra) => acc + (texto.includes(palabra) ? 1 : 0), 0);
+function sugerirModelosCercanos(pregunta) {
+    const numerosConsulta = (normalizarTexto(pregunta).match(/\d{3,5}/g) || []).map(Number);
+    if (!numerosConsulta.length) return [];
 
-            return { item, score };
-        })
-        .filter((entry) => entry.score > 0)
-        .sort((a, b) => b.score - a.score)
+    const disponibles = new Set();
+    for (const item of inventarioData) {
+        const numeros = `${item.nombre || ""} ${item.modelo || ""}`.match(/\d{3,5}/g) || [];
+        for (const numero of numeros) disponibles.add(Number(numero));
+    }
+
+    const referencia = numerosConsulta[0];
+    return [...disponibles]
+        .filter((numero) => Number.isFinite(numero))
+        .sort((a, b) => Math.abs(a - referencia) - Math.abs(b - referencia))
         .slice(0, 3)
-        .map((entry) => entry.item);
+        .map(String);
+}
+
+function formatearPrecio(precio) {
+    const numero = Number(precio);
+    return Number.isFinite(numero) ? `$${numero.toFixed(2)}` : String(precio ?? "N/D");
 }
 
 function formatearItem(item) {
-    const partes = [];
-    if (item.nombre) partes.push(`Nombre: ${item.nombre}`);
-    if (item.categoria) partes.push(`Categoría: ${item.categoria}`);
-    if (item.marca) partes.push(`Marca: ${item.marca}`);
-    if (item.modelo) partes.push(`Modelo: ${item.modelo}`);
-    if (item.precio !== undefined && item.precio !== null) partes.push(`Precio: $${Number(item.precio).toFixed(2)}`);
-    if (item.stock !== undefined && item.stock !== null) partes.push(`Stock: ${item.stock}`);
-    if (item.habilitado !== undefined && item.habilitado !== null) partes.push(`Habilitado: ${item.habilitado}`);
-    if (item.descripcion) partes.push(`Descripción: ${item.descripcion}`);
-    return partes.join(" \n");
+    return [
+        item.nombre,
+        item.marca,
+        item.modelo,
+        item.precio !== null && item.precio !== undefined ? formatearPrecio(item.precio) : null,
+        item.stock !== null && item.stock !== undefined ? `Stock: ${item.stock}` : null,
+        item.categoria ? `Categoría: ${item.categoria}` : null,
+    ]
+        .filter(Boolean)
+        .join(" · ");
 }
 
 function crearRespuestaInventario(pregunta) {
-    const q = normalizarTexto(pregunta);
-    if (inventarioData.length === 0) {
-        return "El inventario está vacío. Agrega datos en `data/inventario.json` para que el chat pueda responder con información real.";
+    if (inventarioError) {
+        return "No pude cargar el inventario desde el servidor. Verifica que /api/inventory esté disponible.";
     }
 
-    if ((q.includes("cuantos") || q.includes("cuantas")) && q.includes("producto")) {
+    if (inventarioData.length === 0) {
+        return "El inventario está vacío. Agrega datos en data/inventario.json para que el chat pueda responder con información real.";
+    }
+
+    const normalizado = normalizarTexto(pregunta);
+
+    if (/(cuantos|cuantas|total).*(producto|articulo|item|referencia)/.test(normalizado)) {
         return `Hay ${inventarioData.length} productos en el inventario.`;
     }
 
-    if (q.includes("stock") || q.includes("disponible") || q.includes("cantidad")) {
+    if (/\b(stock|disponible|disponibilidad|cantidad)\b/.test(normalizado)) {
         const conStock = inventarioData.filter((item) => Number(item.stock) > 0);
-        if (conStock.length === 0) {
-            return "No hay productos con stock disponible en el inventario.";
-        }
+        if (conStock.length === 0) return "No hay productos con stock disponible en el inventario.";
         return `Hay ${conStock.length} productos disponibles con stock mayor a 0.`;
     }
 
-    if (q.includes("categor") || q.includes("tipo")) {
-        const categorias = [...new Set(inventarioData.map((item) => normalizarTexto(item.categoria)).filter(Boolean))];
+    if (/\b(categoria|categorias|tipo|tipos)\b/.test(normalizado)) {
+        const categorias = [
+            ...new Set(inventarioData.map((item) => String(item.categoria || "").trim()).filter(Boolean)),
+        ];
         if (categorias.length === 0) {
             return "No hay categorías definidas en el inventario, pero puedes buscar por nombre o precio de producto.";
         }
-        return `El inventario contiene ${categorias.length} categorías: ${categorias.slice(0, 6).join(", ")}${categorias.length > 6 ? ", ..." : ""}.`;
+        return `El inventario contiene ${categorias.length} categorías: ${categorias.slice(0, 8).join(", ")}${categorias.length > 8 ? ", ..." : ""}.`;
     }
 
     const resultados = obtenerCoincidenciasInventario(pregunta);
     if (resultados.length === 0) {
-        // Si la pregunta contiene un número (p.ej. modelo 9070), sugerir números cercanos del inventario
-        const numMatch = (pregunta.match(/\d{3,4}/) || [null])[0];
-        if (numMatch) {
-            const disponibles = new Set();
-            inventarioData.forEach(item => {
-                const m = String(item.nombre || item.modelo || '').match(/\d{3,4}/g);
-                if (m) m.forEach(x => disponibles.add(x));
-            });
-            const arr = Array.from(disponibles).map(x => Number(x)).filter(n => !Number.isNaN(n));
-            if (arr.length > 0) {
-                // ordenar por cercanía numérica
-                const qn = Number(numMatch);
-                arr.sort((a,b) => Math.abs(a-qn) - Math.abs(b-qn));
-                const top = arr.slice(0,3).map(n => String(n));
-                return `No encontré coincidencias directas para "${pregunta}". ¿Quizás quisiste decir: ${top.join(', ')}? Prueba con uno de esos números o con el nombre completo del modelo.`;
-            }
+        const sugerencias = sugerirModelosCercanos(pregunta);
+        if (sugerencias.length) {
+            return `No encontré coincidencias directas para "${pregunta}". ¿Quizás quisiste decir: ${sugerencias.join(", ")}? Prueba con uno de esos números o con el nombre completo del modelo.`;
         }
-
         return "No encontré coincidencias directas en el inventario. Prueba con otra palabra clave como nombre, categoría, marca o modelo.";
     }
 
     return resultados
+        .slice(0, 3)
         .map((item, index) => `Resultado ${index + 1}:\n${formatearItem(item)}`)
         .join("\n\n");
 }
 
 function esSaludo(texto) {
-    if (!texto) return false;
-    const t = String(texto || "").toLowerCase().trim();
-    // Frases cortas de saludo comunes
-    const saludos = [
+    const normalizado = normalizarTexto(texto).replace(/\s+/g, " ");
+    const saludos = new Set([
         "hola",
-        "holaa",
-        "buenos días",
-        "buenos dias",
+        "holi",
         "buenas",
+        "buenos dias",
+        "buen dia",
         "buenas tardes",
         "buenas noches",
-        "buen día",
-        "buen dia",
-        "buenas días",
-        "buenos",
-        "buen",
-        "saludos",
-        "buenas noches",
-        "hi",
         "hey",
-        "hello"
-    ];
+        "hi",
+        "hello",
+        "saludos",
+        "que tal",
+        "como estas",
+    ]);
+    return saludos.has(normalizado);
+}
 
-    return saludos.some(s => t === s || t.startsWith(s + " ") || t.includes(" " + s + " ") );
+function etiquetaProveedor(provider) {
+    if (provider === "openai") return "IA con OpenAI";
+    if (provider === "huggingface") return "IA con Hugging Face";
+    return "Inventario local";
+}
+
+function construirFuentesWeb(searchResults) {
+    if (!Array.isArray(searchResults) || searchResults.length === 0) return "";
+    return searchResults
+        .map((result, index) => {
+            const titulo = truncarTexto(result.title || result.snippet || "Sin título", 120);
+            const fuente = result.source || result.url || "";
+            return `${index + 1}. ${titulo}${fuente ? `\n   ${fuente}` : ""}`;
+        })
+        .join("\n");
 }
 
 async function enviarPreguntaChat(event) {
@@ -200,13 +325,21 @@ async function enviarPreguntaChat(event) {
 
     const pregunta = input.value.trim();
     if (!pregunta) return;
+    if (pregunta.length > MAX_PREGUNTA) {
+        appendChatMessage(`La pregunta no puede superar ${MAX_PREGUNTA} caracteres.`, "assistant");
+        return;
+    }
 
     appendChatMessage(pregunta, "user");
     input.value = "";
-    // Responder localmente a saludos sin llamar a la API
+
     if (esSaludo(pregunta)) {
-        const saludo = "¡Hola! Soy el asistente del cotizador. Puedes preguntarme por productos, stock, precios o categorías. ¿En qué te ayudo?";
-        setTimeout(() => appendChatMessage(saludo, "assistant"), 150);
+        setTimeout(() => {
+            appendChatMessage(
+                "¡Hola! Soy el asistente del cotizador. Puedes preguntarme por productos, stock, precios, categorías o compatibilidad. ¿En qué te ayudo?",
+                "assistant",
+            );
+        }, 150);
         return;
     }
 
@@ -220,58 +353,43 @@ async function enviarPreguntaChat(event) {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
+                    Accept: "application/json",
                 },
-                body: JSON.stringify({ question: pregunta }),
+                body: JSON.stringify({
+                    question: pregunta,
+                    history: chatHistory.slice(-MAX_HISTORIAL),
+                }),
             });
-            if (response.ok) {
-                const data = await response.json();
 
-                if (data.source === 'local') {
-                    // La API devolvió un fallback local; preferir las coincidencias del cliente si existen
+            const data = await response.json().catch(() => null);
+
+            if (response.ok && data) {
+                const provider = data.provider || data.source || "local";
+                const aiText = String(data.answer || "").trim();
+
+                if (provider === "local") {
                     const localResp = crearRespuestaInventario(pregunta);
                     const hasLocalUseful = localResp && !/no encontr|no se encontr/i.test(localResp.toLowerCase());
-                    respuesta = hasLocalUseful ? localResp : (data.answer || localResp);
+                    respuesta = hasLocalUseful ? localResp : aiText || localResp;
                 } else {
-                    // Validar la respuesta de la IA: si es muy corta o genérica, preferimos la respuesta local
-                    const aiText = (data.answer || "").trim();
-                    const isUseless = aiText.length < 20 || /no se encontr|no se encontro/i.test(aiText.toLowerCase());
-                    if (data.source && data.source !== 'local' && isUseless) {
-                        respuesta = crearRespuestaInventario(pregunta);
-                    } else {
-                        respuesta = aiText || null;
+                    respuesta = aiText || crearRespuestaInventario(pregunta);
+
+                    const localMatches = obtenerCoincidenciasInventario(pregunta).slice(0, 3);
+                    if (localMatches.length > 0) {
+                        respuesta += `\n\nCoincidencias en inventario:\n${localMatches
+                            .map((item, index) => `${index + 1}. ${formatearItem(item)}`)
+                            .join("\n")}`;
                     }
                 }
 
-                // Si hay resultados de búsqueda web, añadirlos a la respuesta
-                if (data.searchResults && Array.isArray(data.searchResults) && data.searchResults.length > 0) {
-                    respuesta += "\n\n📱 Resultados de búsqueda web:\n";
-                    data.searchResults.forEach((result, index) => {
-                        const titulo = result.title || result.snippet || "Sin título";
-                        const url = result.url || result.source || "#";
-                        respuesta += `${index + 1}. ${titulo}\n   Fuente: ${result.source || url}\n`;
-                    });
-                }
+                const fuentesWeb = construirFuentesWeb(data.searchResults);
+                if (fuentesWeb) respuesta += `\n\nFuentes web:\n${fuentesWeb}`;
 
-                // Mostrar la fuente de la IA
-                if (data.source) {
-                    respuesta += `\n🔗 Fuente: ${data.source === 'huggingface' ? 'Hugging Face (IA Gratis)' : data.source === 'openai' ? 'OpenAI (ChatGPT)' : 'Inventario Local'}`;
-                }
-
-                // Añadir coincidencias locales como referencia si la IA respondió pero hay items locales
-                try {
-                    const localMatches = obtenerCoincidenciasInventario(pregunta);
-                    if (localMatches && localMatches.length > 0 && data.source && data.source !== 'local') {
-                        respuesta += `\n\n🔎 Posibles coincidencias en Inventario:`;
-                        localMatches.forEach((it, idx) => {
-                            respuesta += `\n${idx + 1}. ${formatearItem(it)}`;
-                        });
-                    }
-                } catch (e) {
-                    // ignore
-                }
+                respuesta += `\n\nFuente: ${etiquetaProveedor(provider)}`;
+                if (data.privacy === "local") respuesta += " · procesado localmente por privacidad";
+                if (data.usedWeb) respuesta += " · búsqueda web segura";
             } else {
-                const errorData = await response.json().catch(() => null);
-                fallbackReason = errorData?.error || `No se pudo conectar al servidor (${response.status}).`;
+                fallbackReason = data?.error || `No se pudo conectar al servidor (${response.status}).`;
             }
         } catch (error) {
             fallbackReason = "Error de conexión con el servidor IA.";
@@ -282,12 +400,16 @@ async function enviarPreguntaChat(event) {
 
     if (!respuesta) {
         respuesta = crearRespuestaInventario(pregunta);
-        if (chatMode === "ia") {
-            respuesta += "\n\n(Respuesta local porque el servidor IA no respondió.)";
-        } else if (fallbackReason) {
+        if (fallbackReason) {
             respuesta += `\n\n(Respuesta local: ${fallbackReason})`;
+        } else if (chatMode === "ia") {
+            respuesta += "\n\n(Respuesta local porque el servidor IA no respondió.)";
         }
     }
+
+    chatHistory.push({ role: "user", content: pregunta });
+    chatHistory.push({ role: "assistant", content: respuesta });
+    chatHistory = chatHistory.slice(-MAX_HISTORIAL);
 
     setTimeout(() => {
         appendChatMessage(respuesta, "assistant");
