@@ -181,3 +181,9 @@ function actualizarBotonGuardar(id) {
     const btn = document.getElementById(`guardar_cotizacion_btn_${id}`);
     if (btn) btn.classList.add("visible");
 }
+
+function autoAjustarAltura(textarea) {
+    if (!textarea || textarea.tagName !== "TEXTAREA") return;
+    textarea.style.height = "auto";
+    textarea.style.height = `${Math.min(textarea.scrollHeight, 120)}px`;
+}
