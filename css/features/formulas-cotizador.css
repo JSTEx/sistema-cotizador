@@ -1,209 +1,212 @@
 /* Formulas */
-        .formulas-container {
-            background: var(--bg-primary);
-            border-radius: 18px;
-            box-shadow: var(--shadow-md);
-            border: 1px solid var(--border-color);
-            padding: 28px 24px;
-            display: flex;
-            flex-direction: column;
-            align-items: stretch;
-            max-width: 100vw;
-            transition:
-                background-color 0.3s ease,
-                border-color 0.3s ease,
-                box-shadow 0.3s ease;
-        }
+.formulas-container {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 100vw;
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
 
-        .formulas-container h3 {
-            color: #4f46e5;
-            text-align: center;
-            margin-top: auto;
-            margin-bottom: 18px;
-            font-weight: 700;
-            font-size: 1.25em;
-        }
+.formulas-container h3 {
+    color: var(--accent);
+    text-align: center;
+    margin: 0 0 16px;
+    font-weight: 700;
+    font-size: 1.12em;
+}
 
-        .formulas-blocks-row {
-            display: flex;
-            flex-direction: row;
-            gap: 18px;
-            justify-content: center;
-            align-items: stretch;
-            flex-wrap: wrap;
-            width: 100%;
-        }
+.formulas-blocks-row {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-        .formula-block {
-            background: linear-gradient(90deg, #eef2ff 0%, #e0e7ff 100%);
-            border-radius: 10px;
-            padding: 16px 14px;
-            margin-bottom: 0;
-            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.07);
-            border: 1px solid #a5b4fc;
-            width: 220px;
-            min-width: 220px;
-            max-width: 220px;
-            flex: 1 1 220px;
-            display: flex;
-            flex-direction: column;
-            justify-content: stretch;
-            align-items: stretch;
-        }
+.formula-block {
+    background: linear-gradient(90deg, #eef2ff 0%, #e0e7ff 100%);
+    border-radius: var(--radius-md);
+    padding: 14px 13px;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.07);
+    border: 1px solid #c3ccfb;
+    width: 210px;
+    min-width: 210px;
+    max-width: 210px;
+    flex: 1 1 210px;
+    display: flex;
+    flex-direction: column;
+}
 
-        .formula-title {
-            color: #6366f1;
-            font-weight: 600;
-            margin-bottom: 7px;
-            font-size: 1.08em;
-        }
+html.dark-mode .formula-block {
+    background: linear-gradient(90deg, #262b42 0%, #2a3050 100%);
+    border-color: #3d4570;
+}
 
-        .formula-math {
-            font-family: "JetBrains Mono", "Fira Mono", "Consolas", monospace;
-            font-size: 1.13em;
-            color: #2d3a5a;
-            background: #fff;
-            border-radius: 6px;
-            padding: 7px 10px;
-            display: inline-block;
-            margin-bottom: 4px;
-            box-shadow: 0 1px 2px rgba(99, 102, 241, 0.04);
-        }
+.formula-title {
+    color: #6366f1;
+    font-weight: 700;
+    margin-bottom: 6px;
+    font-size: 0.95em;
+}
 
-        .formula-desc {
-            color: #6b7280;
-            font-size: 0.98em;
-            margin-top: 3px;
-        }
+.formula-math {
+    font-family: "JetBrains Mono", "Fira Mono", "Consolas", monospace;
+    font-size: 0.95em;
+    color: #2d3a5a;
+    background: #fff;
+    border-radius: 7px;
+    padding: 7px 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+    box-shadow: 0 1px 2px rgba(99, 102, 241, 0.06);
+    word-break: break-word;
+}
 
-        .cotizaciones-list {
-            display: flex;
-            flex-direction: row;
-            gap: 32px;
-            justify-content: center;
-            align-items: flex-start;
-            flex-wrap: wrap;
-        }
+html.dark-mode .formula-math {
+    background: #1f2438;
+    color: #cdd6f0;
+}
 
-        .remove-cotizacion-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background: #f87171;
-            color: #fff;
-            border: none;
-            border-radius: 50%;
-            width: 28px;
-            height: 28px;
-            font-size: 1.1em;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background 0.2s;
-        }
+.formula-desc {
+    color: var(--text-secondary);
+    font-size: 0.86em;
+    margin-top: 3px;
+    line-height: 1.5;
+}
 
-        .remove-cotizacion-btn:hover {
-            background: #dc2626;
-        }
+.cotizaciones-list {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
 
-        .add-cotizacion-btn {
-            margin: 18px auto 0 auto;
-            display: block;
-            background: #4f46e5;
-            color: #fff;
-            border: none;
-            border-radius: 8px;
-            padding: 12px 28px;
-            font-size: 1.08em;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.2s;
-            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
-        }
+.remove-cotizacion-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #f87171;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, transform 0.15s;
+}
 
-        .add-cotizacion-btn:hover {
-            background: #3730a3;
-        }
+.remove-cotizacion-btn:hover {
+    background: #dc2626;
+    transform: scale(1.08);
+}
 
-        .iva-field input {
-            background: #f3f4f6;
-            color: #f59e42;
-            border: 2px solid #fbbf24;
-            font-weight: bold;
-        }
+.add-cotizacion-btn {
+    margin: 16px auto 0;
+    display: block;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-sm);
+    padding: 11px 24px;
+    font-size: 0.95em;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.22);
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+}
 
-        html.dark-mode .iva-field input {
-            background: #2a2f40;
-            color: #fbbf24;
-            border: 2px solid #f59e42;
-        }
+.add-cotizacion-btn:hover {
+    background: var(--accent-strong);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(79, 70, 229, 0.3);
+}
 
-        .costo-sin-iva-field input {
-            background: #f3f4f6;
-            color: #10b981;
-            border: 2px solid #34d399;
-            font-weight: bold;
-        }
+.iva-field input {
+    background: #f3f4f6;
+    color: #f59e42;
+    border: 2px solid #fbbf24;
+    font-weight: 700;
+}
 
-        html.dark-mode .costo-sin-iva-field input {
-            background: #2a2f40;
-            color: #34d399;
-            border: 2px solid #10b981;
-        }
+html.dark-mode .iva-field input {
+    background: #2a2f40;
+    color: #fbbf24;
+    border: 2px solid #f59e42;
+}
 
-        .margen-negativo-field input {
-            background: #f3f4f6;
-            color: #f87171;
-            border: 2px solid #fca5a5;
-            font-weight: bold;
-        }
+.costo-sin-iva-field input {
+    background: #f3f4f6;
+    color: #10b981;
+    border: 2px solid #34d399;
+    font-weight: 700;
+}
 
-        html.dark-mode .margen-negativo-field input {
-            background: #2a2f40;
-            color: #fca5a5;
-            border: 2px solid #f87171;
-        }
+html.dark-mode .costo-sin-iva-field input {
+    background: #2a2f40;
+    color: #34d399;
+    border: 2px solid #10b981;
+}
 
-        @media (max-width: 768px) {
-            .formulas-container {
-                padding: 20px 16px;
-                border-radius: 16px;
-                width: 100%;
-            }
+.margen-negativo-field input {
+    background: #f3f4f6;
+    color: #f87171;
+    border: 2px solid #fca5a5;
+    font-weight: 700;
+}
 
-            .formula-block {
-                width: 100%;
-                min-width: 0;
-                max-width: 100%;
-                flex: 1 1 100%;
-            }
+html.dark-mode .margen-negativo-field input {
+    background: #2a2f40;
+    color: #fca5a5;
+    border: 2px solid #f87171;
+}
 
-            .cotizaciones-list {
-                gap: 18px;
-            }
-        }
+@media (max-width: 768px) {
+    .formulas-container {
+        padding: 20px 16px;
+        border-radius: var(--radius-md);
+        width: 100%;
+    }
 
-        @media (max-width: 480px) {
-            .formulas-container {
-                padding: 16px 12px;
-            }
+    .formula-block {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        flex: 1 1 100%;
+    }
 
-            .formulas-blocks-row {
-                gap: 12px;
-            }
+    .cotizaciones-list {
+        gap: 16px;
+    }
+}
 
-            .formula-block {
-                padding: 14px 12px;
-            }
+@media (max-width: 480px) {
+    .formulas-container {
+        padding: 16px 12px;
+    }
 
-            .formula-math {
-                font-size: 1em;
-                word-break: break-word;
-            }
+    .formulas-blocks-row {
+        gap: 12px;
+    }
 
-            .add-cotizacion-btn {
-                width: 100%;
-                padding: 12px 18px;
-            }
-        }
+    .formula-block {
+        padding: 12px;
+    }
+
+    .add-cotizacion-btn {
+        width: 100%;
+        padding: 11px 18px;
+    }
+}
