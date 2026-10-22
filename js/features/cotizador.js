@@ -18,16 +18,16 @@ function crearCotizadorHTML(id) {
 
         <div class="field-grid">
             <div class="field">
-                <label for="cantidad_${id}">Cantidad</label>
-                <input type="number" id="cantidad_${id}" value="1" min="1" step="1"
-                        oninput="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
-                        placeholder="Cantidad">
-            </div>
-            <div class="field">
                 <label for="costo_${id}">Costo o precio base</label>
                 <input type="number" id="costo_${id}" value="" min="0.01" step="0.01"
                         oninput="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
                         placeholder="Costo unitario">
+            </div>
+            <div class="field">
+                <label for="cantidad_${id}">Cantidad</label>
+                <input type="number" id="cantidad_${id}" value="1" min="1" step="1"
+                        oninput="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
+                        placeholder="Cantidad">
             </div>
         </div>
 
@@ -39,11 +39,11 @@ function crearCotizadorHTML(id) {
         </div>
 
         <div class="results">
-            <div class="result-row iva">
+            <div class="result-row siva">
                 <span class="rl"><span class="dot"></span>IVA aplicado</span>
                 <input type="number" id="iva_${id}" value="" readonly tabindex="-1" placeholder="0.00">
             </div>
-            <div class="result-row siva">
+            <div class="result-row iva">
                 <span class="rl"><span class="dot"></span>Costo sin IVA (÷1.13)</span>
                 <input type="number" id="costo_sin_iva_${id}" value="0.00" readonly tabindex="-1" placeholder="0.00">
             </div>

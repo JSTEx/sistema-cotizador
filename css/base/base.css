@@ -16,6 +16,8 @@
     --green-strong: #059669;
     --amber: #f59e0b;
     --red: #ef4444;
+    --teal: #0d9488;
+    --teal-strong: #0f766e;
     --shadow-sm: 0 1px 2px rgba(28, 37, 64, 0.06);
     --shadow-md: 0 12px 32px rgba(28, 37, 64, 0.12);
     --shadow-lg: 0 24px 60px rgba(28, 37, 64, 0.20);
@@ -442,18 +444,24 @@ html.dark-mode .theme-switch .icon-moon {
 }
 
 .result-row.total .dot {
-    background: var(--accent);
+    background: var(--teal);
 }
 
 .result-row.total input {
-    background: linear-gradient(90deg, var(--accent-soft) 0%, color-mix(in srgb, var(--accent) 14%, transparent) 100%);
-    border: 1.5px solid color-mix(in srgb, var(--accent) 45%, transparent);
-    color: var(--accent);
+    background: linear-gradient(90deg, color-mix(in srgb, var(--teal) 14%, transparent) 0%, color-mix(in srgb, var(--teal) 8%, transparent) 100%);
+    border: 1.5px solid color-mix(in srgb, var(--teal) 50%, transparent);
+    color: var(--teal);
     font-size: 1.05em;
 }
 
+html.dark-mode .result-row.total .dot {
+    background: #2dd4bf;
+}
+
 html.dark-mode .result-row.total input {
-    color: #b3bcff;
+    background: linear-gradient(90deg, rgba(45, 212, 191, 0.16) 0%, rgba(45, 212, 191, 0.08) 100%);
+    border: 1.5px solid rgba(45, 212, 191, 0.5);
+    color: #5eead4;
 }
 
 .guardar-cotizacion-btn {

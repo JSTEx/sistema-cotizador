@@ -97,6 +97,36 @@
     gap: 12px;
 }
 
+.historial-toolbar {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+}
+
+.historial-toolbar input,
+.historial-toolbar select {
+    width: 100%;
+    padding: 9px 13px;
+    border: 1.5px solid var(--input-border);
+    border-radius: var(--radius-sm);
+    background: var(--input-bg);
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 0.88em;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.historial-toolbar input:focus,
+.historial-toolbar select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+}
+
 /* ===== Historial items ===== */
 .historial-empty {
     text-align: center;

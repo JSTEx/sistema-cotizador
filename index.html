@@ -164,6 +164,17 @@
             </div>
             <button class="side-panel-close" onclick="cerrarHistorial()" title="Cerrar" aria-label="Cerrar">×</button>
         </div>
+        <div class="historial-toolbar">
+            <input type="text" id="historial-filtro" placeholder="Buscar por nombre..." autocomplete="off"
+                oninput="renderHistorial()" />
+            <select id="historial-orden" onchange="renderHistorial()">
+                <option value="recientes">Más recientes</option>
+                <option value="antiguas">Más antiguas</option>
+                <option value="mayor">Mayor total</option>
+                <option value="menor">Menor total</option>
+                <option value="nombre">Nombre (A-Z)</option>
+            </select>
+        </div>
         <div id="historial-list" class="side-panel-body"></div>
     </aside>
 

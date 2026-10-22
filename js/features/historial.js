@@ -196,25 +196,66 @@ function guardarCambiosEdicion() {
     }
 }
 
+function _parseFechaHistorial(c) {
+    const partes = (c.fecha || "").split(", ");
+    if (partes.length === 2) {
+        const d = partes[0].split("/");
+        const t = partes[1].split(":");
+        if (d.length === 3 && t.length >= 2) {
+            return new Date(+d[2], +d[1] - 1, +d[0], +t[0], +t[1], +(t[2] || 0)).getTime();
+        }
+    }
+    const t = Date.parse(c.fecha);
+    return Number.isNaN(t) ? 0 : t;
+}
+
 function renderHistorial() {
     const list = document.getElementById("historial-list");
     const count = document.getElementById("historial-count");
+    const filtroEl = document.getElementById("historial-filtro");
+    const ordenEl = document.getElementById("historial-orden");
     if (!list) return;
-    list.innerHTML = "";
 
-    if (count) {
-        count.textContent = historialCotizaciones.length === 1
-            ? "1 cotización guardada"
-            : `${historialCotizaciones.length} cotizaciones guardadas`;
+    const filtro = (filtroEl?.value || "").trim().toLowerCase();
+    const orden = ordenEl?.value || "recientes";
+
+    let items = historialCotizaciones.map((c, idx) => ({ c, idx }));
+
+    if (filtro) {
+        items = items.filter(({ c }) =>
+            (c.nombre || "").toLowerCase().includes(filtro),
+        );
     }
 
-    if (historialCotizaciones.length === 0) {
-        list.innerHTML =
-            '<div class="historial-empty">No hay cotizaciones guardadas todavía.<br>Completa una cotización y presiona <b>Guardar</b>.</div>';
+    const ordenadores = {
+        recientes: (a, b) => _parseFechaHistorial(b.c) - _parseFechaHistorial(a.c),
+        antiguas: (a, b) => _parseFechaHistorial(a.c) - _parseFechaHistorial(b.c),
+        mayor: (a, b) => b.c.total - a.c.total,
+        menor: (a, b) => a.c.total - b.c.total,
+        nombre: (a, b) => (a.c.nombre || "").localeCompare(b.c.nombre || "", "es"),
+    };
+    items.sort(ordenadores[orden] || ordenadores.recientes);
+
+    if (count) {
+        const total = historialCotizaciones.length;
+        const mostrados = items.length;
+        count.textContent = filtro
+            ? `${mostrados} de ${total} cotizacion${total === 1 ? "" : "es"}`
+            : total === 1
+                ? "1 cotización guardada"
+                : `${total} cotizaciones guardadas`;
+    }
+
+    list.innerHTML = "";
+
+    if (items.length === 0) {
+        list.innerHTML = historialCotizaciones.length === 0
+            ? '<div class="historial-empty">No hay cotizaciones guardadas todavía.<br>Completa una cotización y presiona <b>Guardar</b>.</div>'
+            : '<div class="historial-empty">Ninguna cotización coincide con la búsqueda.</div>';
         return;
     }
 
-    historialCotizaciones.forEach((c, idx) => {
+    items.forEach(({ c, idx }) => {
         const div = document.createElement("div");
         div.className = "historial-cotizacion";
         div.innerHTML = `
