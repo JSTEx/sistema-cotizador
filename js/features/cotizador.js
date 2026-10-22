@@ -49,7 +49,7 @@ function crearCotizadorHTML(id) {
     </div>
 
     <div class="input-group margen-negativo-field">
-        <label for="margen_negativo_${id}">Costo con -Margen (%):</label>
+        <label for="margen_negativo_${id}">Costo restando el margen (%):</label>
         <input type="number" id="margen_negativo_${id}" value="0.00" readonly tabindex="-1" placeholder="0.00">
     </div>
 
