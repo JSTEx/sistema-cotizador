@@ -1,6 +1,6 @@
 .calculator-panel {
     position: fixed;
-    top: 84px;
+    top: calc(var(--header-h) + 20px);
     left: 24px;
     width: 380px;
     height: 540px;
@@ -11,7 +11,7 @@
     background: var(--bg-primary);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-lg);
     z-index: 2100;
     overflow: hidden auto;
     overscroll-behavior: contain;

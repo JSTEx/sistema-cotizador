@@ -1,33 +1,22 @@
-function toggleFormulas() {
+function abrirFormulas() {
     const container = document.getElementById("formulas-container");
-    const btn = document.getElementById("toggle-formulas-btn");
-
-    if (container.style.display === "none") {
-        container.style.display = "flex";
-        if (btn) btn.textContent = "Ocultar fórmulas";
-    } else {
-        container.style.display = "none";
-        if (btn) btn.textContent = "Ver fórmulas";
-    }
+    const overlay = document.getElementById("formulas-overlay");
+    if (!container) return;
+    container.classList.add("open");
+    if (overlay) overlay.classList.add("active");
 }
 
-function toggleFormulasDesdeMenu() {
-    toggleFormulas();
-    document.getElementById("menu-popup").style.display = "none";
+function cerrarFormulas() {
+    const container = document.getElementById("formulas-container");
+    const overlay = document.getElementById("formulas-overlay");
+    if (!container) return;
+    container.classList.remove("open");
+    if (overlay) overlay.classList.remove("active");
 }
 
-function toggleMenu() {
-    const menu = document.getElementById("menu-popup");
-    const burger = document.querySelector(".hamburger-menu");
-    burger.classList.toggle("active");
-    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
-}
-
-document.addEventListener("click", function (e) {
-    const menu = document.getElementById("menu-popup");
-    const burger = document.querySelector(".hamburger-menu");
-    if (!menu.contains(e.target) && !burger.contains(e.target)) {
-        menu.style.display = "none";
-        burger.classList.remove("active");
-    }
+document.addEventListener("keydown", function (e) {
+    if (e.key !== "Escape") return;
+    cerrarFormulas();
+    if (typeof cerrarHistorial === "function") cerrarHistorial();
+    if (typeof cerrarCalculadora === "function") cerrarCalculadora();
 });

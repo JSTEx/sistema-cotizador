@@ -1,66 +1,66 @@
 function crearCotizadorHTML(id) {
     return `
 <div class="cotizador-container" data-id="${id}">
-    <button class="remove-cotizacion-btn" onclick="eliminarCotizacion(${id})" title="Eliminar cotización" style="display:${id === 0 ? "none" : "flex"};">×</button>
-    <h2>Cotizador de Producto</h2>
-    <p>IVA aplicado: <b>13%</b></p>
-
-    <div class="input-group">
-        <label for="nombre_${id}">Nombre del Cliente/Producto:</label>
-        <textarea id="nombre_${id}" placeholder="Nombre del producto"
-                oninput="actualizarBotonGuardar(${id}); autoAjustarAltura(this)"
-                rows="1"></textarea>
+    <div class="cotizador-header">
+        <div class="ch-title">
+            <h2>Cotización de producto</h2>
+            <span class="ch-sub">IVA aplicado: 13%</span>
+        </div>
+        <button class="remove-cotizacion-btn" onclick="eliminarCotizacion(${id})" title="Eliminar cotización" style="display:${id === 0 ? "none" : "flex"};">×</button>
     </div>
+    <div class="cotizador-body">
+        <div class="field">
+            <label for="nombre_${id}">Nombre del Cliente/Producto</label>
+            <textarea id="nombre_${id}" placeholder="Nombre del producto"
+                    oninput="actualizarBotonGuardar(${id}); autoAjustarAltura(this)"
+                    rows="1"></textarea>
+        </div>
 
-    <div class="input-group">
-        <label for="cantidad_${id}">Cantidad:</label>
-        <input type="number" id="cantidad_${id}" value="1" min="1" step="1"
-                onchange="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
-                oninput="actualizarBotonGuardar(${id})"
-                placeholder="Ingrese la cantidad">
+        <div class="field-grid">
+            <div class="field">
+                <label for="cantidad_${id}">Cantidad</label>
+                <input type="number" id="cantidad_${id}" value="1" min="1" step="1"
+                        oninput="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
+                        placeholder="Cantidad">
+            </div>
+            <div class="field">
+                <label for="costo_${id}">Costo o precio base</label>
+                <input type="number" id="costo_${id}" value="" min="0.01" step="0.01"
+                        oninput="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
+                        placeholder="Costo unitario">
+            </div>
+        </div>
+
+        <div class="field">
+            <label for="margen_${id}">Margen Deseado (%)</label>
+            <input type="number" id="margen_${id}" value="" min="1" max="99" step="0.01"
+                    oninput="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
+                    placeholder="Margen deseado">
+        </div>
+
+        <div class="results">
+            <div class="result-row iva">
+                <span class="rl"><span class="dot"></span>IVA aplicado</span>
+                <input type="number" id="iva_${id}" value="" readonly tabindex="-1" placeholder="0.00">
+            </div>
+            <div class="result-row siva">
+                <span class="rl"><span class="dot"></span>Costo sin IVA (÷1.13)</span>
+                <input type="number" id="costo_sin_iva_${id}" value="0.00" readonly tabindex="-1" placeholder="0.00">
+            </div>
+            <div class="result-row mneg">
+                <span class="rl"><span class="dot"></span>Costo restando el margen</span>
+                <input type="number" id="margen_negativo_${id}" value="0.00" readonly tabindex="-1" placeholder="0.00">
+            </div>
+            <div class="result-row total">
+                <span class="rl"><span class="dot"></span>Total de Venta (con IVA)</span>
+                <input type="number" id="total_${id}" value="" min="0.01" step="0.01"
+                        onchange="calcularMargenDesdeTotal(${id}); actualizarBotonGuardar(${id})"
+                        oninput="actualizarBotonGuardar(${id})"
+                        placeholder="Total calculado">
+            </div>
+        </div>
+        <button id="guardar_cotizacion_btn_${id}" class="guardar-cotizacion-btn visible" onclick="guardarCotizacion(${id})">Guardar cotización</button>
     </div>
-
-    <div class="input-group">
-        <label for="costo_${id}">Costo o precio Base:</label>
-        <input type="number" id="costo_${id}" value="" min="0.01" step="0.01"
-                oninput="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
-                onchange="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
-                placeholder="Ingrese el costo unitario">
-    </div>
-
-    <div class="input-group">
-        <label for="margen_${id}">Margen Deseado (%):</label>
-        <input type="number" id="margen_${id}" value="" min="1" max="99" step="0.01"
-                onchange="calcularTotalDesdeCosto(${id}); actualizarBotonGuardar(${id})"
-                oninput="actualizarBotonGuardar(${id})"
-                placeholder="Ingrese el margen deseado">
-    </div>
-
-    <hr>
-
-    <div class="input-group iva-field">
-        <label for="iva_${id}">IVA aplicado y restado:</label>
-        <input type="number" id="iva_${id}" value="" readonly tabindex="-1" placeholder="IVA calculado">
-    </div>
-
-    <div class="input-group costo-sin-iva-field">
-        <label for="costo_sin_iva_${id}">Costo Unitario sin IVA (dividido 1.13):</label>
-        <input type="number" id="costo_sin_iva_${id}" value="0.00" readonly tabindex="-1" placeholder="0.00">
-    </div>
-
-    <div class="input-group margen-negativo-field">
-        <label for="margen_negativo_${id}">Costo restando el margen (%):</label>
-        <input type="number" id="margen_negativo_${id}" value="0.00" readonly tabindex="-1" placeholder="0.00">
-    </div>
-
-    <div class="input-group total-field">
-        <label for="total_${id}">Total de Venta (Con IVA):</label>
-        <input type="number" id="total_${id}" value="" min="0.01" step="0.01"
-                onchange="calcularMargenDesdeTotal(${id}); actualizarBotonGuardar(${id})"
-                oninput="actualizarBotonGuardar(${id})"
-                placeholder="Total calculado">
-    </div>
-    <button id="guardar_cotizacion_btn_${id}" class="guardar-cotizacion-btn visible" onclick="guardarCotizacion(${id})">Guardar cotización</button>
 </div>
 `;
 }
@@ -142,6 +142,7 @@ function calcularMargenDesdeTotal(id) {
     const margenInput = document.getElementById(`margen_${id}`);
     const ivaInput = document.getElementById(`iva_${id}`);
     const costoSinIVAInput = document.getElementById(`costo_sin_iva_${id}`);
+    const margenNegativoInput = document.getElementById(`margen_negativo_${id}`);
 
     const costo = parseFloat(costoInput.value) || 0;
     const cantidad = parseInt(cantidadInput.value) || 1;
@@ -157,6 +158,7 @@ function calcularMargenDesdeTotal(id) {
     if (cantidad <= 0 || costo <= 0) {
         margenInput.value = 0;
         ivaInput.value = "";
+        if (margenNegativoInput) margenNegativoInput.value = "0.00";
         return;
     }
 
@@ -173,6 +175,10 @@ function calcularMargenDesdeTotal(id) {
     const pvTotalSinIVA = pvUnitarioBase * cantidad;
     const iva = pvTotalSinIVA * 0.13;
     ivaInput.value = iva.toFixed(2);
+
+    if (margenNegativoInput) {
+        margenNegativoInput.value = (costo * (1 - margenDecimal)).toFixed(2);
+    }
 
     margenInput.value = margenPorcentaje.toFixed(2);
 }

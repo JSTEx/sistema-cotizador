@@ -1,14 +1,14 @@
 :root {
-    --chat-bg: #ffffff;
-    --chat-border: #e5e7eb;
-    --chat-assistant: #eef2ff;
-    --chat-user: #10b981;
+    --chat-bg: var(--bg-primary);
+    --chat-border: var(--border-color);
+    --chat-assistant: var(--accent-soft);
+    --chat-user: var(--green);
 }
 
 html.dark-mode {
-    --chat-bg: #1f2436;
-    --chat-border: #333a4f;
-    --chat-assistant: #2a3152;
+    --chat-bg: var(--bg-primary);
+    --chat-border: var(--border-color);
+    --chat-assistant: var(--accent-soft);
 }
 
 .chat-panel {
@@ -20,7 +20,10 @@ html.dark-mode {
     flex: 1 1 380px;
     width: auto;
     min-width: 320px;
-    max-width: 420px;
+    max-width: 460px;
+    align-self: flex-start;
+    position: sticky;
+    top: calc(var(--header-h) + 26px);
     display: flex;
     flex-direction: column;
     gap: 13px;
@@ -194,6 +197,14 @@ html.dark-mode {
         flex: 1 1 100%;
         width: 100%;
         max-width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .chat-panel {
+        position: static;
+        max-width: 560px;
+        width: 100%;
     }
 }
 

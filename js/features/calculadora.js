@@ -1,10 +1,6 @@
 function abrirCalculadoraDesdeMenu() {
     const panel = document.getElementById("calculadora-panel");
     panel.style.display = "block";
-    const menu = document.getElementById("menu-popup");
-    const burger = document.querySelector(".hamburger-menu");
-    menu.style.display = "none";
-    burger.classList.remove("active");
     actualizarFormularioCalculadora();
     ajustarPanelCalculadoraAlViewport();
 }

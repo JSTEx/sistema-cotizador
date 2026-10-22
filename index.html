@@ -9,7 +9,7 @@
         href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2300c774'/%3E%3Cstop offset='1' stop-color='%2300a05c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='32' fill='url(%23g)'/%3E%3Ctext x='32' y='32' text-anchor='middle' dominant-baseline='central' font-size='40' font-weight='700' font-family='Montserrat,Arial,Helvetica,sans-serif' fill='white'%3E%24%3C/text%3E%3C/svg%3E" />
     <link rel="apple-touch-icon"
         href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%2300b86b'/%3E%3Ctext x='32' y='32' text-anchor='middle' dominant-baseline='central' font-size='40' font-weight='700' font-family='Montserrat,Arial,Helvetica,sans-serif' fill='white'%3E%24%3C/text%3E%3C/svg%3E" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/base/base.css" />
     <link rel="stylesheet" href="css/features/notify.css" />
     <link rel="stylesheet" href="css/features/formulas-cotizador.css" />
@@ -20,43 +20,67 @@
 </head>
 
 <body>
-    <button class="dark-mode-toggle" onclick="toggleDarkMode()" title="Alternar modo oscuro">
-        <div class="toggle-icon">
-            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="5"></circle>
-                <line x1="12" y1="1" x2="12" y2="3"></line>
-                <line x1="12" y1="21" x2="12" y2="23"></line>
-                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                <line x1="1" y1="12" x2="3" y2="12"></line>
-                <line x1="21" y1="12" x2="23" y2="12"></line>
-                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-            </svg>
-            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-            </svg>
+    <header class="app-header">
+        <div class="app-brand">
+            <span class="brand-badge">$</span>
+            <span class="brand-name">Cotizador</span>
         </div>
-    </button>
-
-    <div class="hamburger-menu" onclick="toggleMenu()">
-        <div class="hamburger-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-    <div id="menu-popup" class="menu-popup">
-        <button onclick="abrirHistorial()">Historial</button>
-        <button onclick="abrirCalculadoraDesdeMenu()" style="background: #f59e0b">
-            Calculadora
-        </button>        
-        <button onclick="toggleFormulasDesdeMenu()" style="background: #10b981">
-            Ver/Ocultar fórmulas
-        </button>
-    </div>
+        <nav class="app-nav">
+            <button class="nav-btn" onclick="abrirHistorial()" title="Cotizaciones guardadas">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M3 3v5h5"></path>
+                    <path d="M3.05 13A9 9 0 1 0 6 5.3L3 8"></path>
+                    <path d="M12 7v5l4 2"></path>
+                </svg>
+                <span class="nav-label">Historial</span>
+            </button>
+            <button class="nav-btn" onclick="abrirCalculadoraDesdeMenu()" title="Calculadora">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                    <line x1="8" y1="6" x2="16" y2="6"></line>
+                    <line x1="8" y1="10" x2="8" y2="10"></line>
+                    <line x1="12" y1="10" x2="12" y2="10"></line>
+                    <line x1="16" y1="10" x2="16" y2="10"></line>
+                    <line x1="8" y1="14" x2="8" y2="14"></line>
+                    <line x1="12" y1="14" x2="12" y2="14"></line>
+                    <line x1="16" y1="14" x2="16" y2="18"></line>
+                    <line x1="8" y1="18" x2="12" y2="18"></line>
+                </svg>
+                <span class="nav-label">Calculadora</span>
+            </button>
+            <button class="nav-btn" onclick="abrirFormulas()" title="Fórmulas utilizadas">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M4 7h16"></path>
+                    <path d="M4 12h16"></path>
+                    <path d="M4 17h10"></path>
+                </svg>
+                <span class="nav-label">Fórmulas</span>
+            </button>
+            <button class="theme-switch" onclick="toggleDarkMode()" title="Cambiar tema" aria-label="Cambiar tema">
+                <span class="knob">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <line x1="12" y1="2" x2="12" y2="4"></line>
+                        <line x1="12" y1="20" x2="12" y2="22"></line>
+                        <line x1="4.2" y1="4.2" x2="5.6" y2="5.6"></line>
+                        <line x1="18.4" y1="18.4" x2="19.8" y2="19.8"></line>
+                        <line x1="2" y1="12" x2="4" y2="12"></line>
+                        <line x1="20" y1="12" x2="22" y2="12"></line>
+                        <line x1="4.2" y1="19.8" x2="5.6" y2="18.4"></line>
+                        <line x1="18.4" y1="5.6" x2="19.8" y2="4.2"></line>
+                    </svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </span>
+            </button>
+        </nav>
+    </header>
 
     <div id="calculadora-panel" class="calculator-panel" style="display: none">
         <div class="calculator-header calc-drag-handle">
@@ -130,77 +154,35 @@
         </div>
     </div>
 
-    <div id="historial-sidebar" class="historial-sidebar">
-        <button class="close-historial-btn" onclick="cerrarHistorial()">×</button>
-        <div class="historial-title">Cotizaciones guardadas</div>
-        <div id="historial-list"></div>
-    </div>
-    <!-- Modal de Edición -->
-    <div id="modal-editar" class="modal-overlay">
-        <div class="modal-content">
-            <button class="modal-close-btn" onclick="cerrarModal()" title="Cerrar">
-                ×
-            </button>
-            <h2>Editar Cotización</h2>
-            <div class="input-group">
-                <label for="modal-nombre">Nombre del Cliente/Producto:</label>
-                <textarea id="modal-nombre" placeholder="Nombre del producto" oninput="
-              recalcularModalEdicion();
-              autoAjustarAltura(this);
-            " rows="1"></textarea>
+    <!-- Panel: Cotizaciones guardadas -->
+    <div id="historial-overlay" class="side-overlay" onclick="cerrarHistorial()"></div>
+    <aside id="historial-sidebar" class="side-panel">
+        <div class="side-panel-head">
+            <div>
+                <h3>Cotizaciones guardadas</h3>
+                <span class="side-panel-sub" id="historial-count"></span>
             </div>
-            <div class="input-group">
-                <label for="modal-cantidad">Cantidad:</label>
-                <input type="number" id="modal-cantidad" min="1" step="1" oninput="recalcularModalEdicion()" />
-            </div>
-            <div class="input-group">
-                <label for="modal-costo">Costo o precio Base:</label>
-                <input type="number" id="modal-costo" min="0.01" step="0.01" oninput="recalcularModalEdicion()" />
-            </div>
-            <div class="input-group">
-                <label for="modal-margen">Margen Deseado (%):</label>
-                <input type="number" id="modal-margen" min="1" max="99" step="0.01"
-                    oninput="recalcularModalEdicion()" />
-            </div>
-            <hr style="margin: 16px 0" />
-            <div class="input-group iva-field">
-                <label for="modal-iva">IVA aplicado y restado:</label>
-                <input type="number" id="modal-iva" readonly tabindex="-1" placeholder="IVA calculado" />
-            </div>
-            <div class="input-group costo-sin-iva-field">
-                <label for="modal-costo-sin-iva">Costo Unitario sin IVA (dividido 1.13):</label>
-                <input type="number" id="modal-costo-sin-iva" readonly tabindex="-1" placeholder="0.00" />
-            </div>
-            <div class="input-group">
-                <label for="modal-total">Total de Venta (Con IVA):</label>
-                <input type="number" id="modal-total" min="0.01" step="0.01" oninput="recalcularModalEdicion()" />
-            </div>
-            <div class="modal-buttons">
-                <button class="modal-btn-guardar" onclick="guardarCambiosEdicion()">
-                    Guardar cambios
-                </button>
-                <button class="modal-btn-cancelar" onclick="cerrarModal()">
-                    Cancelar
-                </button>
-            </div>
+            <button class="side-panel-close" onclick="cerrarHistorial()" title="Cerrar" aria-label="Cerrar">×</button>
         </div>
-    </div>
-    <div class="main-flex">
-        <div class="cotizador-col">
-            <div id="cotizaciones-list" class="cotizaciones-list">
-                <!-- Cotizaciones se insertan aquí dinámicamente -->
-            </div>
-            <button class="add-cotizacion-btn" onclick="agregarCotizacion()">
-                + Agregar Cotización
-            </button>
+        <div id="historial-list" class="side-panel-body"></div>
+    </aside>
 
-        <div id="formulas-container" class="formulas-container" style="display: none">
-            <h3>Fórmulas Utilizadas</h3>
+    <!-- Panel: Fórmulas -->
+    <div id="formulas-overlay" class="side-overlay" onclick="cerrarFormulas()"></div>
+    <aside id="formulas-container" class="side-panel formulas-panel">
+        <div class="side-panel-head">
+            <div>
+                <h3>Fórmulas utilizadas</h3>
+                <span class="side-panel-sub">Cálculos del cotizador</span>
+            </div>
+            <button class="side-panel-close" onclick="cerrarFormulas()" title="Cerrar" aria-label="Cerrar">×</button>
+        </div>
+        <div class="side-panel-body">
             <div class="formulas-blocks-row">
                 <div class="formula-block">
                     <div class="formula-title">Costo Unitario sin IVA</div>
                     <div class="formula-math">
-                        Costo sin IVA = <span style="color: #4f46e5">Costo</span> ÷ 1.13
+                        Costo sin IVA = <span class="fx-costo">Costo</span> ÷ 1.13
                     </div>
                     <div class="formula-desc">
                         <b>Ejemplo:</b> costo $45 → 45 ÷ 1.13 = <b>39.82</b>
@@ -209,8 +191,8 @@
                 <div class="formula-block">
                     <div class="formula-title">Precio de Venta Unitario (sin IVA)</div>
                     <div class="formula-math">
-                        PVU = <span style="color: #4f46e5">Costo</span> ÷ (1 −
-                        <span style="color: #f59e42">Margen</span>)
+                        PVU = <span class="fx-costo">Costo</span> ÷ (1 −
+                        <span class="fx-margen">Margen</span>)
                     </div>
                     <div class="formula-desc">
                         <b>Ejemplo:</b> costo $100, margen 25% → 100 ÷ 0.75 = <b>133.33</b>
@@ -228,7 +210,7 @@
                 <div class="formula-block">
                     <div class="formula-title">Total de Venta (con IVA)</div>
                     <div class="formula-math">
-                        Total = PVU × <span style="color: #6366f1">Cantidad</span> × 1.13
+                        Total = PVU × <span class="fx-cant">Cantidad</span> × 1.13
                     </div>
                     <div class="formula-desc">
                         <b>Ejemplo:</b> PVU 133.33, cantidad 2 → 133.33 × 2 × 1.13 = <b>301.33</b>
@@ -237,8 +219,8 @@
                 <div class="formula-block">
                     <div class="formula-title">Margen a partir del Total</div>
                     <div class="formula-math">
-                        Margen = 1 − (<span style="color: #4f46e5">Costo</span> ÷ (Total ÷
-                        1.13 ÷ <span style="color: #6366f1">Cantidad</span>))
+                        Margen = 1 − (<span class="fx-costo">Costo</span> ÷ (Total ÷
+                        1.13 ÷ <span class="fx-cant">Cantidad</span>))
                     </div>
                     <div class="formula-desc">
                         <b>Ejemplo:</b> total 301.33, costo 100, cantidad 2 → <b>25%</b>
@@ -254,10 +236,10 @@
                     </div>
                 </div>
                 <div class="formula-block">
-                    <div class="formula-title">Costo con −Margen</div>
+                    <div class="formula-title">Costo restando el margen</div>
                     <div class="formula-math">
-                        Costo − % = <span style="color: #4f46e5">Costo</span> × (1 −
-                        <span style="color: #f59e42">Margen</span>)
+                        Costo − % = <span class="fx-costo">Costo</span> × (1 −
+                        <span class="fx-margen">Margen</span>)
                     </div>
                     <div class="formula-desc">
                         <b>Ejemplo:</b> costo $20, margen 34% → 20 × 0.66 = <b>13.20</b>
@@ -265,14 +247,83 @@
                 </div>
             </div>
         </div>
+    </aside>
+
+    <!-- Modal de Edición -->
+    <div id="modal-editar" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn" onclick="cerrarModal()" title="Cerrar">
+                ×
+            </button>
+            <h2>Editar Cotización</h2>
+            <div class="field">
+                <label for="modal-nombre">Nombre del Cliente/Producto</label>
+                <textarea id="modal-nombre" placeholder="Nombre del producto" oninput="
+              recalcularModalEdicion();
+              autoAjustarAltura(this);
+            " rows="1"></textarea>
+            </div>
+            <div class="field-grid">
+                <div class="field">
+                    <label for="modal-cantidad">Cantidad</label>
+                    <input type="number" id="modal-cantidad" min="1" step="1" oninput="recalcularModalEdicion()" />
+                </div>
+                <div class="field">
+                    <label for="modal-costo">Costo o precio base</label>
+                    <input type="number" id="modal-costo" min="0.01" step="0.01" oninput="recalcularModalEdicion()" />
+                </div>
+            </div>
+            <div class="field">
+                <label for="modal-margen">Margen Deseado (%)</label>
+                <input type="number" id="modal-margen" min="1" max="99" step="0.01" oninput="recalcularModalEdicion()" />
+            </div>
+            <div class="results">
+                <div class="result-row iva">
+                    <span class="rl"><span class="dot"></span>IVA aplicado</span>
+                    <input type="number" id="modal-iva" readonly tabindex="-1" placeholder="0.00" />
+                </div>
+                <div class="result-row siva">
+                    <span class="rl"><span class="dot"></span>Costo sin IVA (÷1.13)</span>
+                    <input type="number" id="modal-costo-sin-iva" readonly tabindex="-1" placeholder="0.00" />
+                </div>
+                <div class="result-row total">
+                    <span class="rl"><span class="dot"></span>Total de Venta (con IVA)</span>
+                    <input type="number" id="modal-total" min="0.01" step="0.01" oninput="recalcularModalEdicion()" />
+                </div>
+            </div>
+            <div class="modal-buttons">
+                <button class="modal-btn-guardar" onclick="guardarCambiosEdicion()">
+                    Guardar cambios
+                </button>
+                <button class="modal-btn-cancelar" onclick="cerrarModal()">
+                    Cancelar
+                </button>
+            </div>
         </div>
+    </div>
+
+    <main class="page">
+        <div class="cotizador-col">
+            <div id="cotizaciones-list" class="cotizaciones-list">
+                <!-- Cotizaciones se insertan aquí dinámicamente -->
+            </div>
+            <button class="add-cotizacion-btn" onclick="agregarCotizacion()">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                Agregar cotización
+            </button>
+        </div>
+
         <div id="chat-panel" class="chat-panel">
             <div class="chat-header">
                 <h3>Chat de inventario</h3>
                 <p>Haz preguntas sobre los productos y el inventario.</p>
             </div>
             <div class="chat-mode">
-                <label for="chat-mode-select">Modo de respuesta:</label>
+                <label for="chat-mode-select">Modo de respuesta</label>
                 <select id="chat-mode-select" onchange="actualizarModoChat(this.value)">
                     <option value="auto">IA / Local</option>
                     <option value="ia">Solo IA</option>
@@ -285,7 +336,7 @@
             <form id="chat-form" class="chat-form" onsubmit="enviarPreguntaChat(event)">
                 <input id="chat-input" type="text" placeholder="¿Qué deseas saber?" autocomplete="off"
                     maxlength="500" />
-                <div id="chat-loading" class="chat-loading" aria-hidden="true" style="display:none; margin-right:6px">
+                <div id="chat-loading" class="chat-loading" aria-hidden="true" style="display:none">
                     <svg class="spinner" viewBox="0 0 24 24" aria-hidden="true">
                         <circle cx="12" cy="12" r="9" stroke-opacity="0.25"></circle>
                         <path d="M21 12a9 9 0 0 1-9 9" stroke-linecap="round"></path>
@@ -298,7 +349,7 @@
                     solo en el servidor local.</small>
             </div>
         </div>
-    </div>
+    </main>
     <script src="js/core/state.js"></script>
     <script src="js/ui/notify.js"></script>
     <script src="js/features/cotizador.js"></script>

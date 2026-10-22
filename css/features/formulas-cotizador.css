@@ -1,214 +1,66 @@
 /* Formulas */
-.formulas-container {
-    background: var(--bg-primary);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
-    border: 1px solid var(--border-color);
-    padding: 22px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    width: 100%;
-    max-width: 480px;
-    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.formulas-container h3 {
-    color: var(--accent);
-    text-align: center;
-    margin: 0 0 16px;
-    font-weight: 700;
-    font-size: 1.12em;
-}
-
 .formulas-blocks-row {
     display: flex;
-    flex-direction: row;
-    gap: 14px;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
     width: 100%;
 }
 
 .formula-block {
-    background: linear-gradient(90deg, #eef2ff 0%, #e0e7ff 100%);
+    background: linear-gradient(90deg, var(--accent-soft) 0%, color-mix(in srgb, var(--accent) 10%, transparent) 100%);
     border-radius: var(--radius-md);
-    padding: 14px 13px;
-    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.07);
-    border: 1px solid #c3ccfb;
-    width: 210px;
-    min-width: 210px;
-    max-width: 210px;
-    flex: 1 1 210px;
+    padding: 14px 14px;
+    border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-html.dark-mode .formula-block {
-    background: linear-gradient(90deg, #262b42 0%, #2a3050 100%);
-    border-color: #3d4570;
-}
-
 .formula-title {
-    color: #6366f1;
+    color: var(--accent);
     font-weight: 700;
     margin-bottom: 6px;
-    font-size: 0.95em;
+    font-size: 0.93em;
 }
 
 .formula-math {
     font-family: "JetBrains Mono", "Fira Mono", "Consolas", monospace;
-    font-size: 0.95em;
-    color: #2d3a5a;
-    background: #fff;
+    font-size: 0.9em;
+    color: var(--text-primary);
+    background: var(--bg-primary);
     border-radius: 7px;
-    padding: 7px 9px;
-    display: inline-block;
-    margin-bottom: 5px;
-    box-shadow: 0 1px 2px rgba(99, 102, 241, 0.06);
+    padding: 8px 10px;
+    display: block;
+    margin-bottom: 6px;
     word-break: break-word;
-}
-
-html.dark-mode .formula-math {
-    background: #1f2438;
-    color: #cdd6f0;
 }
 
 .formula-desc {
     color: var(--text-secondary);
-    font-size: 0.86em;
-    margin-top: 3px;
+    font-size: 0.84em;
     line-height: 1.5;
+}
+
+.fx-costo {
+    color: var(--green);
+    font-weight: 700;
+}
+
+.fx-margen {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.fx-cant {
+    color: var(--amber);
+    font-weight: 700;
 }
 
 .cotizaciones-list {
     display: flex;
-    flex-direction: row;
-    gap: 22px;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
     width: 100%;
 }
 
-.remove-cotizacion-btn {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: #f87171;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 26px;
-    height: 26px;
-    font-size: 1em;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.2s, transform 0.15s;
-}
-
-.remove-cotizacion-btn:hover {
-    background: #dc2626;
-    transform: scale(1.08);
-}
-
-.add-cotizacion-btn {
-    margin: 16px auto 0;
-    display: block;
-    background: var(--accent);
-    color: #fff;
-    border: none;
-    border-radius: var(--radius-sm);
-    padding: 11px 24px;
-    font-size: 0.95em;
-    font-weight: 700;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.22);
-    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
-}
-
-.add-cotizacion-btn:hover {
-    background: var(--accent-strong);
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(79, 70, 229, 0.3);
-}
-
-.iva-field input {
-    background: #f3f4f6;
-    color: #f59e42;
-    border: 2px solid #fbbf24;
-    font-weight: 700;
-}
-
-html.dark-mode .iva-field input {
-    background: #2a2f40;
-    color: #fbbf24;
-    border: 2px solid #f59e42;
-}
-
-.costo-sin-iva-field input {
-    background: #f3f4f6;
-    color: #10b981;
-    border: 2px solid #34d399;
-    font-weight: 700;
-}
-
-html.dark-mode .costo-sin-iva-field input {
-    background: #2a2f40;
-    color: #34d399;
-    border: 2px solid #10b981;
-}
-
-.margen-negativo-field input {
-    background: #f3f4f6;
-    color: #f87171;
-    border: 2px solid #fca5a5;
-    font-weight: 700;
-}
-
-html.dark-mode .margen-negativo-field input {
-    background: #2a2f40;
-    color: #fca5a5;
-    border: 2px solid #f87171;
-}
-
-@media (max-width: 768px) {
-    .formulas-container {
-        padding: 20px 16px;
-        border-radius: var(--radius-md);
-        width: 100%;
-    }
-
-    .formula-block {
-        width: 100%;
-        min-width: 0;
-        max-width: 100%;
-        flex: 1 1 100%;
-    }
-
-    .cotizaciones-list {
-        gap: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .formulas-container {
-        padding: 16px 12px;
-    }
-
-    .formulas-blocks-row {
-        gap: 12px;
-    }
-
-    .formula-block {
-        padding: 12px;
-    }
-
-    .add-cotizacion-btn {
-        width: 100%;
-        padding: 11px 18px;
-    }
-}

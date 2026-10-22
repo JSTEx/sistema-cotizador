@@ -1,21 +1,18 @@
 function abrirHistorial() {
     const sidebar = document.getElementById("historial-sidebar");
-    const toggleBtn = document.querySelector(".dark-mode-toggle");
-    if (sidebar.style.display === "flex") {
-        sidebar.style.display = "none";
-        toggleBtn.classList.remove("historial-open");
-    } else {
-        sidebar.style.display = "flex";
-        toggleBtn.classList.add("historial-open");
-        renderHistorial();
-    }
+    const overlay = document.getElementById("historial-overlay");
+    if (!sidebar) return;
+    sidebar.classList.add("open");
+    if (overlay) overlay.classList.add("active");
+    renderHistorial();
 }
 
 function cerrarHistorial() {
     const sidebar = document.getElementById("historial-sidebar");
-    const toggleBtn = document.querySelector(".dark-mode-toggle");
-    sidebar.style.display = "none";
-    toggleBtn.classList.remove("historial-open");
+    const overlay = document.getElementById("historial-overlay");
+    if (!sidebar) return;
+    sidebar.classList.remove("open");
+    if (overlay) overlay.classList.remove("active");
 }
 
 function cargarHistorialLocal() {
@@ -201,28 +198,43 @@ function guardarCambiosEdicion() {
 
 function renderHistorial() {
     const list = document.getElementById("historial-list");
+    const count = document.getElementById("historial-count");
+    if (!list) return;
     list.innerHTML = "";
+
+    if (count) {
+        count.textContent = historialCotizaciones.length === 1
+            ? "1 cotización guardada"
+            : `${historialCotizaciones.length} cotizaciones guardadas`;
+    }
+
     if (historialCotizaciones.length === 0) {
         list.innerHTML =
-            '<div style="color:#6b7280;">No hay cotizaciones guardadas.</div>';
+            '<div class="historial-empty">No hay cotizaciones guardadas todavía.<br>Completa una cotización y presiona <b>Guardar</b>.</div>';
         return;
     }
+
     historialCotizaciones.forEach((c, idx) => {
-        list.innerHTML += `
-    <div class="historial-cotizacion">
-        <div style="display:flex;gap:8px;margin-bottom:8px;">
-            <button class="edit-btn-historial" onclick="abrirModalEditar(${idx})">✎ Editar</button>
-            <button style="background:#f87171;color:#fff;border:none;border-radius:6px;padding:6px 12px;font-size:0.9em;cursor:pointer;" title="Eliminar" onclick="borrarCotizacion(${idx})">🗑 Eliminar</button>
+        const div = document.createElement("div");
+        div.className = "historial-cotizacion";
+        div.innerHTML = `
+        <div class="hist-top">
+            <span class="hist-nombre">${c.nombre}</span>
+            <span class="hist-fecha">${c.fecha}</span>
         </div>
-        <b>Nombre:</b> ${c.nombre}<br>
-        <b>Fecha:</b> ${c.fecha}<br>
-        <b>Cantidad:</b> ${c.cantidad}<br>
-        <b>Costo Unitario:</b> $${c.costo.toFixed(2)}<br>
-        <b>Costo sin IVA:</b> $${c.costoSinIVA.toFixed(2)}<br>
-        <b>Margen:</b> ${c.margen.toFixed(2)}%<br>
-        <b>Total:</b> $${c.total.toFixed(2)}<br>
-        <b>IVA:</b> $${c.iva.toFixed(2)}<br>
-    </div>
-`;
+        <div class="hist-total">$${c.total.toFixed(2)}</div>
+        <div class="hist-meta">
+            <div><span class="hl">Cantidad</span><span class="hv">${c.cantidad}</span></div>
+            <div><span class="hl">Margen</span><span class="hv">${c.margen.toFixed(2)}%</span></div>
+            <div><span class="hl">Costo</span><span class="hv">$${c.costo.toFixed(2)}</span></div>
+            <div><span class="hl">Costo s/IVA</span><span class="hv">$${c.costoSinIVA.toFixed(2)}</span></div>
+            <div><span class="hl">IVA</span><span class="hv">$${c.iva.toFixed(2)}</span></div>
+        </div>
+        <div class="hist-actions">
+            <button class="edit-btn-historial" onclick="abrirModalEditar(${idx})">✎ Editar</button>
+            <button class="del-btn-historial" onclick="borrarCotizacion(${idx})">🗑 Eliminar</button>
+        </div>
+    `;
+        list.appendChild(div);
     });
 }

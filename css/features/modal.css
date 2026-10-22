@@ -53,81 +53,61 @@
 
 .modal-content h2 {
     margin: 0 0 18px;
-    text-align: center;
+    text-align: left;
     font-weight: 700;
     font-size: 1.18em;
-    letter-spacing: 0.3px;
-    background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3, #ff0000);
-    background-size: 300% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: rainbow 3s linear infinite;
-}
-
-@keyframes rainbow {
-    0% {
-        background-position: 0% center;
-    }
-
-    100% {
-        background-position: 200% center;
-    }
-}
-
-.modal-content .input-group {
-    position: relative;
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.modal-content .input-group label {
-    flex: 1 1 auto;
-    min-width: 0;
-    font-weight: 600;
+    letter-spacing: 0.2px;
     color: var(--text-primary);
-    font-size: 0.88em;
-    text-align: left;
 }
 
-.modal-content .input-group input,
-.modal-content .input-group textarea {
-    flex: 0 0 168px;
-    width: 168px;
-    min-width: 0;
-    padding: 9px 12px;
+.modal-content .field {
+    margin-bottom: 13px;
+}
+
+.modal-content .field>label {
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 0.82em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.modal-content .field input,
+.modal-content .field textarea {
+    width: 100%;
+    padding: 10px 13px;
     border: 1.5px solid var(--input-border);
     border-radius: var(--radius-sm);
     font-size: 0.95em;
     background: var(--input-bg);
     color: var(--text-primary);
-    box-shadow: var(--shadow-sm);
-    text-align: left;
     font-family: "Montserrat", Arial, sans-serif;
     transition: border 0.2s, box-shadow 0.2s, background-color 0.3s ease, color 0.3s ease;
 }
 
-.modal-content .input-group textarea {
-    min-height: 38px;
+.modal-content .field textarea {
+    min-height: 42px;
     max-height: 120px;
     resize: vertical;
     overflow-y: auto;
 }
 
-.modal-content .input-group input:focus,
-.modal-content .input-group textarea:focus {
+.modal-content .field input:focus,
+.modal-content .field textarea:focus {
     border-color: var(--accent);
     outline: none;
     background: var(--accent-soft);
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
 }
 
-html.dark-mode .modal-content .input-group input:focus,
-html.dark-mode .modal-content .input-group textarea:focus {
-    background: #2a2f4a;
+.modal-content .field-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px;
+}
+
+.modal-content .results {
+    margin-top: 4px;
 }
 
 .modal-buttons {
@@ -169,37 +149,6 @@ html.dark-mode .modal-content .input-group textarea:focus {
     transform: translateY(-1px);
 }
 
-.edit-btn-historial {
-    background: var(--accent);
-    color: #fff;
-    border: none;
-    border-radius: 7px;
-    padding: 6px 12px;
-    font-size: 0.85em;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-.edit-btn-historial:hover {
-    background: var(--accent-strong);
-}
-
-.modal-content .iva-field input,
-.modal-content .costo-sin-iva-field input {
-    background: #f3f4f6;
-    font-weight: 700;
-    border: 2px solid #a5b4fc;
-    color: var(--accent);
-}
-
-html.dark-mode .modal-content .iva-field input,
-html.dark-mode .modal-content .costo-sin-iva-field input {
-    background: #2a2f40;
-    color: #a5b4fc;
-    border: 2px solid #6366f1;
-}
-
 @media (max-width: 560px) {
     .modal-content {
         padding: 20px 15px;
@@ -212,16 +161,9 @@ html.dark-mode .modal-content .costo-sin-iva-field input {
         margin-bottom: 16px;
     }
 
-    .modal-content .input-group {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 5px;
-    }
-
-    .modal-content .input-group input,
-    .modal-content .input-group textarea {
-        flex: 1 1 auto;
-        width: 100%;
+    .modal-content .field-grid {
+        grid-template-columns: 1fr;
+        gap: 13px;
     }
 
     .modal-buttons {
