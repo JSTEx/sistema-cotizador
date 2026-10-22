@@ -48,6 +48,11 @@ function crearCotizadorHTML(id) {
         <input type="number" id="costo_sin_iva_${id}" value="0.00" readonly tabindex="-1" placeholder="0.00">
     </div>
 
+    <div class="input-group margen-negativo-field">
+        <label for="margen_negativo_${id}">Costo con -Margen (%):</label>
+        <input type="number" id="margen_negativo_${id}" value="0.00" readonly tabindex="-1" placeholder="0.00">
+    </div>
+
     <div class="input-group total-field">
         <label for="total_${id}">Total de Venta (Con IVA):</label>
         <input type="number" id="total_${id}" value="" min="0.01" step="0.01"
@@ -106,6 +111,7 @@ function calcularTotalDesdeCosto(id) {
     const totalInput = document.getElementById(`total_${id}`);
     const ivaInput = document.getElementById(`iva_${id}`);
     const costoSinIVAInput = document.getElementById(`costo_sin_iva_${id}`);
+    const margenNegativoInput = document.getElementById(`margen_negativo_${id}`);
 
     const costo = parseFloat(costoInput.value) || 0;
     const cantidad = parseInt(cantidadInput.value) || 1;
@@ -117,6 +123,10 @@ function calcularTotalDesdeCosto(id) {
         costoSinIVAInput.value = costoSinIVA.toFixed(2);
     } else {
         costoSinIVAInput.value = "0.00";
+    }
+
+    if (margenNegativoInput) {
+        margenNegativoInput.value = (costo * (1 - margenDecimal)).toFixed(2);
     }
 
     if (margenDecimal >= 1 || margenDecimal < 0) {

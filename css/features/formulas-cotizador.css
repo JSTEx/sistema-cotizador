@@ -152,6 +152,19 @@
             border: 2px solid #10b981;
         }
 
+        .margen-negativo-field input {
+            background: #f3f4f6;
+            color: #f87171;
+            border: 2px solid #fca5a5;
+            font-weight: bold;
+        }
+
+        html.dark-mode .margen-negativo-field input {
+            background: #2a2f40;
+            color: #fca5a5;
+            border: 2px solid #f87171;
+        }
+
         @media (max-width: 768px) {
             .formulas-container {
                 padding: 20px 16px;
