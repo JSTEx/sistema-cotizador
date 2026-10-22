@@ -69,6 +69,16 @@ body {
     max-width: 1280px;
 }
 
+.cotizador-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex: 1 1 460px;
+    max-width: 100%;
+    min-width: 0;
+}
+
 .cotizador-container {
     background: var(--bg-primary);
     padding: 22px 20px;

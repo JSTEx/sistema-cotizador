@@ -67,26 +67,34 @@
         </div>
         <div class="calculator-body">
             <div class="calculator-guide">
-                1) Elige el tipo de cálculo · 2) Ingresa los datos · 3) Presiona <b>Calcular</b>
+                Elige un cálculo, completa los valores y presiona <b>Calcular</b>.
+                <span class="calc-help" id="calc-help"></span>
             </div>
 
             <div class="calculator-section calculator-simple">
-                <div class="calculator-section-title">Asistente de cálculo</div>
-
                 <div class="calc-form-row">
                     <label for="calc-op">Tipo de cálculo</label>
                     <select id="calc-op" onchange="actualizarFormularioCalculadora()">
-                        <option value="suma">Suma (A + B)</option>
-                        <option value="resta">Resta (A - B)</option>
-                        <option value="multiplicacion">Multiplicación (A × B)</option>
-                        <option value="division">División (A ÷ B)</option>
-                        <option value="porcentaje_de">Porcentaje de un valor</option>
-                        <option value="sumar_porcentaje">Sumar porcentaje</option>
-                        <option value="restar_porcentaje">Restar porcentaje</option>
-                        <option value="total_con_iva">Total con IVA</option>
-                        <option value="total_cotizacion">Total de cotización</option>
+                        <optgroup label="Operaciones básicas">
+                            <option value="suma">Suma (A + B)</option>
+                            <option value="resta">Resta (A − B)</option>
+                            <option value="multiplicacion">Multiplicación (A × B)</option>
+                            <option value="division">División (A ÷ B)</option>
+                        </optgroup>
+                        <optgroup label="Porcentajes">
+                            <option value="porcentaje_de">Porcentaje de un valor</option>
+                            <option value="sumar_porcentaje">Sumar porcentaje</option>
+                            <option value="restar_porcentaje">Restar porcentaje</option>
+                        </optgroup>
+                        <optgroup label="Cotización">
+                            <option value="total_con_iva">Subtotal + IVA</option>
+                            <option value="total_cotizacion">Precio de venta con margen</option>
+                            <option value="margen_negativo">Costo menos % (descuento)</option>
+                        </optgroup>
                     </select>
                 </div>
+
+                <div class="calculator-formula" id="calc-formula"></div>
 
                 <div id="calc-field-1" class="calc-form-row">
                     <label id="calc-label-1" for="calc-input-1">Valor 1</label>
@@ -178,27 +186,43 @@
         </div>
     </div>
     <div class="main-flex">
-        <div>
+        <div class="cotizador-col">
             <div id="cotizaciones-list" class="cotizaciones-list">
                 <!-- Cotizaciones se insertan aquí dinámicamente -->
             </div>
             <button class="add-cotizacion-btn" onclick="agregarCotizacion()">
                 + Agregar Cotización
             </button>
-        </div>
 
         <div id="formulas-container" class="formulas-container" style="display: none">
             <h3>Fórmulas Utilizadas</h3>
             <div class="formulas-blocks-row">
                 <div class="formula-block">
+                    <div class="formula-title">Costo Unitario sin IVA</div>
+                    <div class="formula-math">
+                        Costo sin IVA = <span style="color: #4f46e5">Costo</span> ÷ 1.13
+                    </div>
+                    <div class="formula-desc">
+                        <b>Ejemplo:</b> costo $45 → 45 ÷ 1.13 = <b>39.82</b>
+                    </div>
+                </div>
+                <div class="formula-block">
                     <div class="formula-title">Precio de Venta Unitario (sin IVA)</div>
                     <div class="formula-math">
-                        PVU = <span style="color: #4f46e5">Costo</span> / (1 -
+                        PVU = <span style="color: #4f46e5">Costo</span> ÷ (1 −
                         <span style="color: #f59e42">Margen</span>)
                     </div>
                     <div class="formula-desc">
-                        <b>Ejemplo:</b> Si el costo es $100 y el margen deseado es 25%:<br />
-                        PVU = 100 / (1 - 0.25) = 133.33
+                        <b>Ejemplo:</b> costo $100, margen 25% → 100 ÷ 0.75 = <b>133.33</b>
+                    </div>
+                </div>
+                <div class="formula-block">
+                    <div class="formula-title">IVA aplicado</div>
+                    <div class="formula-math">
+                        IVA = Total sin IVA × 0.13
+                    </div>
+                    <div class="formula-desc">
+                        <b>Ejemplo:</b> total sin IVA $200 → 200 × 0.13 = <b>26.00</b>
                     </div>
                 </div>
                 <div class="formula-block">
@@ -207,53 +231,40 @@
                         Total = PVU × <span style="color: #6366f1">Cantidad</span> × 1.13
                     </div>
                     <div class="formula-desc">
-                        <b>Ejemplo:</b> Si PVU = 133.33, cantidad = 2:<br />
-                        Total = 133.33 × 2 × 1.13 = 301.33
+                        <b>Ejemplo:</b> PVU 133.33, cantidad 2 → 133.33 × 2 × 1.13 = <b>301.33</b>
                     </div>
                 </div>
                 <div class="formula-block">
                     <div class="formula-title">Margen a partir del Total</div>
                     <div class="formula-math">
-                        Margen = 1 - (<span style="color: #4f46e5">Costo</span> / (Total /
-                        1.13 / <span style="color: #6366f1">Cantidad</span>))
+                        Margen = 1 − (<span style="color: #4f46e5">Costo</span> ÷ (Total ÷
+                        1.13 ÷ <span style="color: #6366f1">Cantidad</span>))
                     </div>
                     <div class="formula-desc">
-                        <b>Ejemplo:</b> Si Total = 301.33, costo = 100, cantidad = 2:<br />
-                        Margen = 1 - (100 / (301.33 / 1.13 / 2)) = 0.25 (25%)
-                    </div>
-                </div>
-                <div class="formula-block">
-                    <div class="formula-title">
-                        Costo Unitario sin IVA (dividido 1.13)
-                    </div>
-                    <div class="formula-math">
-                        Costo sin IVA = <span style="color: #4f46e5">Costo</span> / 1.13
-                    </div>
-                    <div class="formula-desc">
-                        <b>Ejemplo:</b> Si el costo es $45:<br />
-                        Costo sin IVA = 45 / 1.13 = 39.82
-                    </div>
-                </div>
-                <div class="formula-block">
-                    <div class="formula-title">IVA aplicado</div>
-                    <div class="formula-math">IVA = Total sin IVA × 0.13</div>
-                    <div class="formula-desc">
-                        <b>Ejemplo:</b> Si Total sin IVA = 200:<br />
-                        IVA = 200 × 0.13 = 26.00
+                        <b>Ejemplo:</b> total 301.33, costo 100, cantidad 2 → <b>25%</b>
                     </div>
                 </div>
                 <div class="formula-block">
                     <div class="formula-title">IVA restado</div>
                     <div class="formula-math">
-                        IVA restado = Total de Venta (Con IVA) - Total sin IVA
+                        IVA restado = Total con IVA − Total sin IVA
                     </div>
                     <div class="formula-desc">
-                        <b>Ejemplo:</b> Si Total de Venta (Con IVA) = 226 y Total sin IVA
-                        = 200:<br />
-                        IVA restado = 226 - 200 = 26.00
+                        <b>Ejemplo:</b> 226 − 200 = <b>26.00</b>
+                    </div>
+                </div>
+                <div class="formula-block">
+                    <div class="formula-title">Costo con −Margen</div>
+                    <div class="formula-math">
+                        Costo − % = <span style="color: #4f46e5">Costo</span> × (1 −
+                        <span style="color: #f59e42">Margen</span>)
+                    </div>
+                    <div class="formula-desc">
+                        <b>Ejemplo:</b> costo $20, margen 34% → 20 × 0.66 = <b>13.20</b>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <div id="chat-panel" class="chat-panel">
             <div class="chat-header">

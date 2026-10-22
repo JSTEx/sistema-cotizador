@@ -35,6 +35,18 @@ function actualizarFormularioCalculadora() {
     const operacion = document.getElementById("calc-op")?.value || "suma";
     const config = calculadoraOperaciones[operacion] || calculadoraOperaciones.suma;
 
+    const formulaEl = document.getElementById("calc-formula");
+    if (formulaEl) {
+        formulaEl.innerHTML = config.formula
+            ? `<b>${config.descripcion}</b><span class="calc-formula-math">${config.formula}</span>`
+            : `<b>${config.descripcion}</b>`;
+    }
+
+    const helpEl = document.getElementById("calc-help");
+    if (helpEl) {
+        helpEl.textContent = config.ayuda ? ` ${config.ayuda}` : "";
+    }
+
     for (let i = 1; i <= 4; i++) {
         const field = document.getElementById(`calc-field-${i}`);
         const label = document.getElementById(`calc-label-${i}`);
@@ -96,6 +108,9 @@ function calcularCalculadoraSimple() {
     } else if (operacion === "total_con_iva") {
         resultado = a * (1 + b / 100);
         texto = "Subtotal con IVA";
+    } else if (operacion === "margen_negativo") {
+        resultado = a * (1 - b / 100);
+        texto = `${a} − ${b}%`;
     } else if (operacion === "total_cotizacion") {
         const margenDecimal = b / 100;
         const cantidad = Math.max(1, Math.round(c || 1));
