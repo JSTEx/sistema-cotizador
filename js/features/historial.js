@@ -64,43 +64,24 @@ function guardarCotizacion(id) {
         });
         guardarHistorialLocal();
         renderHistorial();
-        Swal.fire({
-            icon: "success",
-            title: "Cotización guardada",
-            text: "La cotización se ha guardado correctamente.",
-            confirmButtonText: "Aceptar",
-        });
+        mostrarAviso("success", "Cotización guardada", "La cotización se ha guardado correctamente.");
     } else {
-        Swal.fire({
-            icon: "warning",
-            title: "Dato requerido",
-            text: 'Debes ingresar un valor mayor a 0.001 en "Costo Unitario (Sin IVA)" para guardar la cotización.',
-            confirmButtonText: "Aceptar",
-        });
+        mostrarAviso("warning", "Dato requerido", 'Debes ingresar un valor mayor a 0.001 en "Costo Unitario (Sin IVA)" para guardar la cotización.');
     }
 }
 
 function borrarCotizacion(idx) {
-    Swal.fire({
-        icon: "warning",
-        title: "¿Eliminar cotización?",
-        text: "¿Estás seguro de que deseas borrar esta cotización? Esta acción no se puede deshacer.",
-        showCancelButton: true,
-        confirmButtonColor: "#10b981",
-        cancelButtonColor: "#f87171",
-        confirmButtonText: "Confirmar",
-        cancelButtonText: "Cancelar",
-    }).then((result) => {
-        if (result.isConfirmed) {
+    confirmar({
+        titulo: "¿Eliminar cotización?",
+        texto: "¿Estás seguro de que deseas borrar esta cotización? Esta acción no se puede deshacer.",
+        textoOk: "Confirmar",
+        textoCancelar: "Cancelar",
+    }).then((confirmado) => {
+        if (confirmado) {
             historialCotizaciones.splice(idx, 1);
             guardarHistorialLocal();
             renderHistorial();
-            Swal.fire({
-                icon: "success",
-                title: "Eliminada",
-                text: "La cotización ha sido eliminada correctamente.",
-                confirmButtonText: "Aceptar",
-            });
+            mostrarAviso("success", "Eliminada", "La cotización ha sido eliminada correctamente.");
         }
     });
 }
@@ -212,19 +193,9 @@ function guardarCambiosEdicion() {
         guardarHistorialLocal();
         renderHistorial();
         cerrarModal();
-        Swal.fire({
-            icon: "success",
-            title: "Cotización actualizada",
-            text: "Los cambios se han guardado correctamente.",
-            confirmButtonText: "Aceptar",
-        });
+        mostrarAviso("success", "Cotización actualizada", "Los cambios se han guardado correctamente.");
     } else {
-        Swal.fire({
-            icon: "warning",
-            title: "Dato requerido",
-            text: "El costo debe ser mayor a 0.001",
-            confirmButtonText: "Aceptar",
-        });
+        mostrarAviso("warning", "Dato requerido", "El costo debe ser mayor a 0.001");
     }
 }
 

@@ -165,23 +165,13 @@ function obtenerCotizadorObjetivo() {
 
 function usarResultadoEnTotal() {
     if (calculadoraUltimoResultado === null || Number.isNaN(calculadoraUltimoResultado)) {
-        Swal.fire({
-            icon: "warning",
-            title: "Sin resultado",
-            text: "Primero realiza una operación en la calculadora.",
-            confirmButtonText: "Aceptar",
-        });
+        mostrarAviso("warning", "Sin resultado", "Primero realiza una operación en la calculadora.");
         return;
     }
 
     const id = obtenerCotizadorObjetivo();
     if (id === null) {
-        Swal.fire({
-            icon: "warning",
-            title: "Sin cotizador",
-            text: "No se encontró un cotizador disponible para pegar el resultado.",
-            confirmButtonText: "Aceptar",
-        });
+        mostrarAviso("warning", "Sin cotizador", "No se encontró un cotizador disponible para pegar el resultado.");
         return;
     }
 

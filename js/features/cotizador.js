@@ -75,27 +75,18 @@ function agregarCotizacion() {
 }
 
 function eliminarCotizacion(id) {
-    Swal.fire({
-        icon: "warning",
-        title: "¿Eliminar cotización?",
-        text: "¿Estás seguro de que deseas borrar esta cotización? Esta acción no se puede deshacer.",
-        showCancelButton: true,
-        confirmButtonColor: "#10b981",
-        cancelButtonColor: "#f87171",
-        confirmButtonText: "Confirmar",
-        cancelButtonText: "Cancelar",
-    }).then((result) => {
-        if (result.isConfirmed) {
+    confirmar({
+        titulo: "¿Eliminar cotización?",
+        texto: "¿Estás seguro de que deseas borrar esta cotización? Esta acción no se puede deshacer.",
+        textoOk: "Confirmar",
+        textoCancelar: "Cancelar",
+    }).then((confirmado) => {
+        if (confirmado) {
             const cotizador = document.querySelector(
                 `.cotizador-container[data-id="${id}"]`,
             );
             if (cotizador) cotizador.remove();
-            Swal.fire({
-                icon: "success",
-                title: "Eliminada",
-                text: "La cotización ha sido eliminada correctamente.",
-                confirmButtonText: "Aceptar",
-            });
+            mostrarAviso("success", "Eliminada", "La cotización ha sido eliminada correctamente.");
         }
     });
 }

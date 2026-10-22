@@ -1,0 +1,187 @@
+.toast-stack {
+    position: fixed;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: min(92vw, 400px);
+    pointer-events: none;
+}
+
+.toast {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 14px;
+    border-radius: var(--radius-md);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--accent);
+    font-size: 0.88em;
+    line-height: 1.45;
+    pointer-events: auto;
+    opacity: 0;
+    transform: translateY(-12px);
+    animation: toast-in 0.25s ease forwards;
+}
+
+.toast.toast-out {
+    animation: toast-out 0.25s ease forwards;
+}
+
+.toast-icon {
+    flex: 0 0 auto;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.9em;
+    border-radius: 50%;
+    color: #fff;
+    background: var(--accent);
+}
+
+.toast-close {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.05em;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 2px;
+}
+
+.toast-close:hover {
+    color: var(--text-primary);
+}
+
+.toast-success {
+    border-left-color: var(--green);
+}
+
+.toast-success .toast-icon {
+    background: var(--green);
+}
+
+.toast-error {
+    border-left-color: #ef4444;
+}
+
+.toast-error .toast-icon {
+    background: #ef4444;
+}
+
+.toast-warning {
+    border-left-color: #f59e0b;
+}
+
+.toast-warning .toast-icon {
+    background: #f59e0b;
+}
+
+.toast-info .toast-icon {
+    background: var(--accent);
+}
+
+@keyframes toast-in {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes toast-out {
+    to {
+        opacity: 0;
+        transform: translateY(-12px);
+    }
+}
+
+/* Modal de confirmación propio */
+.confirm-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 20, 40, 0.55);
+    backdrop-filter: blur(3px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    z-index: 3100;
+}
+
+.confirm-overlay.active {
+    display: flex;
+}
+
+.confirm-box {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+    padding: 24px 22px;
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+}
+
+.confirm-box h2 {
+    margin: 0 0 8px;
+    font-size: 1.15em;
+    color: var(--text-primary);
+}
+
+.confirm-box p {
+    margin: 0 0 20px;
+    color: var(--text-secondary);
+    font-size: 0.88em;
+}
+
+.confirm-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.confirm-actions button {
+    flex: 1 1 0;
+    padding: 11px 18px;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-size: 0.92em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.confirm-cancel {
+    background: #f87171;
+    color: #fff;
+}
+
+.confirm-cancel:hover {
+    background: #dc2626;
+}
+
+.confirm-ok {
+    background: var(--green);
+    color: #fff;
+}
+
+.confirm-ok:hover {
+    background: var(--green-strong);
+}
+
+@media (max-width: 480px) {
+    .confirm-actions {
+        flex-direction: column;
+    }
+}
